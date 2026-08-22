@@ -1,0 +1,21 @@
+feature_1,feature_2,association_method,association,absolute_association
+Attribute2,Attribute5,Spearman rho,0.6247090778062971,0.6247090778062971
+Attribute5,Attribute8,Spearman rho,-0.31309991325335235,0.31309991325335235
+Attribute2,Attribute8,Spearman rho,0.1180461236317792,0.1180461236317792
+Attribute16,Attribute18,Spearman rho,0.09697800090336388,0.09697800090336388
+Attribute8,Attribute18,Spearman rho,-0.07254334866462106,0.07254334866462106
+Attribute11,Attribute16,Spearman rho,0.0671928834243824,0.0671928834243824
+Attribute8,Attribute11,Spearman rho,0.04750716765118953,0.04750716765118953
+Attribute2,Attribute11,Spearman rho,0.04367050210126079,0.04367050210126079
+Attribute2,Attribute18,Spearman rho,-0.04326536842759453,0.04326536842759453
+Attribute5,Attribute18,Spearman rho,0.04181471033432463,0.04181471033432463
+Attribute12,Attribute15,bias-corrected Cramer's V,0.5510116404863402,0.5510116404863402
+Attribute17,Attribute19,bias-corrected Cramer's V,0.42236303561005084,0.42236303561005084
+Attribute7,Attribute17,bias-corrected Cramer's V,0.30527183511097006,0.30527183511097006
+Attribute3,Attribute14,bias-corrected Cramer's V,0.20606871117992548,0.20606871117992548
+Attribute4,Attribute19,bias-corrected Cramer's V,0.19926318777409202,0.19926318777409202
+Attribute12,Attribute19,bias-corrected Cramer's V,0.19015821615429923,0.19015821615429923
+Attribute4,Attribute15,bias-corrected Cramer's V,0.18770384992034497,0.18770384992034497
+Attribute12,Attribute17,bias-corrected Cramer's V,0.18627995763040348,0.18627995763040348
+Attribute4,Attribute12,bias-corrected Cramer's V,0.18289970189960558,0.18289970189960558
+Attribute4,Attribute17,bias-corrected Cramer's V,0.17953734765708307,0.17953734765708307

@@ -1,0 +1,3 @@
+method,cases_tested,mean_absolute_score_change,median_absolute_score_change,min_absolute_score_change,max_absolute_score_change,availability
+SHAP,0,,,,,unavailable: no persisted SHAP faithfulness artifact
+LIME,5,0.17650356842602538,0.18822853125,0.1386315229927063,0.1970267773704529,saved preliminary diagnostic

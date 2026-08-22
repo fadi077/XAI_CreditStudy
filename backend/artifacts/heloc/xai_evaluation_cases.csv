@@ -1,0 +1,21 @@
+case_id,row_index,true_target,predicted_class,predicted_probability,case_type
+HELOC_XAI_001,1991,1,1,0.9483221,high-confidence positive
+HELOC_XAI_002,9808,1,1,0.9451859,high-confidence positive
+HELOC_XAI_003,1706,1,1,0.94406813,high-confidence positive
+HELOC_XAI_004,10074,1,1,0.9414553,high-confidence positive
+HELOC_XAI_005,7308,1,1,0.9411751,high-confidence positive
+HELOC_XAI_006,2151,0,1,0.50008893,borderline positive
+HELOC_XAI_007,2900,1,1,0.5015111,borderline positive
+HELOC_XAI_008,5033,0,1,0.50399876,borderline positive
+HELOC_XAI_009,8449,0,1,0.50418466,borderline positive
+HELOC_XAI_010,8777,0,1,0.50454855,borderline positive
+HELOC_XAI_011,10266,0,0,0.0683811,high-confidence negative
+HELOC_XAI_012,3808,0,0,0.07010493,high-confidence negative
+HELOC_XAI_013,9320,0,0,0.07060304,high-confidence negative
+HELOC_XAI_014,3476,0,0,0.07201139,high-confidence negative
+HELOC_XAI_015,9299,0,0,0.07266821,high-confidence negative
+HELOC_XAI_016,4253,1,0,0.49967334,borderline negative
+HELOC_XAI_017,4094,1,0,0.49921927,borderline negative
+HELOC_XAI_018,4397,1,0,0.4984668,borderline negative
+HELOC_XAI_019,9391,1,0,0.49824855,borderline negative
+HELOC_XAI_020,4366,1,0,0.4977838,borderline negative

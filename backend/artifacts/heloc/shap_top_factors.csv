@@ -1,0 +1,101 @@
+case_id,row_index,true_target,predicted_class,predicted_probability,original_feature,display_feature,display_value,special_state,shap_value,direction,rank
+HELOC_XAI_001,1991,1,1,0.9483221,average_duration_of_resolution,Average Duration Of Resolution,25,,0.9280520677566528,increases model at-risk output,1
+HELOC_XAI_001,1991,1,1,0.9483221,net_fraction_of_revolving_burden,Net Fraction Of Revolving Burden,98,,0.7988026142120361,increases model at-risk output,2
+HELOC_XAI_001,1991,1,1,0.9483221,percentage_of_installment_trades,Percentage Of Installment Trades,75,,0.41932088136672974,increases model at-risk output,3
+HELOC_XAI_001,1991,1,1,0.9483221,number_of_satisfactory_trades,Number Of Satisfactory Trades,4,,0.27330222725868225,increases model at-risk output,4
+HELOC_XAI_001,1991,1,1,0.9483221,months_since_last_inquiry_not_recent,Months Since Last Inquiry Not Recent,0,,0.20020541548728943,increases model at-risk output,5
+HELOC_XAI_002,9808,1,1,0.9451859,average_duration_of_resolution,Average Duration Of Resolution,19,,0.8762457966804504,increases model at-risk output,1
+HELOC_XAI_002,9808,1,1,0.9451859,net_fraction_of_revolving_burden,Net Fraction Of Revolving Burden,83,,0.7421373724937439,increases model at-risk output,2
+HELOC_XAI_002,9808,1,1,0.9451859,percentage_of_installment_trades,Percentage Of Installment Trades,70,,0.40837597846984863,increases model at-risk output,3
+HELOC_XAI_002,9808,1,1,0.9451859,months_since_last_inquiry_not_recent,Months Since Last Inquiry Not Recent,0,,0.24271434545516968,increases model at-risk output,4
+HELOC_XAI_002,9808,1,1,0.9451859,number_of_satisfactory_trades,Number Of Satisfactory Trades,10,,0.1663983166217804,increases model at-risk output,5
+HELOC_XAI_003,1706,1,1,0.94406813,average_duration_of_resolution,Average Duration Of Resolution,26,,0.7790467739105225,increases model at-risk output,1
+HELOC_XAI_003,1706,1,1,0.94406813,percentage_of_installment_trades,Percentage Of Installment Trades,67,,0.4073094427585602,increases model at-risk output,2
+HELOC_XAI_003,1706,1,1,0.94406813,percentage_of_legal_trades,Percentage Of Legal Trades,83,,0.3328152894973755,increases model at-risk output,3
+HELOC_XAI_003,1706,1,1,0.94406813,net_fraction_of_revolving_burden,Net Fraction Of Revolving Burden,61,,0.27632829546928406,increases model at-risk output,4
+HELOC_XAI_003,1706,1,1,0.94406813,months_since_last_inquiry_not_recent,Months Since Last Inquiry Not Recent,0,,0.25596320629119873,increases model at-risk output,5
+HELOC_XAI_004,10074,1,1,0.9414553,average_duration_of_resolution,Average Duration Of Resolution,15,,1.007519006729126,increases model at-risk output,1
+HELOC_XAI_004,10074,1,1,0.9414553,net_fraction_of_revolving_burden,Net Fraction Of Revolving Burden,100,,0.8011541366577148,increases model at-risk output,2
+HELOC_XAI_004,10074,1,1,0.9414553,percentage_of_installment_trades,Percentage Of Installment Trades,67,,0.3959030508995056,increases model at-risk output,3
+HELOC_XAI_004,10074,1,1,0.9414553,months_since_last_inquiry_not_recent,Months Since Last Inquiry Not Recent,special code -7,special code -7 (meaning unverified),0.2734405994415283,increases model at-risk output,4
+HELOC_XAI_004,10074,1,1,0.9414553,number_of_satisfactory_trades,Number Of Satisfactory Trades,9,,0.1692236065864563,increases model at-risk output,5
+HELOC_XAI_005,7308,1,1,0.9411751,average_duration_of_resolution,Average Duration Of Resolution,25,,0.76158607006073,increases model at-risk output,1
+HELOC_XAI_005,7308,1,1,0.9411751,net_fraction_of_revolving_burden,Net Fraction Of Revolving Burden,90,,0.5321059226989746,increases model at-risk output,2
+HELOC_XAI_005,7308,1,1,0.9411751,nr_inquiries_in_last_6_months,Number Of Inquiries In Last 6 Months,16,,0.4196118414402008,increases model at-risk output,3
+HELOC_XAI_005,7308,1,1,0.9411751,months_since_last_inquiry_not_recent,Months Since Last Inquiry Not Recent,0,,0.2845298945903778,increases model at-risk output,4
+HELOC_XAI_005,7308,1,1,0.9411751,percentage_of_installment_trades,Percentage Of Installment Trades,52,,0.1803087592124939,increases model at-risk output,5
+HELOC_XAI_006,2151,0,1,0.50008893,net_fraction_of_revolving_burden,Net Fraction Of Revolving Burden,59,,0.5166351795196533,increases model at-risk output,1
+HELOC_XAI_006,2151,0,1,0.50008893,average_duration_of_resolution,Average Duration Of Resolution,90,,-0.2722609341144562,decreases model at-risk output,2
+HELOC_XAI_006,2151,0,1,0.50008893,percentage_of_legal_trades,Percentage Of Legal Trades,100,,-0.2653816044330597,decreases model at-risk output,3
+HELOC_XAI_006,2151,0,1,0.50008893,nr_banks_with_high_ratio,Number Of Banks With High Ratio,3,,0.24165253341197968,increases model at-risk output,4
+HELOC_XAI_006,2151,0,1,0.50008893,maximum_illegal_trades_over_last_year,Maximum Illegal Trades Over Last Year,7,,-0.20689505338668823,decreases model at-risk output,5
+HELOC_XAI_007,2900,1,1,0.5015111,average_duration_of_resolution,Average Duration Of Resolution,36,,0.7803961634635925,increases model at-risk output,1
+HELOC_XAI_007,2900,1,1,0.5015111,net_fraction_of_revolving_burden,Net Fraction Of Revolving Burden,4,,-0.549576997756958,decreases model at-risk output,2
+HELOC_XAI_007,2900,1,1,0.5015111,number_of_satisfactory_trades,Number Of Satisfactory Trades,6,,0.26577845215797424,increases model at-risk output,3
+HELOC_XAI_007,2900,1,1,0.5015111,percentage_of_legal_trades,Percentage Of Legal Trades,100,,-0.22387254238128662,decreases model at-risk output,4
+HELOC_XAI_007,2900,1,1,0.5015111,months_since_last_inquiry_not_recent,Months Since Last Inquiry Not Recent,0,,0.1901945322751999,increases model at-risk output,5
+HELOC_XAI_008,5033,0,1,0.50399876,net_fraction_of_revolving_burden,Net Fraction Of Revolving Burden,91,,1.0130926370620728,increases model at-risk output,1
+HELOC_XAI_008,5033,0,1,0.50399876,months_since_last_inquiry_not_recent,Months Since Last Inquiry Not Recent,3,,-0.5264527797698975,decreases model at-risk output,2
+HELOC_XAI_008,5033,0,1,0.50399876,percentage_of_legal_trades,Percentage Of Legal Trades,100,,-0.23985996842384338,decreases model at-risk output,3
+HELOC_XAI_008,5033,0,1,0.50399876,maximum_illegal_trades_over_last_year,Maximum Illegal Trades Over Last Year,7,,-0.15433356165885925,decreases model at-risk output,4
+HELOC_XAI_008,5033,0,1,0.50399876,number_of_satisfactory_trades,Number Of Satisfactory Trades,43,,-0.14895768463611603,decreases model at-risk output,5
+HELOC_XAI_009,8449,0,1,0.50418466,net_fraction_of_revolving_burden,Net Fraction Of Revolving Burden,2,,-0.46715131402015686,decreases model at-risk output,1
+HELOC_XAI_009,8449,0,1,0.50418466,percentage_of_legal_trades,Percentage Of Legal Trades,91,,0.3576103150844574,increases model at-risk output,2
+HELOC_XAI_009,8449,0,1,0.50418466,maximum_illegal_trades_over_last_year,Maximum Illegal Trades Over Last Year,3,,0.31120023131370544,increases model at-risk output,3
+HELOC_XAI_009,8449,0,1,0.50418466,months_since_last_inquiry_not_recent,Months Since Last Inquiry Not Recent,0,,0.22644692659378052,increases model at-risk output,4
+HELOC_XAI_009,8449,0,1,0.50418466,average_duration_of_resolution,Average Duration Of Resolution,85,,-0.22111818194389343,decreases model at-risk output,5
+HELOC_XAI_010,8777,0,1,0.50454855,average_duration_of_resolution,Average Duration Of Resolution,37,,0.818398654460907,increases model at-risk output,1
+HELOC_XAI_010,8777,0,1,0.50454855,net_fraction_of_revolving_burden,Net Fraction Of Revolving Burden,0,,-0.5152221322059631,decreases model at-risk output,2
+HELOC_XAI_010,8777,0,1,0.50454855,months_since_last_inquiry_not_recent,Months Since Last Inquiry Not Recent,special code -7,special code -7 (meaning unverified),0.24806703627109528,increases model at-risk output,3
+HELOC_XAI_010,8777,0,1,0.50454855,percentage_of_legal_trades,Percentage Of Legal Trades,100,,-0.2170802652835846,decreases model at-risk output,4
+HELOC_XAI_010,8777,0,1,0.50454855,maximum_illegal_trades_over_last_year,Maximum Illegal Trades Over Last Year,7,,-0.17827774584293365,decreases model at-risk output,5
+HELOC_XAI_011,10266,0,0,0.0683811,months_since_last_inquiry_not_recent,Months Since Last Inquiry Not Recent,special code -8,special code -8 (meaning unverified),-0.7679039239883423,decreases model at-risk output,1
+HELOC_XAI_011,10266,0,0,0.0683811,net_fraction_of_revolving_burden,Net Fraction Of Revolving Burden,1,,-0.5270755887031555,decreases model at-risk output,2
+HELOC_XAI_011,10266,0,0,0.0683811,average_duration_of_resolution,Average Duration Of Resolution,132,,-0.43204158544540405,decreases model at-risk output,3
+HELOC_XAI_011,10266,0,0,0.0683811,percentage_of_legal_trades,Percentage Of Legal Trades,97,,-0.26474130153656006,decreases model at-risk output,4
+HELOC_XAI_011,10266,0,0,0.0683811,nr_banks_with_high_ratio,Number Of Banks With High Ratio,0,,-0.18763011693954468,decreases model at-risk output,5
+HELOC_XAI_012,3808,0,0,0.07010493,months_since_last_inquiry_not_recent,Months Since Last Inquiry Not Recent,special code -8,special code -8 (meaning unverified),-0.7523103952407837,decreases model at-risk output,1
+HELOC_XAI_012,3808,0,0,0.07010493,net_fraction_of_revolving_burden,Net Fraction Of Revolving Burden,6,,-0.4871331751346588,decreases model at-risk output,2
+HELOC_XAI_012,3808,0,0,0.07010493,average_duration_of_resolution,Average Duration Of Resolution,107,,-0.45143061876296997,decreases model at-risk output,3
+HELOC_XAI_012,3808,0,0,0.07010493,percentage_of_legal_trades,Percentage Of Legal Trades,100,,-0.2940490245819092,decreases model at-risk output,4
+HELOC_XAI_012,3808,0,0,0.07010493,nr_banks_with_high_ratio,Number Of Banks With High Ratio,0,,-0.1920160949230194,decreases model at-risk output,5
+HELOC_XAI_013,9320,0,0,0.07060304,months_since_last_inquiry_not_recent,Months Since Last Inquiry Not Recent,special code -8,special code -8 (meaning unverified),-0.7243551015853882,decreases model at-risk output,1
+HELOC_XAI_013,9320,0,0,0.07060304,net_fraction_of_revolving_burden,Net Fraction Of Revolving Burden,11,,-0.44885239005088806,decreases model at-risk output,2
+HELOC_XAI_013,9320,0,0,0.07060304,average_duration_of_resolution,Average Duration Of Resolution,125,,-0.444288969039917,decreases model at-risk output,3
+HELOC_XAI_013,9320,0,0,0.07060304,percentage_of_legal_trades,Percentage Of Legal Trades,100,,-0.2935693860054016,decreases model at-risk output,4
+HELOC_XAI_013,9320,0,0,0.07060304,nr_banks_with_high_ratio,Number Of Banks With High Ratio,0,,-0.18859152495861053,decreases model at-risk output,5
+HELOC_XAI_014,3476,0,0,0.07201139,average_duration_of_resolution,Average Duration Of Resolution,187,,-0.7455639243125916,decreases model at-risk output,1
+HELOC_XAI_014,3476,0,0,0.07201139,months_since_last_inquiry_not_recent,Months Since Last Inquiry Not Recent,special code -8,special code -8 (meaning unverified),-0.5663506984710693,decreases model at-risk output,2
+HELOC_XAI_014,3476,0,0,0.07201139,net_fraction_of_revolving_burden,Net Fraction Of Revolving Burden,0,,-0.5086444616317749,decreases model at-risk output,3
+HELOC_XAI_014,3476,0,0,0.07201139,percentage_of_legal_trades,Percentage Of Legal Trades,100,,-0.29742059111595154,decreases model at-risk output,4
+HELOC_XAI_014,3476,0,0,0.07201139,nr_banks_with_high_ratio,Number Of Banks With High Ratio,0,,-0.22501476109027863,decreases model at-risk output,5
+HELOC_XAI_015,9299,0,0,0.07266821,net_fraction_of_revolving_burden,Net Fraction Of Revolving Burden,4,,-0.534676194190979,decreases model at-risk output,1
+HELOC_XAI_015,9299,0,0,0.07266821,months_since_last_inquiry_not_recent,Months Since Last Inquiry Not Recent,13,,-0.49567073583602905,decreases model at-risk output,2
+HELOC_XAI_015,9299,0,0,0.07266821,average_duration_of_resolution,Average Duration Of Resolution,108,,-0.48506826162338257,decreases model at-risk output,3
+HELOC_XAI_015,9299,0,0,0.07266821,percentage_of_legal_trades,Percentage Of Legal Trades,100,,-0.3908691108226776,decreases model at-risk output,4
+HELOC_XAI_015,9299,0,0,0.07266821,nr_banks_with_high_ratio,Number Of Banks With High Ratio,0,,-0.17373411357402802,decreases model at-risk output,5
+HELOC_XAI_016,4253,1,0,0.49967334,average_duration_of_resolution,Average Duration Of Resolution,112,,-0.5768550634384155,decreases model at-risk output,1
+HELOC_XAI_016,4253,1,0,0.49967334,maximum_illegal_trades_over_last_year,Maximum Illegal Trades Over Last Year,4,,0.3121388256549835,increases model at-risk output,2
+HELOC_XAI_016,4253,1,0,0.49967334,percentage_of_legal_trades,Percentage Of Legal Trades,98,,-0.3001655042171478,decreases model at-risk output,3
+HELOC_XAI_016,4253,1,0,0.49967334,nr_banks_with_high_ratio,Number Of Banks With High Ratio,3,,0.2169339954853058,increases model at-risk output,4
+HELOC_XAI_016,4253,1,0,0.49967334,nr_revolving_trades_with_balance,Number Of Revolving Trades With Balance,8,,0.18811310827732086,increases model at-risk output,5
+HELOC_XAI_017,4094,1,0,0.49921927,net_fraction_of_revolving_burden,Net Fraction Of Revolving Burden,52,,0.44429174065589905,increases model at-risk output,1
+HELOC_XAI_017,4094,1,0,0.49921927,months_since_last_inquiry_not_recent,Months Since Last Inquiry Not Recent,1,,-0.2919321656227112,decreases model at-risk output,2
+HELOC_XAI_017,4094,1,0,0.49921927,nr_revolving_trades_with_balance,Number Of Revolving Trades With Balance,8,,0.27041786909103394,increases model at-risk output,3
+HELOC_XAI_017,4094,1,0,0.49921927,percentage_of_legal_trades,Percentage Of Legal Trades,100,,-0.2519894540309906,decreases model at-risk output,4
+HELOC_XAI_017,4094,1,0,0.49921927,maximum_illegal_trades_over_last_year,Maximum Illegal Trades Over Last Year,7,,-0.23251976072788239,decreases model at-risk output,5
+HELOC_XAI_018,4397,1,0,0.4984668,net_fraction_of_revolving_burden,Net Fraction Of Revolving Burden,2,,-0.48743724822998047,decreases model at-risk output,1
+HELOC_XAI_018,4397,1,0,0.4984668,average_duration_of_resolution,Average Duration Of Resolution,103,,-0.47650638222694397,decreases model at-risk output,2
+HELOC_XAI_018,4397,1,0,0.4984668,percentage_of_legal_trades,Percentage Of Legal Trades,88,,0.45865294337272644,increases model at-risk output,3
+HELOC_XAI_018,4397,1,0,0.4984668,maximum_illegal_trades_over_last_year,Maximum Illegal Trades Over Last Year,4,,0.2685481011867523,increases model at-risk output,4
+HELOC_XAI_018,4397,1,0,0.4984668,months_since_last_illegal_trade,Months Since Last Illegal Trade,3,,0.2269858717918396,increases model at-risk output,5
+HELOC_XAI_019,9391,1,0,0.49824855,percentage_of_legal_trades,Percentage Of Legal Trades,83,,0.8839151263237,increases model at-risk output,1
+HELOC_XAI_019,9391,1,0,0.49824855,net_fraction_of_revolving_burden,Net Fraction Of Revolving Burden,2,,-0.3692139685153961,decreases model at-risk output,2
+HELOC_XAI_019,9391,1,0,0.49824855,months_since_last_inquiry_not_recent,Months Since Last Inquiry Not Recent,4,,-0.3579137325286865,decreases model at-risk output,3
+HELOC_XAI_019,9391,1,0,0.49824855,average_duration_of_resolution,Average Duration Of Resolution,113,,-0.3225163221359253,decreases model at-risk output,4
+HELOC_XAI_019,9391,1,0,0.49824855,maximum_illegal_trades_over_last_year,Maximum Illegal Trades Over Last Year,4,,0.28571006655693054,increases model at-risk output,5
+HELOC_XAI_020,4366,1,0,0.4977838,average_duration_of_resolution,Average Duration Of Resolution,92,,-0.2866850793361664,decreases model at-risk output,1
+HELOC_XAI_020,4366,1,0,0.4977838,months_since_last_inquiry_not_recent,Months Since Last Inquiry Not Recent,0,,0.24240878224372864,increases model at-risk output,2
+HELOC_XAI_020,4366,1,0,0.4977838,nr_banks_with_high_ratio,Number Of Banks With High Ratio,0,,-0.20246762037277222,decreases model at-risk output,3
+HELOC_XAI_020,4366,1,0,0.4977838,net_fraction_of_revolving_burden,Net Fraction Of Revolving Burden,46,,0.1907312572002411,increases model at-risk output,4
+HELOC_XAI_020,4366,1,0,0.4977838,percentage_of_legal_trades,Percentage Of Legal Trades,94,,0.15062326192855835,increases model at-risk output,5

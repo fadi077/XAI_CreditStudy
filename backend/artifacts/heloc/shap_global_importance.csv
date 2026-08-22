@@ -1,0 +1,23 @@
+original_feature,display_feature,mean_abs_shap
+net_fraction_of_revolving_burden,Net Fraction Of Revolving Burden,0.39309525
+average_duration_of_resolution,Average Duration Of Resolution,0.34378606
+percentage_of_legal_trades,Percentage Of Legal Trades,0.33426657
+months_since_last_inquiry_not_recent,Months Since Last Inquiry Not Recent,0.3133189
+maximum_illegal_trades_over_last_year,Maximum Illegal Trades Over Last Year,0.15937613
+nr_banks_with_high_ratio,Number Of Banks With High Ratio,0.13579217
+percentage_of_installment_trades,Percentage Of Installment Trades,0.1159169
+nr_revolving_trades_with_balance,Number Of Revolving Trades With Balance,0.08823042
+number_of_satisfactory_trades,Number Of Satisfactory Trades,0.08526077
+nr_inquiries_in_last_6_months,Number Of Inquiries In Last 6 Months,0.06643451
+months_since_last_illegal_trade,Months Since Last Illegal Trade,0.05919093
+months_since_first_trade,Months Since First Trade,0.041231297
+percentage_trades_with_balance,Percentage Trades With Balance,0.031068213
+net_fraction_of_installment_burden,Net Fraction Of Installment Burden,0.030002758
+months_since_last_trade,Months Since Last Trade,0.024263933
+nr_trades_insolvent_for_over_90_days,Number Of Trades Insolvent For Over 90 Days,0.02112533
+nr_total_trades,Number Of Total Trades,0.017082851
+nr_installment_trades_with_balance,Number Of Installment Trades With Balance,0.010624154
+maximum_illegal_trades,Maximum Illegal Trades,0.010212896
+nr_trades_insolvent_for_over_60_days,Number Of Trades Insolvent For Over 60 Days,0.009144515
+nr_trades_initiated_in_last_year,Number Of Trades Initiated In Last Year,0.005969638
+nr_inquiries_in_last_6_months_not_recent,Number Of Inquiries In Last 6 Months Not Recent,0.00074531976

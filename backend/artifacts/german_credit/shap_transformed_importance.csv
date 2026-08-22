@@ -1,0 +1,55 @@
+transformed_feature,original_feature,display_feature,feature_type,category_value,category_label,mean_abs_shap
+categorical__Attribute1_A14,Attribute1,Checking account status,categorical_one_hot,A14,No checking account,0.5851204
+numeric__Attribute2,Attribute2,Credit duration (months),numeric,,,0.45327413
+numeric__Attribute5,Attribute5,Credit amount (DM),numeric,,,0.35303003
+categorical__Attribute3_A34,Attribute3,Credit history,categorical_one_hot,A34,Critical account or other existing credits,0.25431353
+categorical__Attribute1_A11,Attribute1,Checking account status,categorical_one_hot,A11,< 0 DM,0.18143265
+categorical__Attribute6_A61,Attribute6,Savings account status,categorical_one_hot,A61,< 100 DM,0.17200163
+categorical__Attribute4_A41,Attribute4,Credit purpose,categorical_one_hot,A41,Used car,0.1407212
+numeric__Attribute8,Attribute8,Installment rate (% disposable income),numeric,,,0.12755069
+categorical__Attribute7_A72,Attribute7,Employment duration,categorical_one_hot,A72,< 1 year,0.12412419
+categorical__Attribute7_A74,Attribute7,Employment duration,categorical_one_hot,A74,4 to < 7 years,0.12357318
+categorical__Attribute14_A141,Attribute14,Other installment plans,categorical_one_hot,A141,Bank,0.110954754
+categorical__Attribute12_A121,Attribute12,Property,categorical_one_hot,A121,Real estate,0.10727241
+categorical__Attribute4_A43,Attribute4,Credit purpose,categorical_one_hot,A43,Radio or television,0.09364002
+categorical__Attribute6_A65,Attribute6,Savings account status,categorical_one_hot,A65,Unknown or no savings account,0.0889142
+categorical__Attribute14_A143,Attribute14,Other installment plans,categorical_one_hot,A143,None,0.084019125
+categorical__Attribute19_A191,Attribute19,Registered telephone,categorical_one_hot,A191,None,0.083638966
+categorical__Attribute12_A124,Attribute12,Property,categorical_one_hot,A124,Unknown or no property,0.08202747
+categorical__Attribute15_A152,Attribute15,Housing,categorical_one_hot,A152,Own,0.07957686
+categorical__Attribute4_A40,Attribute4,Credit purpose,categorical_one_hot,A40,New car,0.0784363
+categorical__Attribute15_A151,Attribute15,Housing,categorical_one_hot,A151,Rent,0.071844555
+categorical__Attribute4_A46,Attribute4,Credit purpose,categorical_one_hot,A46,Education,0.06448212
+categorical__Attribute10_A103,Attribute10,Other debtors or guarantors,categorical_one_hot,A103,Guarantor,0.052912336
+categorical__Attribute1_A12,Attribute1,Checking account status,categorical_one_hot,A12,0 to < 200 DM,0.042834263
+numeric__Attribute16,Attribute16,Existing credits at bank,numeric,,,0.03454266
+numeric__Attribute11,Attribute11,Residence duration,numeric,,,0.03280904
+categorical__Attribute6_A64,Attribute6,Savings account status,categorical_one_hot,A64,>= 1000 DM,0.028479088
+categorical__Attribute3_A33,Attribute3,Credit history,categorical_one_hot,A33,Past payment delay,0.028407048
+categorical__Attribute3_A30,Attribute3,Credit history,categorical_one_hot,A30,No credits taken or all credits paid duly,0.02830381
+categorical__Attribute3_A31,Attribute3,Credit history,categorical_one_hot,A31,All credits at this bank paid duly,0.026800515
+categorical__Attribute4_A42,Attribute4,Credit purpose,categorical_one_hot,A42,Furniture or equipment,0.02402406
+categorical__Attribute3_A32,Attribute3,Credit history,categorical_one_hot,A32,Existing credits paid duly to date,0.023206066
+categorical__Attribute10_A101,Attribute10,Other debtors or guarantors,categorical_one_hot,A101,None,0.022487583
+categorical__Attribute1_A13,Attribute1,Checking account status,categorical_one_hot,A13,>= 200 DM or salary assignment >= 1 year,0.021503715
+categorical__Attribute12_A122,Attribute12,Property,categorical_one_hot,A122,Building society savings or life insurance,0.021349361
+categorical__Attribute17_A174,Attribute17,Job,categorical_one_hot,A174,"Management, self-employed or highly qualified",0.02057636
+categorical__Attribute17_A173,Attribute17,Job,categorical_one_hot,A173,Skilled employee or official,0.018918142
+categorical__Attribute15_A153,Attribute15,Housing,categorical_one_hot,A153,For free,0.018262291
+categorical__Attribute7_A75,Attribute7,Employment duration,categorical_one_hot,A75,>= 7 years,0.016575074
+categorical__Attribute19_A192,Attribute19,Registered telephone,categorical_one_hot,A192,"Yes, registered in applicant's name",0.014689941
+categorical__Attribute6_A62,Attribute6,Savings account status,categorical_one_hot,A62,100 to < 500 DM,0.01287039
+categorical__Attribute17_A172,Attribute17,Job,categorical_one_hot,A172,Unskilled resident,0.012779661
+categorical__Attribute7_A71,Attribute7,Employment duration,categorical_one_hot,A71,Unemployed,0.01143261
+numeric__Attribute18,Attribute18,Dependants,numeric,,,0.011175355
+categorical__Attribute12_A123,Attribute12,Property,categorical_one_hot,A123,Car or other property,0.010068498
+categorical__Attribute7_A73,Attribute7,Employment duration,categorical_one_hot,A73,1 to < 4 years,0.0070831906
+categorical__Attribute4_A45,Attribute4,Credit purpose,categorical_one_hot,A45,Repairs,0.0059048855
+categorical__Attribute10_A102,Attribute10,Other debtors or guarantors,categorical_one_hot,A102,Co-applicant,0.005728264
+categorical__Attribute4_A49,Attribute4,Credit purpose,categorical_one_hot,A49,Business,0.0042904816
+categorical__Attribute6_A63,Attribute6,Savings account status,categorical_one_hot,A63,500 to < 1000 DM,0.0037451142
+categorical__Attribute14_A142,Attribute14,Other installment plans,categorical_one_hot,A142,Stores,0.003620731
+categorical__Attribute17_A171,Attribute17,Job,categorical_one_hot,A171,Unemployed or unskilled non-resident,0.00040273767
+categorical__Attribute4_A410,Attribute4,Credit purpose,categorical_one_hot,A410,Other,0.0
+categorical__Attribute4_A44,Attribute4,Credit purpose,categorical_one_hot,A44,Domestic appliances,0.0
+categorical__Attribute4_A48,Attribute4,Credit purpose,categorical_one_hot,A48,Retraining,0.0

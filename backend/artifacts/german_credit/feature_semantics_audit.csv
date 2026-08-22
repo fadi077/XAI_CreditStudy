@@ -1,0 +1,21 @@
+raw_feature,display_feature,data_type,categorical_or_numeric,official_description,unique_values,missing_count,candidate_for_primary_model,exclusion_reason,decision_time_available,potential_sensitive_or_proxy,notes
+Attribute1,Checking account status,object,categorical,Status of existing checking account,4,0,True,,likely,not identified from official description,No-account code remains a category.
+Attribute2,Credit duration (months),int64,numeric,Duration,33,0,True,,yes,not identified from official description,
+Attribute3,Credit history,object,categorical,Credit history,5,0,True,,likely,not identified from official description,Historical predictor; verify it predates the application decision.
+Attribute4,Credit purpose,object,categorical,Purpose,10,0,True,,yes,not identified from official description,
+Attribute5,Credit amount (DM),int64,numeric,Credit amount,921,0,True,,yes,not identified from official description,
+Attribute6,Savings account status,object,categorical,Savings account/bonds,5,0,True,,likely,potential socioeconomic proxy,Unknown/no-savings code remains a category.
+Attribute7,Employment duration,object,categorical,Present employment since,5,0,True,,likely,employment-related proxy,Unemployed remains a category.
+Attribute8,Installment rate (% disposable income),int64,numeric,Installment rate in percentage of disposable income,4,0,True,,yes,not identified from official description,
+Attribute9,Personal status and sex,object,categorical,Personal status and sex,4,0,False,Conservative research-design exclusion of direct demographic/sensitive attributes from the primary explainability model.,yes,direct personal status and sex attribute,Excluded; retained in the audit.
+Attribute10,Other debtors or guarantors,object,categorical,Other debtors / guarantors,3,0,True,,yes,not identified from official description,
+Attribute11,Residence duration,int64,numeric,Present residence since,4,0,True,,likely,not identified from official description,
+Attribute12,Property,object,categorical,Property,4,0,True,,likely,potential socioeconomic proxy,Unknown/no-property code remains a category.
+Attribute13,Age (years),int64,numeric,Age,53,0,False,Conservative research-design exclusion of direct demographic/sensitive attributes from the primary explainability model.,yes,direct age attribute,Excluded; retained in the audit.
+Attribute14,Other installment plans,object,categorical,Other installment plans,3,0,True,,likely,not identified from official description,
+Attribute15,Housing,object,categorical,Housing,3,0,True,,likely,potential socioeconomic proxy,
+Attribute16,Existing credits at bank,int64,numeric,Number of existing credits at this bank,4,0,True,,likely,not identified from official description,
+Attribute17,Job,object,categorical,Job,4,0,True,,likely,occupation-related proxy,
+Attribute18,Dependants,int64,numeric,Number of people being liable to provide maintenance for,2,0,True,,yes,not identified from official description,
+Attribute19,Registered telephone,object,categorical,Telephone,2,0,True,,yes,not identified from official description,No-telephone code remains a category.
+Attribute20,Foreign worker,object,categorical,foreign worker,2,0,False,Conservative research-design exclusion of direct demographic/sensitive attributes from the primary explainability model.,yes,direct foreign-worker attribute,Excluded; retained in the audit.

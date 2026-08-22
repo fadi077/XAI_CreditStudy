@@ -1,0 +1,4 @@
+raw_feature,display_feature,raw_value,category_label,count,percentage,higher_risk_count,higher_risk_rate,rare_level
+Attribute4,Credit purpose,A48,Retraining,9,0.8999999999999999,1,0.1111111111111111,True
+Attribute4,Credit purpose,A44,Domestic appliances,12,1.2,4,0.3333333333333333,True
+Attribute4,Credit purpose,A410,Other,12,1.2,5,0.4166666666666667,True

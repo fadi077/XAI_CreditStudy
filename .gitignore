@@ -1,0 +1,28 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment and secret files
+.env
+.env.*
+
+# Frontend dependencies and generated output
+node_modules/
+.next/
+coverage/
+dist/
+build/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Raw dataset snapshots are retained locally but not redistributed.
+# Reproduction sources and hashes are recorded under backend/artifacts/.
+backend/data/**/*.csv
+

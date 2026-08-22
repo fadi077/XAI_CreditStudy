@@ -1,0 +1,13 @@
+category,metric,method,value,cases_evaluated,interpretation
+SHAP-LIME agreement,top_1_agreement_rate,SHAP/LIME,0.4,20,Same leading original feature
+direction agreement,overall_direction_agreement_rate,SHAP/LIME,0.9487179487179487,20,"Direction only, not magnitude"
+SHAP sparsity,mean_features_for_80_percent,SHAP,6.5,20,Features covering 80% attribution
+LIME sparsity,mean_features_for_80_percent,LIME,4.0,20,Features covering 80% local weight
+DiCE sparsity,mean_changed_modifiable_features,DiCE,2.75,8,Modifiable financial-state variables
+SHAP preliminary stability,mean_top_5_overlap,SHAP,5.0,5,Deterministic local perturbation
+LIME reproducibility,exact_reproduction_rate,LIME,1.0,5,Same-seed reproduction
+SHAP sensitivity,mean_absolute_score_change,SHAP,0.0774490418245849,5,Preliminary model sensitivity
+LIME sensitivity,mean_absolute_score_change,LIME,0.047351510827270446,5,Preliminary model sensitivity
+LIME local fidelity,mean_local_fidelity_r2,LIME,0.41634337694493073,20,Local surrogate fit
+DiCE availability,valid_counterfactual_rate,DiCE,0.4,20,Within constrained search
+DiCE proximity,mean_normalized_proximity,DiCE,0.1338568789584799,8,Normalized numerical closeness

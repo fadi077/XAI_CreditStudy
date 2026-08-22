@@ -1,0 +1,6 @@
+case_id,diagnostic,same_top_5_features,same_feature_order,maximum_absolute_weight_difference,exact_reproduction
+HELOC_XAI_001,same-seed reproducibility / preliminary stability diagnostic,True,True,0.0,True
+HELOC_XAI_002,same-seed reproducibility / preliminary stability diagnostic,True,True,0.0,True
+HELOC_XAI_003,same-seed reproducibility / preliminary stability diagnostic,True,True,0.0,True
+HELOC_XAI_004,same-seed reproducibility / preliminary stability diagnostic,True,True,0.0,True
+HELOC_XAI_005,same-seed reproducibility / preliminary stability diagnostic,True,True,0.0,True

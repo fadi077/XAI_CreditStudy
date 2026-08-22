@@ -1,0 +1,4 @@
+feature,category,category_label,full_data_count,training_count,test_count,present_in_training,present_in_test
+Attribute4,A48,Retraining,9,5,4,True,True
+Attribute4,A44,Domestic appliances,12,10,2,True,True
+Attribute4,A410,Other,12,6,6,True,True

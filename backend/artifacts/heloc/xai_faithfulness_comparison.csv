@@ -1,0 +1,3 @@
+method,diagnostic,cases_tested,mean_absolute_score_change,median_absolute_score_change,minimum_absolute_score_change,maximum_absolute_score_change,interventions_selected_independently
+SHAP,preliminary intervention-based model sensitivity diagnostic,5,0.0774490418245849,0.075667381552124,0.0527552334381103,0.1186436964538574,True
+LIME,preliminary intervention-based model sensitivity diagnostic,5,0.047351510827270446,0.0258226993354797,0.0016420515464782,0.1186436964538574,True

@@ -1,0 +1,21 @@
+case_id,case_type,original_probability,original_class,desired_class,counterfactuals_found,valid_counterfactuals,best_counterfactual_probability,minimum_changed_actionable_features,best_proximity_score,generation_status,generation_message
+GER_XAI_001,high-confidence positive,0.9466822,1,0,0,0,,,,no_counterfactual_returned_first_pass,No counterfactuals found for any of the query points! Kindly check your configuration.
+GER_XAI_002,high-confidence positive,0.9256946,1,0,0,0,,,,no_counterfactual_returned_first_pass,No counterfactuals found for any of the query points! Kindly check your configuration.
+GER_XAI_003,high-confidence positive,0.90678245,1,0,1,1,0.2375951409339904,2.0,0.39828129701047565,success_first_pass,Independently valid counterfactual returned.
+GER_XAI_004,high-confidence positive,0.9063597,1,0,1,1,0.4853120446205139,2.0,0.10755768897641384,success_first_pass,Independently valid counterfactual returned.
+GER_XAI_005,high-confidence positive,0.9055074,1,0,1,1,0.2807798981666565,2.0,0.4299162130868047,success_first_pass,Independently valid counterfactual returned.
+GER_XAI_006,borderline positive,0.5018516,1,0,1,1,0.4138804376125335,2.0,0.16208642177912713,success_first_pass,Independently valid counterfactual returned.
+GER_XAI_007,borderline positive,0.5034409,1,0,1,1,0.4409898519515991,1.0,0.026038675090943902,success_first_pass,Independently valid counterfactual returned.
+GER_XAI_008,borderline positive,0.5135554,1,0,1,1,0.2804802060127258,2.0,0.08125062680634192,success_first_pass,Independently valid counterfactual returned.
+GER_XAI_009,borderline positive,0.51524305,1,0,1,1,0.3626404702663421,2.0,0.053635248853514214,success_first_pass,Independently valid counterfactual returned.
+GER_XAI_010,borderline positive,0.5176819,1,0,1,1,0.4469936490058899,2.0,0.43374087142036594,success_first_pass,Independently valid counterfactual returned.
+GER_XAI_011,high-confidence negative,0.011951139,0,1,0,0,,,,no_counterfactual_returned_first_pass,No counterfactuals found for any of the query points! Kindly check your configuration.
+GER_XAI_012,high-confidence negative,0.012772601,0,1,0,0,,,,no_counterfactual_returned_first_pass,No counterfactuals found for any of the query points! Kindly check your configuration.
+GER_XAI_013,high-confidence negative,0.014923423,0,1,0,0,,,,no_counterfactual_returned_first_pass,No counterfactuals found for any of the query points! Kindly check your configuration.
+GER_XAI_014,high-confidence negative,0.020744441,0,1,0,0,,,,no_counterfactual_returned_first_pass,No counterfactuals found for any of the query points! Kindly check your configuration.
+GER_XAI_015,high-confidence negative,0.024179073,0,1,0,0,,,,no_counterfactual_returned_first_pass,No counterfactuals found for any of the query points! Kindly check your configuration.
+GER_XAI_016,borderline negative,0.48432785,0,1,1,1,0.5005469918251038,2.0,0.028381221337855454,success_first_pass,Independently valid counterfactual returned.
+GER_XAI_017,borderline negative,0.48025113,0,1,1,1,0.5078649520874023,2.0,0.045312970104756434,success_first_pass,Independently valid counterfactual returned.
+GER_XAI_018,borderline negative,0.47793216,0,1,0,0,,,,no_counterfactual_returned_first_pass,No counterfactuals found for any of the query points! Kindly check your configuration.
+GER_XAI_019,borderline negative,0.4572692,0,1,1,1,0.5285462141036987,2.0,0.3367682320870144,success_first_pass,Independently valid counterfactual returned.
+GER_XAI_020,borderline negative,0.45461446,0,1,1,1,0.59651118516922,2.0,0.057273004932396086,success_first_pass,Independently valid counterfactual returned.

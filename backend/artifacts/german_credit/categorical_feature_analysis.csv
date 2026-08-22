@@ -1,0 +1,49 @@
+raw_feature,display_feature,raw_value,category_label,count,percentage,higher_risk_count,higher_risk_rate,rare_level
+Attribute1,Checking account status,A14,No checking account,394,39.4,46,0.116751269035533,False
+Attribute1,Checking account status,A11,< 0 DM,274,27.400000000000002,135,0.4927007299270073,False
+Attribute1,Checking account status,A12,0 to < 200 DM,269,26.900000000000002,105,0.3903345724907063,False
+Attribute1,Checking account status,A13,>= 200 DM or salary assignment >= 1 year,63,6.3,14,0.2222222222222222,False
+Attribute3,Credit history,A32,Existing credits paid duly to date,530,53.0,169,0.31886792452830187,False
+Attribute3,Credit history,A34,Critical account or other existing credits,293,29.299999999999997,50,0.17064846416382254,False
+Attribute3,Credit history,A33,Past payment delay,88,8.799999999999999,28,0.3181818181818182,False
+Attribute3,Credit history,A31,All credits at this bank paid duly,49,4.9,28,0.5714285714285714,False
+Attribute3,Credit history,A30,No credits taken or all credits paid duly,40,4.0,25,0.625,False
+Attribute4,Credit purpose,A43,Radio or television,280,28.000000000000004,62,0.22142857142857142,False
+Attribute4,Credit purpose,A40,New car,234,23.400000000000002,89,0.3803418803418803,False
+Attribute4,Credit purpose,A42,Furniture or equipment,181,18.099999999999998,58,0.32044198895027626,False
+Attribute4,Credit purpose,A41,Used car,103,10.299999999999999,17,0.1650485436893204,False
+Attribute4,Credit purpose,A49,Business,97,9.700000000000001,34,0.35051546391752575,False
+Attribute4,Credit purpose,A46,Education,50,5.0,22,0.44,False
+Attribute4,Credit purpose,A45,Repairs,22,2.1999999999999997,8,0.36363636363636365,False
+Attribute4,Credit purpose,A44,Domestic appliances,12,1.2,4,0.3333333333333333,True
+Attribute4,Credit purpose,A410,Other,12,1.2,5,0.4166666666666667,True
+Attribute4,Credit purpose,A48,Retraining,9,0.8999999999999999,1,0.1111111111111111,True
+Attribute6,Savings account status,A61,< 100 DM,603,60.3,217,0.3598673300165838,False
+Attribute6,Savings account status,A65,Unknown or no savings account,183,18.3,32,0.17486338797814208,False
+Attribute6,Savings account status,A62,100 to < 500 DM,103,10.299999999999999,34,0.3300970873786408,False
+Attribute6,Savings account status,A63,500 to < 1000 DM,63,6.3,11,0.1746031746031746,False
+Attribute6,Savings account status,A64,>= 1000 DM,48,4.8,6,0.125,False
+Attribute7,Employment duration,A73,1 to < 4 years,339,33.900000000000006,104,0.30678466076696165,False
+Attribute7,Employment duration,A75,>= 7 years,253,25.3,64,0.25296442687747034,False
+Attribute7,Employment duration,A74,4 to < 7 years,174,17.4,39,0.22413793103448276,False
+Attribute7,Employment duration,A72,< 1 year,172,17.2,70,0.4069767441860465,False
+Attribute7,Employment duration,A71,Unemployed,62,6.2,23,0.3709677419354839,False
+Attribute10,Other debtors or guarantors,A101,None,907,90.7,272,0.29988974641675853,False
+Attribute10,Other debtors or guarantors,A103,Guarantor,52,5.2,10,0.19230769230769232,False
+Attribute10,Other debtors or guarantors,A102,Co-applicant,41,4.1000000000000005,18,0.43902439024390244,False
+Attribute12,Property,A123,Car or other property,332,33.2,102,0.3072289156626506,False
+Attribute12,Property,A121,Real estate,282,28.199999999999996,60,0.2127659574468085,False
+Attribute12,Property,A122,Building society savings or life insurance,232,23.200000000000003,71,0.30603448275862066,False
+Attribute12,Property,A124,Unknown or no property,154,15.4,67,0.43506493506493504,False
+Attribute14,Other installment plans,A143,None,814,81.39999999999999,224,0.2751842751842752,False
+Attribute14,Other installment plans,A141,Bank,139,13.900000000000002,57,0.41007194244604317,False
+Attribute14,Other installment plans,A142,Stores,47,4.7,19,0.40425531914893614,False
+Attribute15,Housing,A152,Own,713,71.3,186,0.2608695652173913,False
+Attribute15,Housing,A151,Rent,179,17.9,70,0.39106145251396646,False
+Attribute15,Housing,A153,For free,108,10.8,44,0.4074074074074074,False
+Attribute17,Job,A173,Skilled employee or official,630,63.0,186,0.29523809523809524,False
+Attribute17,Job,A172,Unskilled resident,200,20.0,56,0.28,False
+Attribute17,Job,A174,"Management, self-employed or highly qualified",148,14.799999999999999,51,0.34459459459459457,False
+Attribute17,Job,A171,Unemployed or unskilled non-resident,22,2.1999999999999997,7,0.3181818181818182,False
+Attribute19,Registered telephone,A191,None,596,59.599999999999994,187,0.313758389261745,False
+Attribute19,Registered telephone,A192,"Yes, registered in applicant's name",404,40.400000000000006,113,0.27970297029702973,False

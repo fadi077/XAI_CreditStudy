@@ -1,0 +1,50 @@
+{
+  "dice_version": "0.12",
+  "model_path": "..\\artifacts\\xgboost_credit_model.joblib",
+  "preprocessor_path": "..\\artifacts\\preprocessor.joblib",
+  "decision_threshold": 0.5,
+  "number_of_evaluation_cases": 20,
+  "first_pass_counterfactuals_requested_per_case": 1,
+  "optional_second_pass_counterfactuals_requested_per_successful_case": 3,
+  "per_case_timeout_seconds": 30,
+  "search_method": "genetic",
+  "features_to_vary": [
+    "AMT_CREDIT",
+    "AMT_ANNUITY",
+    "AMT_GOODS_PRICE"
+  ],
+  "continuous_permitted_ranges": {
+    "AMT_CREDIT": [
+      76410.0,
+      1862802.0
+    ],
+    "AMT_ANNUITY": [
+      6187.5,
+      70033.5
+    ],
+    "AMT_GOODS_PRICE": [
+      67500.0,
+      1800000.0
+    ]
+  },
+  "range_source": "Training partition 1st\u201399th percentiles",
+  "random_seed": 42,
+  "successful_cases": 0,
+  "failed_cases": 20,
+  "total_valid_counterfactuals": 0,
+  "model_retrained": false,
+  "preprocessor_refitted": false,
+  "counterfactual_artifact_recovery": true,
+  "recovery_reason": "Original first-pass counterfactual rows were not persisted; the eight originally successful cases were regenerated under the same frozen experimental configuration.",
+  "recovery_timestamp": "2026-08-21T20:23:09.659355+00:00",
+  "recovered_case_ids": [
+    "XAI_001",
+    "XAI_002",
+    "XAI_003",
+    "XAI_004",
+    "XAI_005",
+    "XAI_006",
+    "XAI_009",
+    "XAI_017"
+  ]
+}

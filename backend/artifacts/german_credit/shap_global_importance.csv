@@ -1,0 +1,18 @@
+original_feature,display_feature,mean_abs_shap
+Attribute1,Checking account status,0.6938607
+Attribute2,Credit duration (months),0.45327413
+Attribute5,Credit amount (DM),0.35303003
+Attribute3,Credit history,0.27859366
+Attribute6,Savings account status,0.2641612
+Attribute4,Credit purpose,0.25470278
+Attribute14,Other installment plans,0.19294168
+Attribute7,Employment duration,0.1794939
+Attribute12,Property,0.14850852
+Attribute15,Housing,0.13450423
+Attribute8,Installment rate (% disposable income),0.12755069
+Attribute19,Registered telephone,0.09802732
+Attribute10,Other debtors or guarantors,0.052760903
+Attribute17,Job,0.04075015
+Attribute16,Existing credits at bank,0.03454266
+Attribute11,Residence duration,0.03280904
+Attribute18,Dependants,0.011175355

@@ -1,0 +1,6 @@
+case_id,top_lime_feature,intervened_feature,original_feature_value,replacement_value,feature_actually_changed,faithfulness_test_status,original_probability,masked_probability,absolute_score_change
+XAI_001,NAME_CONTRACT_TYPE,NAME_CONTRACT_TYPE,Cash loans,Revolving loans,True,valid intervention,0.871334,0.68310546875,0.18822853125000005
+XAI_002,NAME_CONTRACT_TYPE,NAME_CONTRACT_TYPE,Cash loans,Revolving loans,True,valid intervention,0.86179584,0.6972246170043945,0.16457122299560545
+XAI_003,NAME_CONTRACT_TYPE,NAME_CONTRACT_TYPE,Cash loans,Revolving loans,True,valid intervention,0.8516711,0.7130395770072937,0.1386315229927063
+XAI_004,NAME_CONTRACT_TYPE,NAME_CONTRACT_TYPE,Cash loans,Revolving loans,True,valid intervention,0.845883,0.6488562226295471,0.19702677737045293
+XAI_005,NAME_CONTRACT_TYPE,NAME_CONTRACT_TYPE,Cash loans,Revolving loans,True,valid intervention,0.84454125,0.6504814624786377,0.19405978752136233

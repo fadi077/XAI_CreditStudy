@@ -1,0 +1,21 @@
+case_id,case_type,original_probability,original_class,desired_class,first_pass_status,first_pass_elapsed_seconds,retry_performed,retry_status,retry_elapsed_seconds,final_status,valid_counterfactual_available,counterfactual_source
+GER_XAI_001,high-confidence positive,0.9466822,1,0,no_counterfactual_returned,25.031097099999897,False,,,no_counterfactual_returned_first_pass,False,none
+GER_XAI_002,high-confidence positive,0.9256946,1,0,no_counterfactual_returned,23.853444999898784,False,,,no_counterfactual_returned_first_pass,False,none
+GER_XAI_003,high-confidence positive,0.90678245,1,0,success,6.272972599952482,False,,,success_first_pass,True,first_pass
+GER_XAI_004,high-confidence positive,0.9063597,1,0,success,4.93406070000492,False,,,success_first_pass,True,first_pass
+GER_XAI_005,high-confidence positive,0.9055074,1,0,success,0.747645299998112,False,,,success_first_pass,True,first_pass
+GER_XAI_006,borderline positive,0.5018516,1,0,success,0.5405361999291927,False,,,success_first_pass,True,first_pass
+GER_XAI_007,borderline positive,0.5034409,1,0,success,0.5685743999201804,False,,,success_first_pass,True,first_pass
+GER_XAI_008,borderline positive,0.5135554,1,0,success,0.6068669999949634,False,,,success_first_pass,True,first_pass
+GER_XAI_009,borderline positive,0.51524305,1,0,success,0.5331830000504851,False,,,success_first_pass,True,first_pass
+GER_XAI_010,borderline positive,0.5176819,1,0,success,0.4520847999956459,False,,,success_first_pass,True,first_pass
+GER_XAI_011,high-confidence negative,0.011951139,0,1,no_counterfactual_returned,18.645267799962312,False,,,no_counterfactual_returned_first_pass,False,none
+GER_XAI_012,high-confidence negative,0.012772601,0,1,no_counterfactual_returned,25.39225200004876,False,,,no_counterfactual_returned_first_pass,False,none
+GER_XAI_013,high-confidence negative,0.014923423,0,1,no_counterfactual_returned,27.782781000016257,False,,,no_counterfactual_returned_first_pass,False,none
+GER_XAI_014,high-confidence negative,0.020744441,0,1,no_counterfactual_returned,25.444514599977992,False,,,no_counterfactual_returned_first_pass,False,none
+GER_XAI_015,high-confidence negative,0.024179073,0,1,no_counterfactual_returned,23.83519010001328,False,,,no_counterfactual_returned_first_pass,False,none
+GER_XAI_016,borderline negative,0.48432785,0,1,success,6.049365500104614,False,,,success_first_pass,True,first_pass
+GER_XAI_017,borderline negative,0.48025113,0,1,success,5.078856599982828,False,,,success_first_pass,True,first_pass
+GER_XAI_018,borderline negative,0.47793216,0,1,no_counterfactual_returned,18.93484639993403,False,,,no_counterfactual_returned_first_pass,False,none
+GER_XAI_019,borderline negative,0.4572692,0,1,success,5.823992000077851,False,,,success_first_pass,True,first_pass
+GER_XAI_020,borderline negative,0.45461446,0,1,success,5.12111740000546,False,,,success_first_pass,True,first_pass

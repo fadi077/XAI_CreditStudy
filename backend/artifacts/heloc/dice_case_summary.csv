@@ -1,0 +1,21 @@
+case_id,case_type,original_probability,original_class,desired_class,eligible_modifiable_feature_count,counterfactuals_found,valid_counterfactuals,best_counterfactual_probability,minimum_changed_modifiable_features,best_proximity_score,generation_status,generation_message
+HELOC_XAI_001,high-confidence positive,0.9483221,1,0,3,0,0,,,,no_counterfactual_returned_first_pass,No counterfactual returned first pass.
+HELOC_XAI_002,high-confidence positive,0.9451859,1,0,3,0,0,,,,no_counterfactual_returned_after_technical_retry,No counterfactual returned after technical retry.
+HELOC_XAI_003,high-confidence positive,0.94406813,1,0,3,0,0,,,,no_counterfactual_returned_after_technical_retry,No counterfactual returned after technical retry.
+HELOC_XAI_004,high-confidence positive,0.9414553,1,0,3,0,0,,,,no_counterfactual_returned_after_technical_retry,No counterfactual returned after technical retry.
+HELOC_XAI_005,high-confidence positive,0.9411751,1,0,3,0,0,,,,no_counterfactual_returned_after_technical_retry,No counterfactual returned after technical retry.
+HELOC_XAI_006,borderline positive,0.50008893,1,0,3,1,1,0.48226112127304077,3.0,0.044514426460239266,success_first_pass,Independently valid counterfactual returned.
+HELOC_XAI_007,borderline positive,0.5015111,1,0,3,0,0,,,,no_counterfactual_returned_first_pass,No counterfactual returned first pass.
+HELOC_XAI_008,borderline positive,0.50399876,1,0,3,1,1,0.35944339632987976,3.0,0.25700914848698103,success_first_pass,Independently valid counterfactual returned.
+HELOC_XAI_009,borderline positive,0.50418466,1,0,3,1,1,0.4850913882255554,2.0,0.1757142857142857,success_first_pass,Independently valid counterfactual returned.
+HELOC_XAI_010,borderline positive,0.50454855,1,0,3,0,0,,,,no_counterfactual_returned_first_pass,No counterfactual returned first pass.
+HELOC_XAI_011,high-confidence negative,0.0683811,0,1,2,0,0,,,,no_counterfactual_returned_first_pass,No counterfactual returned first pass.
+HELOC_XAI_012,high-confidence negative,0.07010493,0,1,3,0,0,,,,no_counterfactual_returned_first_pass,No counterfactual returned first pass.
+HELOC_XAI_013,high-confidence negative,0.07060304,0,1,3,0,0,,,,no_counterfactual_returned_first_pass,No counterfactual returned first pass.
+HELOC_XAI_014,high-confidence negative,0.07201139,0,1,2,0,0,,,,no_counterfactual_returned_first_pass,No counterfactual returned first pass.
+HELOC_XAI_015,high-confidence negative,0.07266821,0,1,3,0,0,,,,no_counterfactual_returned_first_pass,No counterfactual returned first pass.
+HELOC_XAI_016,borderline negative,0.49967334,0,1,3,1,1,0.6258009076118469,3.0,0.11151301900070373,success_first_pass,Independently valid counterfactual returned.
+HELOC_XAI_017,borderline negative,0.49921927,0,1,3,1,1,0.5001096725463867,3.0,0.09846586910626319,success_first_pass,Independently valid counterfactual returned.
+HELOC_XAI_018,borderline negative,0.4984668,0,1,2,1,1,0.5648724436759949,2.0,0.0789655172413793,success_first_pass,Independently valid counterfactual returned.
+HELOC_XAI_019,borderline negative,0.49824855,0,1,3,1,1,0.5447819232940674,3.0,0.16098874032371568,success_first_pass,Independently valid counterfactual returned.
+HELOC_XAI_020,borderline negative,0.4977838,0,1,3,1,1,0.5747077465057373,3.0,0.14368402533427163,success_first_pass,Independently valid counterfactual returned.

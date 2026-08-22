@@ -1,0 +1,6 @@
+method,metric,count,mean,median,min,max
+SHAP,features_for_50_percent,20,3.25,3.0,2,4
+SHAP,features_for_80_percent,20,6.9,7.0,4,9
+LIME,features_for_50_percent,20,2.25,2.0,2,3
+LIME,features_for_80_percent,20,4.0,4.0,4,4
+DiCE,number_of_changed_actionable_features,12,1.9166666666666667,2.0,1,2

@@ -1,0 +1,6 @@
+check,count
+exact_duplicate_complete_rows,587
+duplicate_predictor_rows,588
+unique_predictor_profiles,9871
+predictor_profiles_with_conflicting_targets,1
+rows_with_all_predictors_equal_to_minus_9,588

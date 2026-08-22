@@ -1,0 +1,54 @@
+{
+  "raw_feature_count": 20,
+  "excluded_features": [
+    "Attribute9",
+    "Attribute13",
+    "Attribute20"
+  ],
+  "exclusion_reasons": {
+    "Attribute9": "Conservative research-design exclusion of direct demographic/sensitive attributes from the primary explainability model.",
+    "Attribute13": "Conservative research-design exclusion of direct demographic/sensitive attributes from the primary explainability model.",
+    "Attribute20": "Conservative research-design exclusion of direct demographic/sensitive attributes from the primary explainability model."
+  },
+  "selected_feature_count": 17,
+  "selected_features": [
+    "Attribute1",
+    "Attribute2",
+    "Attribute3",
+    "Attribute4",
+    "Attribute5",
+    "Attribute6",
+    "Attribute7",
+    "Attribute8",
+    "Attribute10",
+    "Attribute11",
+    "Attribute12",
+    "Attribute14",
+    "Attribute15",
+    "Attribute16",
+    "Attribute17",
+    "Attribute18",
+    "Attribute19"
+  ],
+  "numeric_selected_features": [
+    "Attribute2",
+    "Attribute5",
+    "Attribute8",
+    "Attribute11",
+    "Attribute16",
+    "Attribute18"
+  ],
+  "categorical_selected_features": [
+    "Attribute1",
+    "Attribute3",
+    "Attribute4",
+    "Attribute6",
+    "Attribute7",
+    "Attribute10",
+    "Attribute12",
+    "Attribute14",
+    "Attribute15",
+    "Attribute17",
+    "Attribute19"
+  ]
+}

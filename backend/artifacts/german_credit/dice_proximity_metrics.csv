@@ -1,0 +1,13 @@
+case_id,counterfactual_id,normalized_proximity_score,changed_actionable_features,formula
+GER_XAI_003,GER_XAI_003_CF_001,0.39828129701047565,2,mean(abs(cf-original)/training_range) over changed actionable features
+GER_XAI_004,GER_XAI_004_CF_001,0.10755768897641384,2,mean(abs(cf-original)/training_range) over changed actionable features
+GER_XAI_005,GER_XAI_005_CF_001,0.4299162130868047,2,mean(abs(cf-original)/training_range) over changed actionable features
+GER_XAI_006,GER_XAI_006_CF_001,0.16208642177912713,2,mean(abs(cf-original)/training_range) over changed actionable features
+GER_XAI_007,GER_XAI_007_CF_001,0.026038675090943902,1,mean(abs(cf-original)/training_range) over changed actionable features
+GER_XAI_008,GER_XAI_008_CF_001,0.08125062680634192,2,mean(abs(cf-original)/training_range) over changed actionable features
+GER_XAI_009,GER_XAI_009_CF_001,0.053635248853514214,2,mean(abs(cf-original)/training_range) over changed actionable features
+GER_XAI_010,GER_XAI_010_CF_001,0.43374087142036594,2,mean(abs(cf-original)/training_range) over changed actionable features
+GER_XAI_016,GER_XAI_016_CF_001,0.028381221337855454,2,mean(abs(cf-original)/training_range) over changed actionable features
+GER_XAI_017,GER_XAI_017_CF_001,0.045312970104756434,2,mean(abs(cf-original)/training_range) over changed actionable features
+GER_XAI_019,GER_XAI_019_CF_001,0.3367682320870144,2,mean(abs(cf-original)/training_range) over changed actionable features
+GER_XAI_020,GER_XAI_020_CF_001,0.057273004932396086,2,mean(abs(cf-original)/training_range) over changed actionable features

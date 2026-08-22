@@ -1,0 +1,104 @@
+{
+  "dataset": "mstz/heloc risk configuration",
+  "xgboost_version": "3.2.0",
+  "raw_modelling_rows": 9870,
+  "selected_feature_count": 22,
+  "transformed_feature_count": 33,
+  "train_rows": 7896,
+  "test_rows": 1974,
+  "random_state": 42,
+  "decision_threshold": 0.5,
+  "target_semantics": {
+    "0": "not at risk",
+    "1": "at risk"
+  },
+  "selected_model": "Baseline XGBoost",
+  "selected_hyperparameters": {
+    "n_estimators": 200,
+    "max_depth": 3,
+    "learning_rate": 0.05,
+    "min_child_weight": 1,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "reg_alpha": 0.0,
+    "reg_lambda": 1.0,
+    "gamma": 0.0,
+    "objective": "binary:logistic",
+    "eval_metric": "logloss",
+    "random_state": 42,
+    "n_jobs": -1,
+    "tree_method": "hist",
+    "scale_pos_weight": 1.0
+  },
+  "best_search_hyperparameters": {
+    "subsample": 0.75,
+    "reg_lambda": 3.0,
+    "reg_alpha": 0.0,
+    "n_estimators": 250,
+    "min_child_weight": 5,
+    "max_depth": 2,
+    "learning_rate": 0.05,
+    "colsample_bytree": 0.9
+  },
+  "best_search_cv_roc_auc": 0.8077374540009309,
+  "cv_design": {
+    "method": "StratifiedKFold",
+    "n_splits": 5,
+    "shuffle": true,
+    "random_state": 42,
+    "scope": "training only",
+    "search_candidates": 8
+  },
+  "selection_rule": "highest mean CV ROC-AUC; within 0.005 use PR-AUC; then balanced accuracy; then simpler model",
+  "cv_selection_metrics": {
+    "roc_auc": {
+      "mean": 0.8040609541879833,
+      "std": 0.01440775587369994
+    },
+    "pr_auc": {
+      "mean": 0.7934971790271377,
+      "std": 0.021220021906491898
+    },
+    "balanced_accuracy": {
+      "mean": 0.737126231221222,
+      "std": 0.01594127325674472
+    },
+    "precision_positive": {
+      "mean": 0.7383386310401879,
+      "std": 0.015308429167838552
+    },
+    "recall_positive": {
+      "mean": 0.7704469950893664,
+      "std": 0.017476757987678837
+    },
+    "f1_positive": {
+      "mean": 0.754007807768061,
+      "std": 0.015089364514090842
+    }
+  },
+  "selection_reason": "CV metrics were effectively tied within 0.005; the simpler baseline was preferred.",
+  "final_holdout_metrics": {
+    "roc_auc": 0.8035614953797623,
+    "pr_auc": 0.8083680630254162,
+    "accuracy": 0.7315096251266464,
+    "balanced_accuracy": 0.7301631041088088,
+    "precision_positive": 0.7320261437908496,
+    "recall_positive": 0.7633885102239533,
+    "f1_positive": 0.7473784556720686,
+    "true_negative": 660,
+    "false_positive": 287,
+    "false_negative": 243,
+    "true_positive": 784,
+    "predicted_class_0_count": 903,
+    "predicted_class_1_count": 1071,
+    "predicted_positive_prevalence": 0.5425531914893617
+  },
+  "training_time_seconds": 0.23700950003694743,
+  "preprocessor_path": "backend\\artifacts\\heloc\\preprocessor.joblib",
+  "preprocessor_sha256": "41530519a87fd13db938baf64f2be4a51a52a0fd080d16067d94ac8ca4df7785",
+  "train_index_path": "backend\\artifacts\\heloc\\train_indices.csv",
+  "test_index_path": "backend\\artifacts\\heloc\\test_indices.csv",
+  "excluded_row_policy_reference": "backend\\artifacts\\heloc\\row_policy.json",
+  "selection_scope": "training CV only",
+  "test_used_for_model_selection": false
+}

@@ -1,0 +1,21 @@
+case_id,case_type,original_probability,original_class,desired_class,counterfactuals_requested,counterfactuals_found,valid_counterfactuals,best_counterfactual_probability,minimum_changed_features,best_proximity_score,generation_status,generation_message
+XAI_001,high-confidence positive,0.871334,1,0,1,1,1,0.22908402979373932,3.0,3.451275306710122,success,Loaded from independently validated recovery artifact
+XAI_002,high-confidence positive,0.86179584,1,0,1,1,1,0.38966742157936096,2.0,1.3966186126105082,success,Loaded from independently validated recovery artifact
+XAI_003,high-confidence positive,0.8516711,1,0,1,1,1,0.2861591875553131,1.0,1.3864145309778553,success,Loaded from independently validated recovery artifact
+XAI_004,high-confidence positive,0.845883,1,0,1,1,1,0.3982248902320862,1.0,1.123662602637472,success,Loaded from independently validated recovery artifact
+XAI_005,high-confidence positive,0.84454125,1,0,1,1,1,0.41897812485694885,1.0,1.1308783279422743,success,Loaded from independently validated recovery artifact
+XAI_006,borderline positive,0.5000003,1,0,1,1,1,0.4263119697570801,3.0,0.9324597119999373,success,Loaded from independently validated recovery artifact
+XAI_007,borderline positive,0.50000775,1,0,1,0,0,,,,error,
+XAI_008,borderline positive,0.50002277,1,0,1,0,0,,,,timeout,
+XAI_009,borderline positive,0.5000302,1,0,1,1,1,0.3259851038455963,3.0,4.6783329233729,success,Loaded from independently validated recovery artifact
+XAI_010,borderline positive,0.50004005,1,0,1,0,0,,,,timeout,
+XAI_011,high-confidence negative,0.010518629,0,1,1,0,0,,,,timeout,
+XAI_012,high-confidence negative,0.021245534,0,1,1,0,0,,,,timeout,
+XAI_013,high-confidence negative,0.023586474,0,1,1,0,0,,,,timeout,
+XAI_014,high-confidence negative,0.02601414,0,1,1,0,0,,,,error,
+XAI_015,high-confidence negative,0.02833911,0,1,1,0,0,,,,timeout,
+XAI_016,borderline negative,0.4999863,0,1,1,0,0,,,,timeout,
+XAI_017,borderline negative,0.49997818,0,1,1,1,1,0.6072993874549866,1.0,0.2754416521522767,success,Loaded from independently validated recovery artifact
+XAI_018,borderline negative,0.49997318,0,1,1,0,0,,,,timeout,
+XAI_019,borderline negative,0.49996042,0,1,1,0,0,,,,timeout,
+XAI_020,borderline negative,0.4999467,0,1,1,0,0,,,,timeout,

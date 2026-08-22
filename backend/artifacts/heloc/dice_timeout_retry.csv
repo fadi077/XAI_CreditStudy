@@ -1,0 +1,1 @@
+case_id,original_probability,original_class,desired_class,eligible_features_to_vary,start_time,elapsed_seconds,counterfactuals_requested,counterfactuals_found,generation_status,exception_class,error_message

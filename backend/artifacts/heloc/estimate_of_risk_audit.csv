@@ -1,0 +1,17 @@
+metric,value,scope,provenance_status,primary_model_decision
+unique_values,61.0,all rows,Construction and timing unresolved,EXCLUDE FROM PRIMARY MODEL DUE TO UNRESOLVED TARGET/SCORE-LEAKAGE RISK
+minimum,-9.0,all rows,Construction and timing unresolved,EXCLUDE FROM PRIMARY MODEL DUE TO UNRESOLVED TARGET/SCORE-LEAKAGE RISK
+maximum,94.0,all rows,Construction and timing unresolved,EXCLUDE FROM PRIMARY MODEL DUE TO UNRESOLVED TARGET/SCORE-LEAKAGE RISK
+special_coded_rows,598.0,all rows,Construction and timing unresolved,EXCLUDE FROM PRIMARY MODEL DUE TO UNRESOLVED TARGET/SCORE-LEAKAGE RISK
+point_biserial_correlation,-0.21676982197108877,raw including special codes,Construction and timing unresolved,EXCLUDE FROM PRIMARY MODEL DUE TO UNRESOLVED TARGET/SCORE-LEAKAGE RISK
+point_biserial_pvalue,1.8554901363900964e-111,raw including special codes,Construction and timing unresolved,EXCLUDE FROM PRIMARY MODEL DUE TO UNRESOLVED TARGET/SCORE-LEAKAGE RISK
+point_biserial_correlation,-0.4603807114981559,valid values >= 0,Construction and timing unresolved,EXCLUDE FROM PRIMARY MODEL DUE TO UNRESOLVED TARGET/SCORE-LEAKAGE RISK
+point_biserial_pvalue,0.0,valid values >= 0,Construction and timing unresolved,EXCLUDE FROM PRIMARY MODEL DUE TO UNRESOLVED TARGET/SCORE-LEAKAGE RISK
+mean,72.2096,"target=0, raw",Construction and timing unresolved,EXCLUDE FROM PRIMARY MODEL DUE TO UNRESOLVED TARGET/SCORE-LEAKAGE RISK
+median,77.0,"target=0, raw",Construction and timing unresolved,EXCLUDE FROM PRIMARY MODEL DUE TO UNRESOLVED TARGET/SCORE-LEAKAGE RISK
+mean,76.7908303401648,"target=0, valid >= 0",Construction and timing unresolved,EXCLUDE FROM PRIMARY MODEL DUE TO UNRESOLVED TARGET/SCORE-LEAKAGE RISK
+median,78.0,"target=0, valid >= 0",Construction and timing unresolved,EXCLUDE FROM PRIMARY MODEL DUE TO UNRESOLVED TARGET/SCORE-LEAKAGE RISK
+mean,63.044147279721564,"target=1, raw",Construction and timing unresolved,EXCLUDE FROM PRIMARY MODEL DUE TO UNRESOLVED TARGET/SCORE-LEAKAGE RISK
+median,66.0,"target=1, raw",Construction and timing unresolved,EXCLUDE FROM PRIMARY MODEL DUE TO UNRESOLVED TARGET/SCORE-LEAKAGE RISK
+mean,67.69442277691108,"target=1, valid >= 0",Construction and timing unresolved,EXCLUDE FROM PRIMARY MODEL DUE TO UNRESOLVED TARGET/SCORE-LEAKAGE RISK
+median,67.0,"target=1, valid >= 0",Construction and timing unresolved,EXCLUDE FROM PRIMARY MODEL DUE TO UNRESOLVED TARGET/SCORE-LEAKAGE RISK

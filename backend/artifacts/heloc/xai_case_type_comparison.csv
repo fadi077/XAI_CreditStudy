@@ -1,0 +1,5 @@
+case_type,case_count,mean_top_5_overlap_count,mean_top_5_jaccard,mean_direction_agreement_rate,mean_shap_features_for_50_percent,mean_shap_features_for_80_percent,mean_lime_features_for_50_percent,mean_lime_features_for_80_percent,dice_counterfactual_availability_rate,mean_dice_changed_modifiable_features
+high-confidence positive,5,3.6,0.5714285714285714,1.0,3.0,7.0,2.4,4.0,0.0,
+borderline positive,5,4.2,0.7333333333333333,1.0,3.0,6.4,2.0,4.0,0.6,2.6666666666666665
+high-confidence negative,5,4.0,0.6666666666666666,0.8,3.0,6.0,2.6,4.0,0.0,
+borderline negative,5,3.8,0.638095238095238,1.0,3.4,6.6,2.0,4.0,1.0,2.8

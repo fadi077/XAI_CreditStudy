@@ -1,0 +1,25 @@
+case_id,counterfactual_id,feature,display_feature,original_value,counterfactual_value,absolute_change,relative_change,changed,counterfactual_modifiable,eligible_for_this_case,at_lower_boundary,at_upper_boundary,special_state_preserved
+HELOC_XAI_006,HELOC_XAI_006_CF_01,net_fraction_of_revolving_burden,Revolving burden,59.0,58.0,1.0,-0.01694915254237288,True,True,True,False,False,True
+HELOC_XAI_006,HELOC_XAI_006_CF_01,net_fraction_of_installment_burden,Installment burden,44.0,46.0,2.0,0.045454545454545456,True,True,True,False,False,True
+HELOC_XAI_006,HELOC_XAI_006_CF_01,percentage_trades_with_balance,Percentage of trades with balance,47.0,50.0,3.0,0.06382978723404255,True,True,True,False,False,True
+HELOC_XAI_008,HELOC_XAI_008_CF_01,net_fraction_of_revolving_burden,Revolving burden,91.0,55.0,36.0,-0.3956043956043956,True,True,True,False,False,True
+HELOC_XAI_008,HELOC_XAI_008_CF_01,net_fraction_of_installment_burden,Installment burden,47.0,65.0,18.0,0.3829787234042553,True,True,True,False,False,True
+HELOC_XAI_008,HELOC_XAI_008_CF_01,percentage_trades_with_balance,Percentage of trades with balance,63.0,62.0,1.0,-0.015873015873015872,True,True,True,False,False,True
+HELOC_XAI_009,HELOC_XAI_009_CF_01,net_fraction_of_revolving_burden,Revolving burden,2.0,2.0,0.0,,False,True,True,False,False,True
+HELOC_XAI_009,HELOC_XAI_009_CF_01,net_fraction_of_installment_burden,Installment burden,28.0,35.0,7.0,0.25,True,True,True,False,False,True
+HELOC_XAI_009,HELOC_XAI_009_CF_01,percentage_trades_with_balance,Percentage of trades with balance,58.0,44.0,14.0,-0.2413793103448276,True,True,True,False,False,True
+HELOC_XAI_016,HELOC_XAI_016_CF_01,net_fraction_of_revolving_burden,Revolving burden,46.0,66.0,20.0,0.43478260869565216,True,True,True,False,False,True
+HELOC_XAI_016,HELOC_XAI_016_CF_01,net_fraction_of_installment_burden,Installment burden,81.0,84.0,3.0,0.037037037037037035,True,True,True,False,False,True
+HELOC_XAI_016,HELOC_XAI_016_CF_01,percentage_trades_with_balance,Percentage of trades with balance,71.0,70.0,1.0,-0.014084507042253521,True,True,True,False,False,True
+HELOC_XAI_017,HELOC_XAI_017_CF_01,net_fraction_of_revolving_burden,Revolving burden,52.0,56.0,4.0,0.07692307692307693,True,True,True,False,False,True
+HELOC_XAI_017,HELOC_XAI_017_CF_01,net_fraction_of_installment_burden,Installment burden,79.0,91.0,12.0,0.1518987341772152,True,True,True,False,False,True
+HELOC_XAI_017,HELOC_XAI_017_CF_01,percentage_trades_with_balance,Percentage of trades with balance,75.0,73.0,2.0,-0.02666666666666667,True,True,True,False,False,True
+HELOC_XAI_018,HELOC_XAI_018_CF_01,net_fraction_of_revolving_burden,Revolving burden,2.0,18.0,16.0,8.0,True,True,True,False,False,True
+HELOC_XAI_018,HELOC_XAI_018_CF_01,net_fraction_of_installment_burden,Installment burden,-8.0,-8.0,0.0,,False,True,False,False,False,True
+HELOC_XAI_018,HELOC_XAI_018_CF_01,percentage_trades_with_balance,Percentage of trades with balance,57.0,56.0,1.0,-0.017543859649122806,True,True,True,False,False,True
+HELOC_XAI_019,HELOC_XAI_019_CF_01,net_fraction_of_revolving_burden,Revolving burden,2.0,9.0,7.0,3.5,True,True,True,False,False,True
+HELOC_XAI_019,HELOC_XAI_019_CF_01,net_fraction_of_installment_burden,Installment burden,67.0,75.0,8.0,0.11940298507462686,True,True,True,False,False,True
+HELOC_XAI_019,HELOC_XAI_019_CF_01,percentage_trades_with_balance,Percentage of trades with balance,44.0,53.0,9.0,0.20454545454545456,True,True,True,False,False,True
+HELOC_XAI_020,HELOC_XAI_020_CF_01,net_fraction_of_revolving_burden,Revolving burden,46.0,63.0,17.0,0.3695652173913043,True,True,True,False,False,True
+HELOC_XAI_020,HELOC_XAI_020_CF_01,net_fraction_of_installment_burden,Installment burden,46.0,50.0,4.0,0.08695652173913043,True,True,True,False,False,True
+HELOC_XAI_020,HELOC_XAI_020_CF_01,percentage_trades_with_balance,Percentage of trades with balance,86.0,91.0,5.0,0.05813953488372093,True,True,True,False,False,True

@@ -1,0 +1,122 @@
+feature,dtype,missing_count,missing_percentage,unique_values,feature_category,candidate_status,actionability,notes
+SK_ID_CURR,int64,0,0.0,307511,Identifier,Exclude,Not applicable,Unique applicant identifier; should not be used as an explanatory credit-risk factor.
+NAME_CONTRACT_TYPE,object,0,0.0,2,Loan/Application,Candidate,Review,Requires manual research review.
+CODE_GENDER,object,0,0.0,3,Demographic,Review,Non-actionable,Potentially sensitive or immutable personal characteristic; flag for fairness and actionability review without drawing a legal conclusion.
+FLAG_OWN_CAR,object,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+FLAG_OWN_REALTY,object,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+CNT_CHILDREN,int64,0,0.0,15,Demographic,Review,Non-actionable,Potentially sensitive or immutable personal characteristic; flag for fairness and actionability review without drawing a legal conclusion.
+AMT_INCOME_TOTAL,float64,0,0.0,2548,Income,Strong candidate,Partially actionable,Human-readable financial or application characteristic proposed for explainability-focused modelling review.
+AMT_CREDIT,float64,0,0.0,5603,Loan/Application,Strong candidate,Actionable,Human-readable financial or application characteristic proposed for explainability-focused modelling review.
+AMT_ANNUITY,float64,12,0.003902299429939092,13672,Loan/Application,Strong candidate,Actionable,Human-readable financial or application characteristic proposed for explainability-focused modelling review.
+AMT_GOODS_PRICE,float64,278,0.09040327012692229,1002,Loan/Application,Strong candidate,Actionable,Human-readable financial or application characteristic proposed for explainability-focused modelling review.
+NAME_TYPE_SUITE,object,1292,0.42014757195677555,7,Family,Candidate,Review,Requires manual research review.
+NAME_INCOME_TYPE,object,0,0.0,8,Employment,Strong candidate,Partially actionable,Human-readable financial or application characteristic proposed for explainability-focused modelling review.
+NAME_EDUCATION_TYPE,object,0,0.0,5,Demographic,Review,Non-actionable,Potentially sensitive or immutable personal characteristic; flag for fairness and actionability review without drawing a legal conclusion.
+NAME_FAMILY_STATUS,object,0,0.0,6,Demographic,Review,Non-actionable,Potentially sensitive or immutable personal characteristic; flag for fairness and actionability review without drawing a legal conclusion.
+NAME_HOUSING_TYPE,object,0,0.0,6,Housing,Strong candidate,Partially actionable,Human-readable financial or application characteristic proposed for explainability-focused modelling review.
+REGION_POPULATION_RELATIVE,float64,0,0.0,81,Geographic/Region,Candidate,Review,Requires manual research review.
+DAYS_BIRTH,int64,0,0.0,17460,Demographic,Review,Non-actionable,Potentially sensitive or immutable personal characteristic; flag for fairness and actionability review without drawing a legal conclusion.
+DAYS_EMPLOYED,int64,0,0.0,12574,Employment,Strong candidate,Partially actionable,Human-readable financial or application characteristic proposed for explainability-focused modelling review.
+DAYS_REGISTRATION,float64,0,0.0,15688,Employment,Candidate,Review,Requires manual research review.
+DAYS_ID_PUBLISH,int64,0,0.0,6168,Other,Candidate,Review,Requires manual research review.
+OWN_CAR_AGE,float64,202929,65.9908100848425,62,Housing,Review/Exclude,Review,More than 60% missing; retain for manual review rather than automatic removal.
+FLAG_MOBIL,int64,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+FLAG_EMP_PHONE,int64,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+FLAG_WORK_PHONE,int64,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+FLAG_CONT_MOBILE,int64,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+FLAG_PHONE,int64,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+FLAG_EMAIL,int64,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+OCCUPATION_TYPE,object,96391,31.345545362604916,18,Employment,Candidate,Review,Requires manual research review.
+CNT_FAM_MEMBERS,float64,2,0.0006503832383231819,17,Family,Review,Non-actionable,Potentially sensitive or immutable personal characteristic; flag for fairness and actionability review without drawing a legal conclusion.
+REGION_RATING_CLIENT,int64,0,0.0,3,Geographic/Region,Strong candidate,Partially actionable,Human-readable financial or application characteristic proposed for explainability-focused modelling review.
+REGION_RATING_CLIENT_W_CITY,int64,0,0.0,3,Geographic/Region,Strong candidate,Partially actionable,Human-readable financial or application characteristic proposed for explainability-focused modelling review.
+WEEKDAY_APPR_PROCESS_START,object,0,0.0,7,Loan/Application,Candidate,Review,Requires manual research review.
+HOUR_APPR_PROCESS_START,int64,0,0.0,24,Loan/Application,Candidate,Review,Requires manual research review.
+REG_REGION_NOT_LIVE_REGION,int64,0,0.0,2,Geographic/Region,Candidate,Review,Requires manual research review.
+REG_REGION_NOT_WORK_REGION,int64,0,0.0,2,Geographic/Region,Candidate,Review,Requires manual research review.
+LIVE_REGION_NOT_WORK_REGION,int64,0,0.0,2,Geographic/Region,Candidate,Review,Requires manual research review.
+REG_CITY_NOT_LIVE_CITY,int64,0,0.0,2,Geographic/Region,Candidate,Review,Requires manual research review.
+REG_CITY_NOT_WORK_CITY,int64,0,0.0,2,Geographic/Region,Candidate,Review,Requires manual research review.
+LIVE_CITY_NOT_WORK_CITY,int64,0,0.0,2,Geographic/Region,Candidate,Review,Requires manual research review.
+ORGANIZATION_TYPE,object,0,0.0,58,Employment,Candidate,Review,Requires manual research review.
+EXT_SOURCE_1,float64,173378,56.381072546998325,114584,External Credit Score,Review,Non-actionable,May provide predictive value but is difficult to explain directly to ordinary users without additional context.
+EXT_SOURCE_2,float64,660,0.21462646864665005,119831,External Credit Score,Review,Non-actionable,May provide predictive value but is difficult to explain directly to ordinary users without additional context.
+EXT_SOURCE_3,float64,60965,19.825307062186393,814,External Credit Score,Review,Non-actionable,May provide predictive value but is difficult to explain directly to ordinary users without additional context.
+APARTMENTS_AVG,float64,156061,50.74972927797705,2339,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+BASEMENTAREA_AVG,float64,179943,58.51595552679416,3780,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+YEARS_BEGINEXPLUATATION_AVG,float64,150007,48.781019215572776,285,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+YEARS_BUILD_AVG,float64,204488,66.49778381911543,149,Property/Building,Review/Exclude,Review,More than 60% missing; retain for manual review rather than automatic removal.
+COMMONAREA_AVG,float64,214865,69.87229725115525,3181,Property/Building,Review/Exclude,Review,More than 60% missing; retain for manual review rather than automatic removal.
+ELEVATORS_AVG,float64,163891,53.29597965601231,257,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+ENTRANCES_AVG,float64,154828,50.3487680115508,285,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+FLOORSMAX_AVG,float64,153020,49.76082156410665,403,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+FLOORSMIN_AVG,float64,208642,67.84862980511267,305,Property/Building,Review/Exclude,Review,More than 60% missing; retain for manual review rather than automatic removal.
+LANDAREA_AVG,float64,182590,59.376737742714894,3527,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+LIVINGAPARTMENTS_AVG,float64,210199,68.35495315614726,1868,Property/Building,Review/Exclude,Review,More than 60% missing; retain for manual review rather than automatic removal.
+LIVINGAREA_AVG,float64,154350,50.193326417591564,5199,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+NONLIVINGAPARTMENTS_AVG,float64,213514,69.43296337366793,386,Property/Building,Review/Exclude,Review,More than 60% missing; retain for manual review rather than automatic removal.
+NONLIVINGAREA_AVG,float64,169682,55.17916432257708,3290,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+APARTMENTS_MODE,float64,156061,50.74972927797705,760,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+BASEMENTAREA_MODE,float64,179943,58.51595552679416,3841,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+YEARS_BEGINEXPLUATATION_MODE,float64,150007,48.781019215572776,221,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+YEARS_BUILD_MODE,float64,204488,66.49778381911543,154,Property/Building,Review/Exclude,Review,More than 60% missing; retain for manual review rather than automatic removal.
+COMMONAREA_MODE,float64,214865,69.87229725115525,3128,Property/Building,Review/Exclude,Review,More than 60% missing; retain for manual review rather than automatic removal.
+ELEVATORS_MODE,float64,163891,53.29597965601231,26,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+ENTRANCES_MODE,float64,154828,50.3487680115508,30,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+FLOORSMAX_MODE,float64,153020,49.76082156410665,25,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+FLOORSMIN_MODE,float64,208642,67.84862980511267,25,Property/Building,Review/Exclude,Review,More than 60% missing; retain for manual review rather than automatic removal.
+LANDAREA_MODE,float64,182590,59.376737742714894,3563,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+LIVINGAPARTMENTS_MODE,float64,210199,68.35495315614726,736,Property/Building,Review/Exclude,Review,More than 60% missing; retain for manual review rather than automatic removal.
+LIVINGAREA_MODE,float64,154350,50.193326417591564,5301,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+NONLIVINGAPARTMENTS_MODE,float64,213514,69.43296337366793,167,Property/Building,Review/Exclude,Review,More than 60% missing; retain for manual review rather than automatic removal.
+NONLIVINGAREA_MODE,float64,169682,55.17916432257708,3327,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+APARTMENTS_MEDI,float64,156061,50.74972927797705,1148,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+BASEMENTAREA_MEDI,float64,179943,58.51595552679416,3772,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+YEARS_BEGINEXPLUATATION_MEDI,float64,150007,48.781019215572776,245,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+YEARS_BUILD_MEDI,float64,204488,66.49778381911543,151,Property/Building,Review/Exclude,Review,More than 60% missing; retain for manual review rather than automatic removal.
+COMMONAREA_MEDI,float64,214865,69.87229725115525,3202,Property/Building,Review/Exclude,Review,More than 60% missing; retain for manual review rather than automatic removal.
+ELEVATORS_MEDI,float64,163891,53.29597965601231,46,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+ENTRANCES_MEDI,float64,154828,50.3487680115508,46,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+FLOORSMAX_MEDI,float64,153020,49.76082156410665,49,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+FLOORSMIN_MEDI,float64,208642,67.84862980511267,47,Property/Building,Review/Exclude,Review,More than 60% missing; retain for manual review rather than automatic removal.
+LANDAREA_MEDI,float64,182590,59.376737742714894,3560,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+LIVINGAPARTMENTS_MEDI,float64,210199,68.35495315614726,1097,Property/Building,Review/Exclude,Review,More than 60% missing; retain for manual review rather than automatic removal.
+LIVINGAREA_MEDI,float64,154350,50.193326417591564,5281,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+NONLIVINGAPARTMENTS_MEDI,float64,213514,69.43296337366793,214,Property/Building,Review/Exclude,Review,More than 60% missing; retain for manual review rather than automatic removal.
+NONLIVINGAREA_MEDI,float64,169682,55.17916432257708,3323,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+FONDKAPREMONT_MODE,object,210295,68.38617155158677,4,Property/Building,Review/Exclude,Review,More than 60% missing; retain for manual review rather than automatic removal.
+HOUSETYPE_MODE,object,154297,50.176091261776,3,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+TOTALAREA_MODE,float64,148431,48.26851722377411,5116,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+WALLSMATERIAL_MODE,object,156341,50.8407829313423,7,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+EMERGENCYSTATE_MODE,object,145755,47.39830445089769,2,Property/Building,Review,Review,Repeated AVG/MODE/MEDI property measure; review for redundancy before selection.
+OBS_30_CNT_SOCIAL_CIRCLE,float64,1021,0.3320206431639844,33,Other,Candidate,Review,Requires manual research review.
+DEF_30_CNT_SOCIAL_CIRCLE,float64,1021,0.3320206431639844,10,Other,Candidate,Review,Requires manual research review.
+OBS_60_CNT_SOCIAL_CIRCLE,float64,1021,0.3320206431639844,33,Other,Candidate,Review,Requires manual research review.
+DEF_60_CNT_SOCIAL_CIRCLE,float64,1021,0.3320206431639844,9,Other,Candidate,Review,Requires manual research review.
+DAYS_LAST_PHONE_CHANGE,float64,1,0.00032519161916159093,3773,Contact Information,Candidate,Review,Requires manual research review.
+FLAG_DOCUMENT_2,int64,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+FLAG_DOCUMENT_3,int64,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+FLAG_DOCUMENT_4,int64,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+FLAG_DOCUMENT_5,int64,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+FLAG_DOCUMENT_6,int64,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+FLAG_DOCUMENT_7,int64,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+FLAG_DOCUMENT_8,int64,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+FLAG_DOCUMENT_9,int64,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+FLAG_DOCUMENT_10,int64,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+FLAG_DOCUMENT_11,int64,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+FLAG_DOCUMENT_12,int64,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+FLAG_DOCUMENT_13,int64,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+FLAG_DOCUMENT_14,int64,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+FLAG_DOCUMENT_15,int64,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+FLAG_DOCUMENT_16,int64,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+FLAG_DOCUMENT_17,int64,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+FLAG_DOCUMENT_18,int64,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+FLAG_DOCUMENT_19,int64,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+FLAG_DOCUMENT_20,int64,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+FLAG_DOCUMENT_21,int64,0,0.0,2,Document/Flag,Candidate,Review,Requires manual research review.
+AMT_REQ_CREDIT_BUREAU_HOUR,float64,41519,13.501630835970097,5,Credit Bureau Request,Candidate,Partially actionable,Recent credit-enquiry activity may be understandable with appropriate time-window context.
+AMT_REQ_CREDIT_BUREAU_DAY,float64,41519,13.501630835970097,9,Credit Bureau Request,Candidate,Partially actionable,Recent credit-enquiry activity may be understandable with appropriate time-window context.
+AMT_REQ_CREDIT_BUREAU_WEEK,float64,41519,13.501630835970097,9,Credit Bureau Request,Candidate,Partially actionable,Recent credit-enquiry activity may be understandable with appropriate time-window context.
+AMT_REQ_CREDIT_BUREAU_MON,float64,41519,13.501630835970097,24,Credit Bureau Request,Candidate,Partially actionable,Recent credit-enquiry activity may be understandable with appropriate time-window context.
+AMT_REQ_CREDIT_BUREAU_QRT,float64,41519,13.501630835970097,11,Credit Bureau Request,Candidate,Partially actionable,Recent credit-enquiry activity may be understandable with appropriate time-window context.
+AMT_REQ_CREDIT_BUREAU_YEAR,float64,41519,13.501630835970097,25,Credit Bureau Request,Candidate,Partially actionable,Recent credit-enquiry activity may be understandable with appropriate time-window context.

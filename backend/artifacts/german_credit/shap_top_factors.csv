@@ -1,0 +1,101 @@
+case_id,row_index,true_target,predicted_class,predicted_probability,original_feature,display_feature,display_value,shap_value,direction,rank
+GER_XAI_001,11,1,1,0.9466822,Attribute1,Checking account status,< 0 DM,0.705203652381897,increases higher-risk model output,1
+GER_XAI_001,11,1,1,0.9466822,Attribute2,Credit duration (months),48,0.597124457359314,increases higher-risk model output,2
+GER_XAI_001,11,1,1,0.9466822,Attribute15,Housing,Rent,0.3380677103996277,increases higher-risk model output,3
+GER_XAI_001,11,1,1,0.9466822,Attribute7,Employment duration,< 1 year,0.32426851987838745,increases higher-risk model output,4
+GER_XAI_001,11,1,1,0.9466822,Attribute5,Credit amount (DM),4308,0.3235289454460144,increases higher-risk model output,5
+GER_XAI_002,832,1,1,0.9256946,Attribute1,Checking account status,< 0 DM,0.7113206386566162,increases higher-risk model output,1
+GER_XAI_002,832,1,1,0.9256946,Attribute5,Credit amount (DM),11816,0.4365296959877014,increases higher-risk model output,2
+GER_XAI_002,832,1,1,0.9256946,Attribute2,Credit duration (months),45,0.4109317362308502,increases higher-risk model output,3
+GER_XAI_002,832,1,1,0.9256946,Attribute15,Housing,Rent,0.4056885838508606,increases higher-risk model output,4
+GER_XAI_002,832,1,1,0.9256946,Attribute6,Savings account status,< 100 DM,0.2900281548500061,increases higher-risk model output,5
+GER_XAI_003,998,1,1,0.90678245,Attribute1,Checking account status,< 0 DM,0.9515525102615356,increases higher-risk model output,1
+GER_XAI_003,998,1,1,0.90678245,Attribute2,Credit duration (months),45,0.7273722290992737,increases higher-risk model output,2
+GER_XAI_003,998,1,1,0.90678245,Attribute12,Property,Unknown or no property,0.3799835741519928,increases higher-risk model output,3
+GER_XAI_003,998,1,1,0.90678245,Attribute6,Savings account status,< 100 DM,0.27857524156570435,increases higher-risk model output,4
+GER_XAI_003,998,1,1,0.90678245,Attribute3,Credit history,Existing credits paid duly to date,0.18507495522499084,increases higher-risk model output,5
+GER_XAI_004,831,1,1,0.9063597,Attribute1,Checking account status,< 0 DM,0.796061098575592,increases higher-risk model output,1
+GER_XAI_004,831,1,1,0.9063597,Attribute15,Housing,Rent,0.2964092195034027,increases higher-risk model output,2
+GER_XAI_004,831,1,1,0.9063597,Attribute19,Registered telephone,"Yes, registered in applicant's name",-0.25853389501571655,decreases higher-risk model output,3
+GER_XAI_004,831,1,1,0.9063597,Attribute4,Credit purpose,New car,0.25703170895576477,increases higher-risk model output,4
+GER_XAI_004,831,1,1,0.9063597,Attribute7,Employment duration,< 1 year,0.24684949219226837,increases higher-risk model output,5
+GER_XAI_005,141,0,1,0.9055074,Attribute2,Credit duration (months),36,0.5244861245155334,increases higher-risk model output,1
+GER_XAI_005,141,0,1,0.9055074,Attribute12,Property,Unknown or no property,0.39622026681900024,increases higher-risk model output,2
+GER_XAI_005,141,0,1,0.9055074,Attribute7,Employment duration,< 1 year,0.3590930700302124,increases higher-risk model output,3
+GER_XAI_005,141,0,1,0.9055074,Attribute5,Credit amount (DM),4795,0.35387977957725525,increases higher-risk model output,4
+GER_XAI_005,141,0,1,0.9055074,Attribute1,Checking account status,0 to < 200 DM,0.3333733379840851,increases higher-risk model output,5
+GER_XAI_006,273,1,1,0.5018516,Attribute2,Credit duration (months),48,0.761662483215332,increases higher-risk model output,1
+GER_XAI_006,273,1,1,0.5018516,Attribute7,Employment duration,4 to < 7 years,-0.5168555378913879,decreases higher-risk model output,2
+GER_XAI_006,273,1,1,0.5018516,Attribute5,Credit amount (DM),3060,-0.5153619647026062,decreases higher-risk model output,3
+GER_XAI_006,273,1,1,0.5018516,Attribute1,Checking account status,0 to < 200 DM,0.3171025812625885,increases higher-risk model output,4
+GER_XAI_006,273,1,1,0.5018516,Attribute6,Savings account status,< 100 DM,0.2592126727104187,increases higher-risk model output,5
+GER_XAI_007,653,1,1,0.5034409,Attribute2,Credit duration (months),36,0.3988434374332428,increases higher-risk model output,1
+GER_XAI_007,653,1,1,0.5034409,Attribute6,Savings account status,100 to < 500 DM,-0.31021010875701904,decreases higher-risk model output,2
+GER_XAI_007,653,1,1,0.5034409,Attribute3,Credit history,Past payment delay,-0.23656818270683289,decreases higher-risk model output,3
+GER_XAI_007,653,1,1,0.5034409,Attribute8,Installment rate (% disposable income),2,-0.21304841339588165,decreases higher-risk model output,4
+GER_XAI_007,653,1,1,0.5034409,Attribute1,Checking account status,0 to < 200 DM,0.19226913154125214,increases higher-risk model output,5
+GER_XAI_008,944,0,1,0.5135554,Attribute10,Other debtors or guarantors,Guarantor,-0.5416860580444336,decreases higher-risk model output,1
+GER_XAI_008,944,0,1,0.5135554,Attribute2,Credit duration (months),15,-0.41306114196777344,decreases higher-risk model output,2
+GER_XAI_008,944,0,1,0.5135554,Attribute15,Housing,Rent,0.39137956500053406,increases higher-risk model output,3
+GER_XAI_008,944,0,1,0.5135554,Attribute1,Checking account status,< 0 DM,0.3743685185909271,increases higher-risk model output,4
+GER_XAI_008,944,0,1,0.5135554,Attribute7,Employment duration,< 1 year,0.29825276136398315,increases higher-risk model output,5
+GER_XAI_009,992,0,1,0.51524305,Attribute1,Checking account status,< 0 DM,0.859383225440979,increases higher-risk model output,1
+GER_XAI_009,992,0,1,0.51524305,Attribute7,Employment duration,4 to < 7 years,-0.6156181693077087,decreases higher-risk model output,2
+GER_XAI_009,992,0,1,0.51524305,Attribute6,Savings account status,Unknown or no savings account,-0.5556665658950806,decreases higher-risk model output,3
+GER_XAI_009,992,0,1,0.51524305,Attribute15,Housing,Rent,0.2846178412437439,increases higher-risk model output,4
+GER_XAI_009,992,0,1,0.51524305,Attribute3,Credit history,Existing credits paid duly to date,0.23801454901695251,increases higher-risk model output,5
+GER_XAI_010,677,1,1,0.5176819,Attribute2,Credit duration (months),72,0.4556901156902313,increases higher-risk model output,1
+GER_XAI_010,677,1,1,0.5176819,Attribute1,Checking account status,0 to < 200 DM,0.30092889070510864,increases higher-risk model output,2
+GER_XAI_010,677,1,1,0.5176819,Attribute5,Credit amount (DM),5595,-0.22750656306743622,decreases higher-risk model output,3
+GER_XAI_010,677,1,1,0.5176819,Attribute8,Installment rate (% disposable income),2,-0.18865498900413513,decreases higher-risk model output,4
+GER_XAI_010,677,1,1,0.5176819,Attribute3,Credit history,Existing credits paid duly to date,0.15700513124465942,increases higher-risk model output,5
+GER_XAI_011,817,0,0,0.011951139,Attribute1,Checking account status,No checking account,-1.1703389883041382,decreases higher-risk model output,1
+GER_XAI_011,817,0,0,0.011951139,Attribute2,Credit duration (months),6,-1.1680001020431519,decreases higher-risk model output,2
+GER_XAI_011,817,0,0,0.011951139,Attribute7,Employment duration,4 to < 7 years,-0.6682717204093933,decreases higher-risk model output,3
+GER_XAI_011,817,0,0,0.011951139,Attribute3,Credit history,Critical account or other existing credits,-0.6544923782348633,decreases higher-risk model output,4
+GER_XAI_011,817,0,0,0.011951139,Attribute5,Credit amount (DM),1554,-0.4856570363044739,decreases higher-risk model output,5
+GER_XAI_012,234,0,0,0.012772601,Attribute2,Credit duration (months),4,-1.3163254261016846,decreases higher-risk model output,1
+GER_XAI_012,234,0,0,0.012772601,Attribute1,Checking account status,No checking account,-0.9142463207244873,decreases higher-risk model output,2
+GER_XAI_012,234,0,0,0.012772601,Attribute3,Credit history,Critical account or other existing credits,-0.6435381174087524,decreases higher-risk model output,3
+GER_XAI_012,234,0,0,0.012772601,Attribute7,Employment duration,4 to < 7 years,-0.4539720118045807,decreases higher-risk model output,4
+GER_XAI_012,234,0,0,0.012772601,Attribute5,Credit amount (DM),1544,-0.3699212670326233,decreases higher-risk model output,5
+GER_XAI_013,159,0,0,0.014923423,Attribute2,Credit duration (months),6,-1.239925742149353,decreases higher-risk model output,1
+GER_XAI_013,159,0,0,0.014923423,Attribute1,Checking account status,No checking account,-0.8234429359436035,decreases higher-risk model output,2
+GER_XAI_013,159,0,0,0.014923423,Attribute3,Credit history,Critical account or other existing credits,-0.6638224124908447,decreases higher-risk model output,3
+GER_XAI_013,159,0,0,0.014923423,Attribute6,Savings account status,Unknown or no savings account,-0.30801698565483093,decreases higher-risk model output,4
+GER_XAI_013,159,0,0,0.014923423,Attribute4,Credit purpose,Radio or television,-0.25401583313941956,decreases higher-risk model output,5
+GER_XAI_014,523,0,0,0.020744441,Attribute1,Checking account status,No checking account,-1.3455818891525269,decreases higher-risk model output,1
+GER_XAI_014,523,0,0,0.020744441,Attribute5,Credit amount (DM),3488,-0.9505359530448914,decreases higher-risk model output,2
+GER_XAI_014,523,0,0,0.020744441,Attribute4,Credit purpose,Used car,-0.8815328478813171,decreases higher-risk model output,3
+GER_XAI_014,523,0,0,0.020744441,Attribute7,Employment duration,4 to < 7 years,-0.6675464510917664,decreases higher-risk model output,4
+GER_XAI_014,523,0,0,0.020744441,Attribute14,Other installment plans,None,-0.17921097576618195,decreases higher-risk model output,5
+GER_XAI_015,860,0,0,0.024179073,Attribute1,Checking account status,No checking account,-1.00606369972229,decreases higher-risk model output,1
+GER_XAI_015,860,0,0,0.024179073,Attribute4,Credit purpose,Used car,-0.9602343440055847,decreases higher-risk model output,2
+GER_XAI_015,860,0,0,0.024179073,Attribute6,Savings account status,>= 1000 DM,-0.6195804476737976,decreases higher-risk model output,3
+GER_XAI_015,860,0,0,0.024179073,Attribute3,Credit history,Critical account or other existing credits,-0.6101912260055542,decreases higher-risk model output,4
+GER_XAI_015,860,0,0,0.024179073,Attribute14,Other installment plans,None,-0.28222328424453735,decreases higher-risk model output,5
+GER_XAI_016,293,0,0,0.48432785,Attribute4,Credit purpose,Used car,-0.9046198129653931,decreases higher-risk model output,1
+GER_XAI_016,293,0,0,0.48432785,Attribute3,Credit history,Critical account or other existing credits,-0.4631853699684143,decreases higher-risk model output,2
+GER_XAI_016,293,0,0,0.48432785,Attribute2,Credit duration (months),42,0.45183438062667847,increases higher-risk model output,3
+GER_XAI_016,293,0,0,0.48432785,Attribute12,Property,Unknown or no property,0.32786235213279724,increases higher-risk model output,4
+GER_XAI_016,293,0,0,0.48432785,Attribute6,Savings account status,< 100 DM,0.23457571864128113,increases higher-risk model output,5
+GER_XAI_017,297,0,0,0.48025113,Attribute1,Checking account status,No checking account,-0.822830080986023,decreases higher-risk model output,1
+GER_XAI_017,297,0,0,0.48025113,Attribute10,Other debtors or guarantors,Co-applicant,0.5463712811470032,increases higher-risk model output,2
+GER_XAI_017,297,0,0,0.48025113,Attribute2,Credit duration (months),10,-0.3419552147388458,decreases higher-risk model output,3
+GER_XAI_017,297,0,0,0.48025113,Attribute4,Credit purpose,New car,0.3013955354690552,increases higher-risk model output,4
+GER_XAI_017,297,0,0,0.48025113,Attribute6,Savings account status,Unknown or no savings account,-0.22659020125865936,decreases higher-risk model output,5
+GER_XAI_018,579,0,0,0.47793216,Attribute1,Checking account status,No checking account,-1.3389636278152466,decreases higher-risk model output,1
+GER_XAI_018,579,0,0,0.47793216,Attribute7,Employment duration,< 1 year,0.42783764004707336,increases higher-risk model output,2
+GER_XAI_018,579,0,0,0.47793216,Attribute2,Credit duration (months),24,0.2421344667673111,increases higher-risk model output,3
+GER_XAI_018,579,0,0,0.47793216,Attribute6,Savings account status,< 100 DM,0.1656070351600647,increases higher-risk model output,4
+GER_XAI_018,579,0,0,0.47793216,Attribute14,Other installment plans,None,-0.16117259860038757,decreases higher-risk model output,5
+GER_XAI_019,804,0,0,0.4572692,Attribute6,Savings account status,Unknown or no savings account,-0.40466544032096863,decreases higher-risk model output,1
+GER_XAI_019,804,0,0,0.4572692,Attribute15,Housing,Rent,0.34965962171554565,increases higher-risk model output,2
+GER_XAI_019,804,0,0,0.4572692,Attribute12,Property,Real estate,-0.32587361335754395,decreases higher-risk model output,3
+GER_XAI_019,804,0,0,0.4572692,Attribute8,Installment rate (% disposable income),1,-0.2612527906894684,decreases higher-risk model output,4
+GER_XAI_019,804,0,0,0.4572692,Attribute1,Checking account status,0 to < 200 DM,0.2287353128194809,increases higher-risk model output,5
+GER_XAI_020,263,0,0,0.45461446,Attribute14,Other installment plans,Bank,0.8489404916763306,increases higher-risk model output,1
+GER_XAI_020,263,0,0,0.45461446,Attribute1,Checking account status,No checking account,-0.829222559928894,decreases higher-risk model output,2
+GER_XAI_020,263,0,0,0.45461446,Attribute4,Credit purpose,Education,0.6791638731956482,increases higher-risk model output,3
+GER_XAI_020,263,0,0,0.45461446,Attribute3,Credit history,Critical account or other existing credits,-0.4820539355278015,decreases higher-risk model output,4
+GER_XAI_020,263,0,0,0.45461446,Attribute2,Credit duration (months),12,-0.4132944941520691,decreases higher-risk model output,5

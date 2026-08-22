@@ -1,0 +1,9 @@
+case_id,counterfactual_id,row_index,source,months_since_first_trade,months_since_last_trade,average_duration_of_resolution,number_of_satisfactory_trades,nr_trades_insolvent_for_over_60_days,nr_trades_insolvent_for_over_90_days,percentage_of_legal_trades,months_since_last_illegal_trade,maximum_illegal_trades_over_last_year,maximum_illegal_trades,nr_total_trades,nr_trades_initiated_in_last_year,percentage_of_installment_trades,months_since_last_inquiry_not_recent,nr_inquiries_in_last_6_months,nr_inquiries_in_last_6_months_not_recent,net_fraction_of_revolving_burden,net_fraction_of_installment_burden,nr_revolving_trades_with_balance,nr_installment_trades_with_balance,nr_banks_with_high_ratio,percentage_trades_with_balance
+HELOC_XAI_006,HELOC_XAI_006_CF_01,2151,first_pass,198,1,90,28,0,0,100,-7,7,8,29,1,28,0,1,1,58,46,4,2,3,50
+HELOC_XAI_008,HELOC_XAI_008_CF_01,5033,first_pass,209,15,62,43,0,0,100,-7,7,8,43,0,47,3,2,2,55,65,3,2,2,62
+HELOC_XAI_009,HELOC_XAI_009_CF_01,8449,first_pass,160,3,85,20,1,0,91,10,3,5,25,1,16,0,0,0,2,35,5,2,0,44
+HELOC_XAI_016,HELOC_XAI_016_CF_01,4253,first_pass,337,7,112,38,0,0,98,8,4,6,40,1,28,0,1,1,66,84,8,4,3,70
+HELOC_XAI_017,HELOC_XAI_017_CF_01,4094,first_pass,163,7,69,28,0,0,100,-7,7,8,29,3,41,1,3,3,56,91,8,3,2,73
+HELOC_XAI_018,HELOC_XAI_018_CF_01,4397,first_pass,248,1,103,14,0,0,88,3,4,6,16,1,13,0,1,1,18,-8,3,1,1,56
+HELOC_XAI_019,HELOC_XAI_019_CF_01,9391,first_pass,404,4,113,25,1,1,83,3,4,2,29,2,28,4,1,1,9,75,5,2,0,53
+HELOC_XAI_020,HELOC_XAI_020_CF_01,4366,first_pass,282,2,92,14,1,0,94,32,6,5,17,3,47,0,5,5,63,50,2,4,0,91

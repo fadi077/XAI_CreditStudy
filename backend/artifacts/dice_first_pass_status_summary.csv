@@ -1,0 +1,5 @@
+clean_first_pass_status,case_count,case_ids
+success,8,"XAI_001, XAI_002, XAI_003, XAI_004, XAI_005, XAI_006, XAI_009, XAI_017"
+timeout,10,"XAI_008, XAI_010, XAI_011, XAI_012, XAI_013, XAI_015, XAI_016, XAI_018, XAI_019, XAI_020"
+no_counterfactual_returned,0,
+technical_error,2,"XAI_007, XAI_014"

@@ -1,0 +1,3 @@
+method,diagnostic_type,cases_tested,mean_top_5_overlap,median_top_5_overlap,minimum_top_5_overlap,maximum_top_5_overlap,exact_reproduction_count
+SHAP,small deterministic local perturbation of revolving burden,5,5.0,5.0,5.0,5.0,
+LIME,same-seed reproduction,5,5.0,5.0,5.0,5.0,5.0

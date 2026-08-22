@@ -1,0 +1,21 @@
+case_id,row_index,true_target,predicted_class,predicted_probability,case_type
+XAI_001,288644,0,1,0.871334,high-confidence positive
+XAI_002,234361,0,1,0.86179584,high-confidence positive
+XAI_003,25106,1,1,0.8516711,high-confidence positive
+XAI_004,148440,0,1,0.845883,high-confidence positive
+XAI_005,267529,0,1,0.84454125,high-confidence positive
+XAI_006,259190,0,1,0.5000003,borderline positive
+XAI_007,125832,0,1,0.50000775,borderline positive
+XAI_008,3508,0,1,0.50002277,borderline positive
+XAI_009,264908,0,1,0.5000302,borderline positive
+XAI_010,253960,0,1,0.50004005,borderline positive
+XAI_011,90598,0,0,0.010518629,high-confidence negative
+XAI_012,15501,0,0,0.021245534,high-confidence negative
+XAI_013,144204,0,0,0.023586474,high-confidence negative
+XAI_014,12108,0,0,0.02601414,high-confidence negative
+XAI_015,199276,0,0,0.02833911,high-confidence negative
+XAI_016,212939,0,0,0.4999863,borderline negative
+XAI_017,175552,0,0,0.49997818,borderline negative
+XAI_018,46076,1,0,0.49997318,borderline negative
+XAI_019,240635,0,0,0.49996042,borderline negative
+XAI_020,200211,0,0,0.4999467,borderline negative

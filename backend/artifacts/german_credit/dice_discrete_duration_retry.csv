@@ -1,0 +1,3 @@
+case_id,first_pass_status,first_pass_elapsed_seconds,retry_timeout_seconds,retry_elapsed_seconds,original_probability,original_class,desired_class,counterfactuals_requested,counterfactuals_found,retry_status,exception_class,error_message
+GER_XAI_011,timeout,30.133668900001798,90,22.46185710001737,0.011951139,0,1,1,0,no_counterfactual_returned,UserConfigValidationException,No counterfactuals found for any of the query points! Kindly check your configuration.
+GER_XAI_012,timeout,30.126185999950398,90,26.62540809996426,0.012772601,0,1,1,0,no_counterfactual_returned,UserConfigValidationException,No counterfactuals found for any of the query points! Kindly check your configuration.

@@ -1,0 +1,3 @@
+feature_or_scope,finding,stage_02_review
+estimate_of_risk,"Name suggests an existing risk estimate, but its construction is not documented by the loaded source","Confirm definition, calculation time and whether it encodes the outcome or another model score"
+remaining credit-report predictors,No obvious post-outcome variable is verified from the available names alone,Confirm definitions and availability at application decision time

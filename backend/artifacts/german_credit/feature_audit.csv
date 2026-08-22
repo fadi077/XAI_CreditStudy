@@ -1,0 +1,21 @@
+feature,pandas_dtype,uci_type,description,units,demographic,unique_values,analysis_group
+Attribute1,object,Categorical,Status of existing checking account,,,4,categorical
+Attribute2,int64,Integer,Duration,months,,33,numerical
+Attribute3,object,Categorical,Credit history,,,5,categorical
+Attribute4,object,Categorical,Purpose,,,10,categorical
+Attribute5,int64,Integer,Credit amount,,,921,numerical
+Attribute6,object,Categorical,Savings account/bonds,,,5,categorical
+Attribute7,object,Categorical,Present employment since,,Other,5,categorical
+Attribute8,int64,Integer,Installment rate in percentage of disposable income,,,4,numerical
+Attribute9,object,Categorical,Personal status and sex,,Marital Status,4,categorical
+Attribute10,object,Categorical,Other debtors / guarantors,,,3,categorical
+Attribute11,int64,Integer,Present residence since,,,4,numerical
+Attribute12,object,Categorical,Property,,,4,categorical
+Attribute13,int64,Integer,Age,years,Age,53,numerical
+Attribute14,object,Categorical,Other installment plans,,,3,categorical
+Attribute15,object,Categorical,Housing,,Other,3,categorical
+Attribute16,int64,Integer,Number of existing credits at this bank,,,4,numerical
+Attribute17,object,Categorical,Job,,Occupation,4,categorical
+Attribute18,int64,Integer,Number of people being liable to provide maintenance for,,,2,numerical
+Attribute19,object,Binary,Telephone,,,2,categorical
+Attribute20,object,Binary,foreign worker,,Other,2,categorical

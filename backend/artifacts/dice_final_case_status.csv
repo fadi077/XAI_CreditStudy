@@ -1,0 +1,21 @@
+case_id,case_type,original_probability,original_class,desired_class,first_pass_status,first_pass_elapsed_seconds,retry_performed,retry_status,retry_elapsed_seconds,final_status,valid_counterfactual_available,counterfactual_source
+XAI_001,high-confidence positive,0.871334,1,0,success,7.191677299910225,False,not_performed,,success_first_pass,True,first_pass
+XAI_002,high-confidence positive,0.86179584,1,0,success,13.077958400011994,False,not_performed,,success_first_pass,True,first_pass
+XAI_003,high-confidence positive,0.8516711,1,0,success,6.179685899987817,False,not_performed,,success_first_pass,True,first_pass
+XAI_004,high-confidence positive,0.845883,1,0,success,6.529155500000343,False,not_performed,,success_first_pass,True,first_pass
+XAI_005,high-confidence positive,0.84454125,1,0,success,6.720849100034684,False,not_performed,,success_first_pass,True,first_pass
+XAI_006,borderline positive,0.5000003,1,0,success,7.400179399992339,False,not_performed,,success_first_pass,True,first_pass
+XAI_007,borderline positive,0.50000775,1,0,technical_error,0.3333172000711784,False,not_performed,,technical_error_first_pass,False,none
+XAI_008,borderline positive,0.50002277,1,0,timeout,30.161797699984163,True,no_counterfactual_returned,42.76934710005298,no_counterfactual_returned_after_retry,False,none
+XAI_009,borderline positive,0.5000302,1,0,success,11.75702270003967,False,not_performed,,success_first_pass,True,first_pass
+XAI_010,borderline positive,0.50004005,1,0,timeout,30.099692499963567,True,no_counterfactual_returned,35.09907310002018,no_counterfactual_returned_after_retry,False,none
+XAI_011,high-confidence negative,0.010518629,0,1,timeout,30.108961299993094,True,no_counterfactual_returned,33.02794179995544,no_counterfactual_returned_after_retry,False,none
+XAI_012,high-confidence negative,0.021245534,0,1,timeout,30.118562899995595,True,no_counterfactual_returned,33.00141999998596,no_counterfactual_returned_after_retry,False,none
+XAI_013,high-confidence negative,0.023586474,0,1,timeout,30.13202620006632,True,no_counterfactual_returned,27.932550700032152,no_counterfactual_returned_after_retry,False,none
+XAI_014,high-confidence negative,0.02601414,0,1,technical_error,8.919555900036357,False,not_performed,,technical_error_first_pass,False,none
+XAI_015,high-confidence negative,0.02833911,0,1,timeout,30.125432000029832,True,timeout,90.09124039998278,timeout_after_retry,False,none
+XAI_016,borderline negative,0.4999863,0,1,timeout,30.126344899996184,True,no_counterfactual_returned,38.400894699967466,no_counterfactual_returned_after_retry,False,none
+XAI_017,borderline negative,0.49997818,0,1,success,14.00607649993617,False,not_performed,,success_first_pass,True,first_pass
+XAI_018,borderline negative,0.49997318,0,1,timeout,30.091003000037745,True,no_counterfactual_returned,41.19592550001107,no_counterfactual_returned_after_retry,False,none
+XAI_019,borderline negative,0.49996042,0,1,timeout,30.08456800004933,True,no_counterfactual_returned,34.095347599941306,no_counterfactual_returned_after_retry,False,none
+XAI_020,borderline negative,0.4999467,0,1,timeout,30.09289139998145,True,no_counterfactual_returned,37.04875640000682,no_counterfactual_returned_after_retry,False,none

@@ -1,0 +1,109 @@
+{
+  "random_state": 42,
+  "test_size": 0.2,
+  "target_mapping": {
+    "1": 0,
+    "2": 1
+  },
+  "selected_features": [
+    "Attribute1",
+    "Attribute2",
+    "Attribute3",
+    "Attribute4",
+    "Attribute5",
+    "Attribute6",
+    "Attribute7",
+    "Attribute8",
+    "Attribute10",
+    "Attribute11",
+    "Attribute12",
+    "Attribute14",
+    "Attribute15",
+    "Attribute16",
+    "Attribute17",
+    "Attribute18",
+    "Attribute19"
+  ],
+  "excluded_features": [
+    "Attribute9",
+    "Attribute13",
+    "Attribute20"
+  ],
+  "numeric_features": [
+    "Attribute2",
+    "Attribute5",
+    "Attribute8",
+    "Attribute11",
+    "Attribute16",
+    "Attribute18"
+  ],
+  "categorical_features": [
+    "Attribute1",
+    "Attribute3",
+    "Attribute4",
+    "Attribute6",
+    "Attribute7",
+    "Attribute10",
+    "Attribute12",
+    "Attribute14",
+    "Attribute15",
+    "Attribute17",
+    "Attribute19"
+  ],
+  "train_rows": 800,
+  "test_rows": 200,
+  "training_target_distribution": {
+    "0": {
+      "count": 560,
+      "percentage": 70.0
+    },
+    "1": {
+      "count": 240,
+      "percentage": 30.0
+    }
+  },
+  "test_target_distribution": {
+    "0": {
+      "count": 140,
+      "percentage": 70.0
+    },
+    "1": {
+      "count": 60,
+      "percentage": 30.0
+    }
+  },
+  "transformed_feature_count": 54,
+  "output_representation": "dense numpy array",
+  "imputation_strategy": {
+    "numeric": "median",
+    "categorical": "most_frequent"
+  },
+  "one_hot_configuration": {
+    "handle_unknown": "ignore",
+    "drop": null,
+    "min_frequency": null,
+    "sparse_output": false
+  },
+  "raw_snapshot": "data\\german_credit\\raw\\german_credit_raw.csv",
+  "raw_snapshot_sha256": "f985b42636c9e28ce4fb3913738d1ebfd0f7947fda8d4406fe2ded5d84295acb",
+  "provenance_reference": "artifacts\\german_credit\\dataset_provenance.json",
+  "train_indices": "artifacts\\german_credit\\train_indices.csv",
+  "test_indices": "artifacts\\german_credit\\test_indices.csv",
+  "test_only_categories": [],
+  "rare_categories_merged": false,
+  "numeric_scaling": false,
+  "validation_design": {
+    "frozen_holdout": {
+      "test_size": 0.2,
+      "stratified": true
+    },
+    "training_only_model_development": {
+      "method": "StratifiedKFold",
+      "n_splits": 5,
+      "shuffle": true,
+      "random_state": 42
+    },
+    "uci_cost_matrix_use": "additional Stage 04 evaluation measure"
+  },
+  "predictive_model_trained": false
+}

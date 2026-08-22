@@ -1,0 +1,14 @@
+feature,description,unique_values
+Attribute19,Telephone,2
+Attribute20,foreign worker,2
+Attribute10,Other debtors / guarantors,3
+Attribute14,Other installment plans,3
+Attribute15,Housing,3
+Attribute1,Status of existing checking account,4
+Attribute12,Property,4
+Attribute17,Job,4
+Attribute9,Personal status and sex,4
+Attribute3,Credit history,5
+Attribute6,Savings account/bonds,5
+Attribute7,Present employment since,5
+Attribute4,Purpose,10

@@ -1,0 +1,24 @@
+raw_feature_name,display_name,preliminary_dice_actionability,notes
+estimate_of_risk,Estimate Of Risk,unsuitable / unresolved,Do not interpret special codes as ordered numeric measurements
+months_since_first_trade,Months Since First Trade,non-actionable,Do not interpret special codes as ordered numeric measurements
+months_since_last_trade,Months Since Last Trade,non-actionable,Do not interpret special codes as ordered numeric measurements
+average_duration_of_resolution,Average Duration Of Resolution,non-actionable,Do not interpret special codes as ordered numeric measurements
+number_of_satisfactory_trades,Number Of Satisfactory Trades,non-actionable,Do not interpret special codes as ordered numeric measurements
+nr_trades_insolvent_for_over_60_days,Number Of Trades Insolvent For Over 60 Days,non-actionable,Do not interpret special codes as ordered numeric measurements
+nr_trades_insolvent_for_over_90_days,Number Of Trades Insolvent For Over 90 Days,non-actionable,Do not interpret special codes as ordered numeric measurements
+percentage_of_legal_trades,Percentage Of Legal Trades,non-actionable,Do not interpret special codes as ordered numeric measurements
+months_since_last_illegal_trade,Months Since Last Illegal Trade,non-actionable,Do not interpret special codes as ordered numeric measurements
+maximum_illegal_trades_over_last_year,Maximum Illegal Trades Over Last Year,non-actionable,Do not interpret special codes as ordered numeric measurements
+maximum_illegal_trades,Maximum Illegal Trades,non-actionable,Do not interpret special codes as ordered numeric measurements
+nr_total_trades,Number Of Total Trades,non-actionable,Do not interpret special codes as ordered numeric measurements
+nr_trades_initiated_in_last_year,Number Of Trades Initiated In Last Year,non-actionable,Do not interpret special codes as ordered numeric measurements
+percentage_of_installment_trades,Percentage Of Installment Trades,non-actionable,Do not interpret special codes as ordered numeric measurements
+months_since_last_inquiry_not_recent,Months Since Last Inquiry Not Recent,non-actionable,Do not interpret special codes as ordered numeric measurements
+nr_inquiries_in_last_6_months,Number Of Inquiries In Last 6 Months,non-actionable,Do not interpret special codes as ordered numeric measurements
+nr_inquiries_in_last_6_months_not_recent,Number Of Inquiries In Last 6 Months Not Recent,non-actionable,Do not interpret special codes as ordered numeric measurements
+net_fraction_of_revolving_burden,Net Fraction Of Revolving Burden,partially actionable,Do not interpret special codes as ordered numeric measurements
+net_fraction_of_installment_burden,Net Fraction Of Installment Burden,partially actionable,Do not interpret special codes as ordered numeric measurements
+nr_revolving_trades_with_balance,Number Of Revolving Trades With Balance,partially actionable,Do not interpret special codes as ordered numeric measurements
+nr_installment_trades_with_balance,Number Of Installment Trades With Balance,partially actionable,Do not interpret special codes as ordered numeric measurements
+nr_banks_with_high_ratio,Number Of Banks With High Ratio,non-actionable,Do not interpret special codes as ordered numeric measurements
+percentage_trades_with_balance,Percentage Trades With Balance,partially actionable,Do not interpret special codes as ordered numeric measurements

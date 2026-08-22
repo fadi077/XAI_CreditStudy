@@ -1,0 +1,27 @@
+{
+  "explanation_method": "Tree SHAP",
+  "computation_backend": "XGBoost native pred_contribs",
+  "visualisation_library": "SHAP",
+  "shap_version": "0.49.1",
+  "xgboost_version": "3.2.0",
+  "model_file": "xgboost_credit_model.joblib",
+  "model_name": "Weighted XGBoost",
+  "decision_threshold": 0.5,
+  "shap_sample_size": 1000,
+  "fixed_xai_case_count": 20,
+  "transformed_feature_count": 28,
+  "model_output_space": "raw margin / log-odds",
+  "compatibility_note": "Native XGBoost Tree SHAP contributions were used because SHAP 0.49.1 TreeExplainer could not parse the XGBoost 3.x base_score representation; the trained model was unchanged.",
+  "random_state": 42,
+  "generated_artifact_filenames": [
+    "xai_evaluation_cases.csv",
+    "shap_global_importance.csv",
+    "shap_local_explanations.csv",
+    "shap_top_factors.csv",
+    "shap_plain_english.csv",
+    "shap_sparsity_metrics.csv",
+    "plots/shap_summary.png",
+    "plots/shap_representative_waterfall.png",
+    "shap_metadata.json"
+  ]
+}

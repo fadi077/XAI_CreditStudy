@@ -1,0 +1,25 @@
+{
+  "method": "LIME tabular local surrogate",
+  "library": "lime",
+  "library_version": "0.2.0.1",
+  "random_seed": 42,
+  "num_samples": 5000,
+  "num_features": 5,
+  "mode": "classification",
+  "class_names": [
+    "Lower model risk",
+    "Higher model risk"
+  ],
+  "background_source": "Saved training partition only",
+  "number_of_background_rows": 246008,
+  "number_of_fixed_cases": 20,
+  "decision_threshold": 0.5,
+  "model_artifact": "xgboost_credit_model.joblib",
+  "preprocessor_artifact": "preprocessor.joblib",
+  "model_retrained": false,
+  "preprocessor_refitted": false,
+  "categorical_handling": "Training-only string-to-code mappings restored to original strings before frozen preprocessing",
+  "plain_english_generation_method": "Deterministic rule-based templates",
+  "discretize_continuous": true,
+  "same_seed_reproducible": true
+}

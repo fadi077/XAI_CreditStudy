@@ -1,0 +1,11 @@
+measure,count,notes
+all_minus_9_rows,588,One identical predictor profile
+all_minus_9_target_0,265,Not-at-risk labels
+all_minus_9_target_1,323,At-risk labels
+all_minus_9_unique_predictor_profiles,1,Expected one
+all_minus_9_unique_complete_rows,2,One per observed target
+exact_duplicate_complete_rows,587,Duplicate excess rows
+duplicate_predictor_rows,588,Duplicate excess rows by predictor profile
+duplicate_predictor_profile_groups,2,Groups containing at least two rows
+conflicting_target_profile_groups,1,Identical predictors with both targets
+same_target_duplicate_excess_rows,587,Identical predictors and target

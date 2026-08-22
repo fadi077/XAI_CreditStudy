@@ -1,0 +1,22 @@
+{
+  "dataset": "mstz/heloc risk configuration",
+  "model_file": "backend\\artifacts\\heloc\\xgboost_credit_model.joblib",
+  "preprocessor_file": "backend\\artifacts\\heloc\\preprocessor.joblib",
+  "test_rows": 1974,
+  "explained_rows": 1974,
+  "original_selected_feature_count": 22,
+  "transformed_feature_count": 33,
+  "fixed_xai_case_count": 20,
+  "shap_implementation": "XGBoost native Booster.predict(pred_contribs=True)",
+  "model_output_space": "raw margin / log-odds",
+  "base_value": 0.08203285187482834,
+  "max_raw_margin_additivity_error": 1.9073486328125e-06,
+  "max_probability_reconstruction_error": 2.980232238769531e-07,
+  "global_top_feature": "net_fraction_of_revolving_burden",
+  "representative_case": "HELOC_XAI_001",
+  "stability_cases_tested": 5,
+  "faithfulness_cases_tested": 5,
+  "special_code_semantics_verified": false,
+  "model_retrained": false,
+  "preprocessor_refitted": false
+}

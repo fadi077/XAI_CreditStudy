@@ -1,0 +1,21 @@
+case_id,row_index,true_target,predicted_class,predicted_probability,case_type
+GER_XAI_001,11,1,1,0.9466822,high-confidence positive
+GER_XAI_002,832,1,1,0.9256946,high-confidence positive
+GER_XAI_003,998,1,1,0.90678245,high-confidence positive
+GER_XAI_004,831,1,1,0.9063597,high-confidence positive
+GER_XAI_005,141,0,1,0.9055074,high-confidence positive
+GER_XAI_006,273,1,1,0.5018516,borderline positive
+GER_XAI_007,653,1,1,0.5034409,borderline positive
+GER_XAI_008,944,0,1,0.5135554,borderline positive
+GER_XAI_009,992,0,1,0.51524305,borderline positive
+GER_XAI_010,677,1,1,0.5176819,borderline positive
+GER_XAI_011,817,0,0,0.011951139,high-confidence negative
+GER_XAI_012,234,0,0,0.012772601,high-confidence negative
+GER_XAI_013,159,0,0,0.014923423,high-confidence negative
+GER_XAI_014,523,0,0,0.020744441,high-confidence negative
+GER_XAI_015,860,0,0,0.024179073,high-confidence negative
+GER_XAI_016,293,0,0,0.48432785,borderline negative
+GER_XAI_017,297,0,0,0.48025113,borderline negative
+GER_XAI_018,579,0,0,0.47793216,borderline negative
+GER_XAI_019,804,0,0,0.4572692,borderline negative
+GER_XAI_020,263,0,0,0.45461446,borderline negative

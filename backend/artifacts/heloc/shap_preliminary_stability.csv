@@ -1,0 +1,6 @@
+case_id,perturbed_feature,original_value,perturbed_value,top_5_overlap_count,top_5_jaccard
+HELOC_XAI_001,net_fraction_of_revolving_burden,98.0,99.0,5,1.0
+HELOC_XAI_002,net_fraction_of_revolving_burden,83.0,84.0,5,1.0
+HELOC_XAI_003,net_fraction_of_revolving_burden,61.0,62.0,5,1.0
+HELOC_XAI_004,net_fraction_of_revolving_burden,100.0,101.0,5,1.0
+HELOC_XAI_005,net_fraction_of_revolving_burden,90.0,91.0,5,1.0

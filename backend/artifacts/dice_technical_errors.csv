@@ -1,0 +1,3 @@
+case_id,exception_class,error_message,elapsed_seconds
+XAI_007,UserConfigValidationException,The query instance(s) should not have any missing values. Please impute the missing values and try again.,0.3333172000711784
+XAI_014,ValueError,empty range for randrange(),8.919555900036357

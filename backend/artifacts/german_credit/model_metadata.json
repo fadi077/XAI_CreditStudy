@@ -1,0 +1,99 @@
+{
+  "dataset": "UCI Statlog German Credit Data (ID 144)",
+  "xgboost_version": "3.2.0",
+  "random_state": 42,
+  "train_rows": 800,
+  "test_rows": 200,
+  "transformed_feature_count": 54,
+  "positive_class": {
+    "TARGET": 1,
+    "original_class": 2,
+    "meaning": "Bad / higher-risk credit"
+  },
+  "decision_threshold": 0.5,
+  "selected_model_name": "Weighted XGBoost",
+  "selected_hyperparameters": {
+    "n_estimators": 200,
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "min_child_weight": 1,
+    "subsample": 0.9,
+    "colsample_bytree": 0.9,
+    "reg_alpha": 0.1,
+    "reg_lambda": 5.0,
+    "objective": "binary:logistic",
+    "eval_metric": "logloss",
+    "random_state": 42,
+    "tree_method": "hist",
+    "scale_pos_weight": 2.3333333333333335
+  },
+  "scale_pos_weight": 2.3333333333333335,
+  "selection_scope": "training data only",
+  "test_set_used_for_model_selection": false,
+  "cross_validation_design": {
+    "method": "StratifiedKFold",
+    "n_splits": 5,
+    "shuffle": true,
+    "random_state": 42,
+    "scope": "training data only",
+    "candidate_models": [
+      "Baseline XGBoost",
+      "CV-selected XGBoost",
+      "Weighted XGBoost"
+    ]
+  },
+  "selection_rule": {
+    "roc_auc_tolerance": 0.01,
+    "pr_auc_tolerance": 0.01,
+    "eligible_models": [
+      "Baseline XGBoost",
+      "CV-selected XGBoost",
+      "Weighted XGBoost"
+    ],
+    "tie_break_order": [
+      "lower mean UCI cost",
+      "higher mean positive F1",
+      "higher mean balanced accuracy",
+      "higher mean ROC-AUC"
+    ]
+  },
+  "selected_cv_mean_metrics": {
+    "roc_auc": 0.7988467261904763,
+    "pr_auc": 0.6290460975335883,
+    "balanced_accuracy": 0.7306547619047619,
+    "precision_positive": 0.5709129869061957,
+    "recall_positive": 0.6791666666666667,
+    "f1_positive": 0.6197484084542908,
+    "uci_cost": 101.4
+  },
+  "highest_cv_roc_auc": 0.7988467261904763,
+  "highest_cv_pr_auc": 0.6319508400671479,
+  "selection_reason": "Weighted XGBoost passed both 0.01 ranking tolerances and ranked first by mean out-of-fold UCI cost, followed by F1, balanced accuracy and ROC-AUC.",
+  "test_metrics": {
+    "roc_auc": 0.7905952380952381,
+    "pr_auc": 0.6588080628544111,
+    "accuracy": 0.76,
+    "balanced_accuracy": 0.7571428571428571,
+    "precision_positive": 0.5769230769230769,
+    "recall_positive": 0.75,
+    "f1_positive": 0.6521739130434783,
+    "true_negative": 107,
+    "false_positive": 33,
+    "false_negative": 15,
+    "true_positive": 45,
+    "predicted_negative_count": 122,
+    "predicted_positive_count": 78,
+    "uci_total_cost": 108,
+    "uci_average_cost": 0.54
+  },
+  "uci_cost_result": {
+    "false_positive_cost": 1,
+    "false_negative_cost": 5,
+    "total_cost": 108,
+    "average_cost": 0.54
+  },
+  "training_time_seconds": 0.07322190003469586,
+  "preprocessor_path": "artifacts\\german_credit\\preprocessor.joblib",
+  "train_index_path": "artifacts\\german_credit\\train_indices.csv",
+  "test_index_path": "artifacts\\german_credit\\test_indices.csv"
+}

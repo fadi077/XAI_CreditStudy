@@ -1,0 +1,18 @@
+{
+  "dataset": "mstz/heloc risk configuration",
+  "model_path": "backend\\artifacts\\heloc\\xgboost_credit_model.joblib",
+  "preprocessor_path": "backend\\artifacts\\heloc\\preprocessor.joblib",
+  "training_background_rows": 7896,
+  "fixed_xai_case_count": 20,
+  "original_feature_count": 22,
+  "num_samples": 5000,
+  "num_features": 5,
+  "random_state": 42,
+  "wrapper_maximum_probability_difference": 0.0,
+  "representative_case": "HELOC_XAI_001",
+  "stability_cases_tested": 5,
+  "faithfulness_cases_tested": 5,
+  "special_code_semantics_verified": false,
+  "model_retrained": false,
+  "preprocessor_refitted": false
+}

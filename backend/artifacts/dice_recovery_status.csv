@@ -1,0 +1,9 @@
+case_id,original_first_pass_status,recovery_attempted,recovery_elapsed_seconds,counterfactual_returned,independently_valid,recovery_status,error_message
+XAI_001,success,True,11.15821689995937,True,True,recovered_valid,
+XAI_002,success,True,12.67314129997976,True,True,recovered_valid,
+XAI_003,success,True,6.728432499920018,True,True,recovered_valid,
+XAI_004,success,True,5.384587500011548,True,True,recovered_valid,
+XAI_005,success,True,6.064585300046019,True,True,recovered_valid,
+XAI_006,success,True,7.166990600060672,True,True,recovered_valid,
+XAI_009,success,True,6.937128100078553,True,True,recovered_valid,
+XAI_017,success,True,6.099053199985065,True,True,recovered_valid,

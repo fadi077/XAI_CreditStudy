@@ -1,0 +1,9 @@
+case_id,counterfactual_id,normalized_proximity_score,formula
+HELOC_XAI_006,HELOC_XAI_006_CF_01,0.044514426460239266,sum(abs(cf-original)/(training_max-training_min)) over changed modifiable features
+HELOC_XAI_008,HELOC_XAI_008_CF_01,0.25700914848698103,sum(abs(cf-original)/(training_max-training_min)) over changed modifiable features
+HELOC_XAI_009,HELOC_XAI_009_CF_01,0.1757142857142857,sum(abs(cf-original)/(training_max-training_min)) over changed modifiable features
+HELOC_XAI_016,HELOC_XAI_016_CF_01,0.11151301900070373,sum(abs(cf-original)/(training_max-training_min)) over changed modifiable features
+HELOC_XAI_017,HELOC_XAI_017_CF_01,0.09846586910626319,sum(abs(cf-original)/(training_max-training_min)) over changed modifiable features
+HELOC_XAI_018,HELOC_XAI_018_CF_01,0.0789655172413793,sum(abs(cf-original)/(training_max-training_min)) over changed modifiable features
+HELOC_XAI_019,HELOC_XAI_019_CF_01,0.16098874032371568,sum(abs(cf-original)/(training_max-training_min)) over changed modifiable features
+HELOC_XAI_020,HELOC_XAI_020_CF_01,0.14368402533427163,sum(abs(cf-original)/(training_max-training_min)) over changed modifiable features

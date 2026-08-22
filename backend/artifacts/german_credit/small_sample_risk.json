@@ -1,0 +1,9 @@
+{
+  "expected_training_rows": 800,
+  "selected_raw_features": 17,
+  "observed_one_hot_levels": 48,
+  "estimated_transformed_feature_count": 54,
+  "rare_level_definition": "count < 20 or percentage < 2",
+  "rare_levels_flagged": 3,
+  "risk": "Sparse levels and about 800 training rows create overfitting risk; retain a compact pipeline and validate only within training data."
+}

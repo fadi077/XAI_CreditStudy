@@ -1,0 +1,6 @@
+case_id,top_shap_feature,top_lime_feature,same_top_feature,shap_replacement_value,lime_replacement_value,same_intervention,shap_absolute_score_change,lime_absolute_score_change,same_score_change
+GER_XAI_001,Attribute1,Attribute1,True,No checking account,No checking account,True,0.133753106162262,0.133753106162262,True
+GER_XAI_002,Attribute1,Attribute1,True,No checking account,No checking account,True,0.2763814481636047,0.2763814481636047,True
+GER_XAI_003,Attribute1,Attribute1,True,No checking account,No checking account,True,0.6283902542984009,0.6283902542984009,True
+GER_XAI_004,Attribute1,Attribute1,True,No checking account,No checking account,True,0.4829993224498748,0.4829993224498748,True
+GER_XAI_005,Attribute2,Attribute2,True,18,18,True,0.0537952923416137,0.0537952923416137,True

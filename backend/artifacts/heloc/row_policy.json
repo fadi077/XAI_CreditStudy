@@ -1,0 +1,9 @@
+{
+  "raw_rows": 10459,
+  "all_minus9_policy": "exclude complete all--9 predictor profiles before splitting",
+  "all_minus9_rows": 588,
+  "duplicate_policy": "after all--9 exclusion retain first deterministic complete row and exclude duplicate excess copies",
+  "duplicate_excess_rows": 1,
+  "final_modelling_rows": 9870,
+  "reasoning": "Remove non-informative conflicting repeated profiles and prevent artificial frequency and partition leakage while preserving the immutable raw snapshot."
+}

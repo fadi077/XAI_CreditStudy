@@ -1,0 +1,6 @@
+case_id,top_lime_feature,intervened_feature,original_feature_value,replacement_value,feature_actually_changed,faithfulness_test_status,original_probability,intervened_probability,absolute_score_change
+HELOC_XAI_001,average_duration_of_resolution,average_duration_of_resolution,25.0,76.0,True,completed,0.9483221,0.8706498742103577,0.07767222578964228
+HELOC_XAI_002,net_fraction_of_revolving_burden,net_fraction_of_revolving_burden,83.0,30.0,True,completed,0.9451859,0.9193632006645203,0.02582269933547976
+HELOC_XAI_003,percentage_of_legal_trades,percentage_of_legal_trades,83.0,97.0,True,completed,0.94406813,0.9310912489891052,0.01297688101089478
+HELOC_XAI_004,average_duration_of_resolution,average_duration_of_resolution,15.0,76.0,True,completed,0.9414553,0.8228116035461426,0.11864369645385742
+HELOC_XAI_005,net_fraction_of_revolving_burden,net_fraction_of_revolving_burden,90.0,30.0,True,completed,0.9411751,0.9428171515464783,0.0016420515464782293

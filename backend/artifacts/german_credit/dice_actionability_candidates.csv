@@ -1,0 +1,18 @@
+feature,display_feature,actionability_status,reason
+Attribute1,Checking account status,not_permitted_to_vary,Conservative default; not approved as a direct counterfactual intervention.
+Attribute2,Credit duration (months),directly_actionable_candidate,Requested credit duration can be adjusted in an application scenario.
+Attribute3,Credit history,not_permitted_to_vary,Conservative default; not approved as a direct counterfactual intervention.
+Attribute4,Credit purpose,not_permitted_to_vary,Conservative default; not approved as a direct counterfactual intervention.
+Attribute5,Credit amount (DM),directly_actionable_candidate,Requested credit amount can be adjusted.
+Attribute6,Savings account status,not_permitted_to_vary,Conservative default; not approved as a direct counterfactual intervention.
+Attribute7,Employment duration,not_permitted_to_vary,Conservative default; not approved as a direct counterfactual intervention.
+Attribute8,Installment rate (% disposable income),directly_actionable_candidate,Installment rate is linked to loan design and affordability.
+Attribute10,Other debtors or guarantors,not_permitted_to_vary,Conservative default; not approved as a direct counterfactual intervention.
+Attribute11,Residence duration,not_permitted_to_vary,Conservative default; not approved as a direct counterfactual intervention.
+Attribute12,Property,not_permitted_to_vary,Conservative default; not approved as a direct counterfactual intervention.
+Attribute14,Other installment plans,not_permitted_to_vary,Conservative default; not approved as a direct counterfactual intervention.
+Attribute15,Housing,not_permitted_to_vary,Conservative default; not approved as a direct counterfactual intervention.
+Attribute16,Existing credits at bank,not_permitted_to_vary,Conservative default; not approved as a direct counterfactual intervention.
+Attribute17,Job,not_permitted_to_vary,Conservative default; not approved as a direct counterfactual intervention.
+Attribute18,Dependants,not_permitted_to_vary,Conservative default; not approved as a direct counterfactual intervention.
+Attribute19,Registered telephone,not_permitted_to_vary,Conservative default; not approved as a direct counterfactual intervention.

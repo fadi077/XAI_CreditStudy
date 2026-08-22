@@ -1,0 +1,21 @@
+case_id,original_probability,original_class,desired_class,start_time,elapsed_seconds,counterfactuals_requested,counterfactuals_found,generation_status,error_message,exception_class
+XAI_001,0.871334,1,0,2026-08-20T22:30:24.344109+00:00,7.191677299910225,1,1,success,,
+XAI_002,0.86179584,1,0,2026-08-20T22:30:31.541666+00:00,13.077958400011994,1,1,success,,
+XAI_003,0.8516711,1,0,2026-08-20T22:30:44.627666+00:00,6.179685899987817,1,1,success,,
+XAI_004,0.845883,1,0,2026-08-20T22:30:50.816534+00:00,6.529155500000343,1,1,success,,
+XAI_005,0.84454125,1,0,2026-08-20T22:30:57.353539+00:00,6.720849100034684,1,1,success,,
+XAI_006,0.5000003,1,0,2026-08-20T22:31:04.082499+00:00,7.400179399992339,1,1,success,,
+XAI_007,0.50000775,1,0,2026-08-20T22:31:11.489745+00:00,0.3333172000711784,1,0,error,The query instance(s) should not have any missing values. Please impute the missing values and try again.,UserConfigValidationException
+XAI_008,0.50002277,1,0,2026-08-20T22:31:11.827405+00:00,30.161797699984163,1,0,timeout,counterfactual search exceeded 30 seconds,ProcessTimeoutError
+XAI_009,0.5000302,1,0,2026-08-20T22:31:41.996161+00:00,11.75702270003967,1,1,success,,
+XAI_010,0.50004005,1,0,2026-08-20T22:31:53.761924+00:00,30.099692499963567,1,0,timeout,counterfactual search exceeded 30 seconds,ProcessTimeoutError
+XAI_011,0.010518629,0,1,2026-08-20T22:32:23.871781+00:00,30.108961299993098,1,0,timeout,counterfactual search exceeded 30 seconds,ProcessTimeoutError
+XAI_012,0.021245534,0,1,2026-08-20T22:32:53.987331+00:00,30.118562899995595,1,0,timeout,counterfactual search exceeded 30 seconds,ProcessTimeoutError
+XAI_013,0.023586474,0,1,2026-08-20T22:33:24.111717+00:00,30.13202620006632,1,0,timeout,counterfactual search exceeded 30 seconds,ProcessTimeoutError
+XAI_014,0.02601414,0,1,2026-08-20T22:33:54.255301+00:00,8.919555900036357,1,0,error,empty range for randrange(),ValueError
+XAI_015,0.02833911,0,1,2026-08-20T22:34:03.186801+00:00,30.125432000029832,1,0,timeout,counterfactual search exceeded 30 seconds,ProcessTimeoutError
+XAI_016,0.4999863,0,1,2026-08-20T22:34:33.321321+00:00,30.126344899996184,1,0,timeout,counterfactual search exceeded 30 seconds,ProcessTimeoutError
+XAI_017,0.49997818,0,1,2026-08-20T22:35:03.455620+00:00,14.00607649993617,1,1,success,,
+XAI_018,0.49997318,0,1,2026-08-20T22:35:17.469949+00:00,30.091003000037745,1,0,timeout,counterfactual search exceeded 30 seconds,ProcessTimeoutError
+XAI_019,0.49996042,0,1,2026-08-20T22:35:47.568157+00:00,30.08456800004933,1,0,timeout,counterfactual search exceeded 30 seconds,ProcessTimeoutError
+XAI_020,0.4999467,0,1,2026-08-20T22:36:17.659108+00:00,30.092891399981454,1,0,timeout,counterfactual search exceeded 30 seconds,ProcessTimeoutError

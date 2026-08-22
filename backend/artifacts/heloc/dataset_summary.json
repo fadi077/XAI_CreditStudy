@@ -1,0 +1,33 @@
+{
+  "rows": 10459,
+  "columns": 24,
+  "predictor_count": 23,
+  "numeric_predictor_count": 23,
+  "categorical_predictor_count": 0,
+  "target_column": "is_at_risk",
+  "target_distribution": [
+    {
+      "target_value": 0,
+      "count": 5000,
+      "percentage": 47.805717563820636
+    },
+    {
+      "target_value": 1,
+      "count": 5459,
+      "percentage": 52.194282436179364
+    }
+  ],
+  "native_missing_values": 0,
+  "rows_with_negative_predictor_codes": 7957,
+  "observed_negative_codes": [
+    -9,
+    -8,
+    -7
+  ],
+  "exact_duplicate_complete_rows": 587,
+  "duplicate_predictor_rows": 588,
+  "conflicting_predictor_profiles": 1,
+  "all_minus_9_predictor_rows": 588,
+  "descriptive_statistics_include_special_codes": true,
+  "special_code_semantics_verified": false
+}

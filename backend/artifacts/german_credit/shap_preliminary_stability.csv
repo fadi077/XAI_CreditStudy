@@ -1,0 +1,6 @@
+case_id,perturbed_feature,original_value,perturbed_value,top_5_overlap_count,top_5_jaccard
+GER_XAI_001,Attribute2,48.0,49.0,5,1.0
+GER_XAI_002,Attribute2,45.0,46.0,5,1.0
+GER_XAI_003,Attribute2,45.0,46.0,5,1.0
+GER_XAI_004,Attribute2,18.0,19.0,5,1.0
+GER_XAI_005,Attribute2,36.0,37.0,5,1.0

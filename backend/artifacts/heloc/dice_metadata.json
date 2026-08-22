@@ -1,0 +1,50 @@
+{
+  "dataset": "mstz/heloc risk configuration",
+  "model_path": "C:\\Users\\H P E L I T E\\Desktop\\XAI_CreditStudy\\backend\\artifacts\\heloc\\xgboost_credit_model.joblib",
+  "preprocessor_path": "C:\\Users\\H P E L I T E\\Desktop\\XAI_CreditStudy\\backend\\artifacts\\heloc\\preprocessor.joblib",
+  "training_reference_rows": 7896,
+  "fixed_xai_case_count": 20,
+  "method": "genetic",
+  "total_CFs": 1,
+  "features_permitted_to_vary": [
+    "net_fraction_of_revolving_burden",
+    "net_fraction_of_installment_burden",
+    "percentage_trades_with_balance"
+  ],
+  "actionability_terminology": "counterfactual-modifiable financial-state variable",
+  "special_code_policy": "-7/-8/-9 excluded from permitted domains; a query feature in a special state remains fixed",
+  "permitted_ranges": {
+    "net_fraction_of_revolving_burden": [
+      0.0,
+      232.0
+    ],
+    "net_fraction_of_installment_burden": [
+      0.0,
+      196.0
+    ],
+    "percentage_trades_with_balance": [
+      0.0,
+      100.0
+    ]
+  },
+  "first_pass_timeout_seconds": 30,
+  "retry_timeout_seconds": 90,
+  "first_pass_outcome_counts": {
+    "no_counterfactual_returned": 8,
+    "success": 8,
+    "technical_error": 4
+  },
+  "retry_outcome_counts": {},
+  "technical_retry_outcome_counts": {
+    "no_counterfactual_returned": 4
+  },
+  "technical_retry_fix": "sole-parent guard; scientific search space unchanged",
+  "valid_counterfactual_count": 8,
+  "wrapper_maximum_probability_difference": 0.0,
+  "representative_case": "HELOC_XAI_006",
+  "model_retrained": false,
+  "preprocessor_refitted": false,
+  "new_split_created": false,
+  "shap_rerun": false,
+  "lime_rerun": false
+}

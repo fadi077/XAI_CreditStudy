@@ -1,0 +1,55 @@
+transformed_feature,original_feature,display_feature,feature_type,category_value,category_label
+numeric__Attribute2,Attribute2,Credit duration (months),numeric,,
+numeric__Attribute5,Attribute5,Credit amount (DM),numeric,,
+numeric__Attribute8,Attribute8,Installment rate (% disposable income),numeric,,
+numeric__Attribute11,Attribute11,Residence duration,numeric,,
+numeric__Attribute16,Attribute16,Existing credits at bank,numeric,,
+numeric__Attribute18,Attribute18,Dependants,numeric,,
+categorical__Attribute1_A11,Attribute1,Checking account status,categorical_one_hot,A11,< 0 DM
+categorical__Attribute1_A12,Attribute1,Checking account status,categorical_one_hot,A12,0 to < 200 DM
+categorical__Attribute1_A13,Attribute1,Checking account status,categorical_one_hot,A13,>= 200 DM or salary assignment >= 1 year
+categorical__Attribute1_A14,Attribute1,Checking account status,categorical_one_hot,A14,No checking account
+categorical__Attribute3_A30,Attribute3,Credit history,categorical_one_hot,A30,No credits taken or all credits paid duly
+categorical__Attribute3_A31,Attribute3,Credit history,categorical_one_hot,A31,All credits at this bank paid duly
+categorical__Attribute3_A32,Attribute3,Credit history,categorical_one_hot,A32,Existing credits paid duly to date
+categorical__Attribute3_A33,Attribute3,Credit history,categorical_one_hot,A33,Past payment delay
+categorical__Attribute3_A34,Attribute3,Credit history,categorical_one_hot,A34,Critical account or other existing credits
+categorical__Attribute4_A40,Attribute4,Credit purpose,categorical_one_hot,A40,New car
+categorical__Attribute4_A41,Attribute4,Credit purpose,categorical_one_hot,A41,Used car
+categorical__Attribute4_A410,Attribute4,Credit purpose,categorical_one_hot,A410,Other
+categorical__Attribute4_A42,Attribute4,Credit purpose,categorical_one_hot,A42,Furniture or equipment
+categorical__Attribute4_A43,Attribute4,Credit purpose,categorical_one_hot,A43,Radio or television
+categorical__Attribute4_A44,Attribute4,Credit purpose,categorical_one_hot,A44,Domestic appliances
+categorical__Attribute4_A45,Attribute4,Credit purpose,categorical_one_hot,A45,Repairs
+categorical__Attribute4_A46,Attribute4,Credit purpose,categorical_one_hot,A46,Education
+categorical__Attribute4_A48,Attribute4,Credit purpose,categorical_one_hot,A48,Retraining
+categorical__Attribute4_A49,Attribute4,Credit purpose,categorical_one_hot,A49,Business
+categorical__Attribute6_A61,Attribute6,Savings account status,categorical_one_hot,A61,< 100 DM
+categorical__Attribute6_A62,Attribute6,Savings account status,categorical_one_hot,A62,100 to < 500 DM
+categorical__Attribute6_A63,Attribute6,Savings account status,categorical_one_hot,A63,500 to < 1000 DM
+categorical__Attribute6_A64,Attribute6,Savings account status,categorical_one_hot,A64,>= 1000 DM
+categorical__Attribute6_A65,Attribute6,Savings account status,categorical_one_hot,A65,Unknown or no savings account
+categorical__Attribute7_A71,Attribute7,Employment duration,categorical_one_hot,A71,Unemployed
+categorical__Attribute7_A72,Attribute7,Employment duration,categorical_one_hot,A72,< 1 year
+categorical__Attribute7_A73,Attribute7,Employment duration,categorical_one_hot,A73,1 to < 4 years
+categorical__Attribute7_A74,Attribute7,Employment duration,categorical_one_hot,A74,4 to < 7 years
+categorical__Attribute7_A75,Attribute7,Employment duration,categorical_one_hot,A75,>= 7 years
+categorical__Attribute10_A101,Attribute10,Other debtors or guarantors,categorical_one_hot,A101,None
+categorical__Attribute10_A102,Attribute10,Other debtors or guarantors,categorical_one_hot,A102,Co-applicant
+categorical__Attribute10_A103,Attribute10,Other debtors or guarantors,categorical_one_hot,A103,Guarantor
+categorical__Attribute12_A121,Attribute12,Property,categorical_one_hot,A121,Real estate
+categorical__Attribute12_A122,Attribute12,Property,categorical_one_hot,A122,Building society savings or life insurance
+categorical__Attribute12_A123,Attribute12,Property,categorical_one_hot,A123,Car or other property
+categorical__Attribute12_A124,Attribute12,Property,categorical_one_hot,A124,Unknown or no property
+categorical__Attribute14_A141,Attribute14,Other installment plans,categorical_one_hot,A141,Bank
+categorical__Attribute14_A142,Attribute14,Other installment plans,categorical_one_hot,A142,Stores
+categorical__Attribute14_A143,Attribute14,Other installment plans,categorical_one_hot,A143,None
+categorical__Attribute15_A151,Attribute15,Housing,categorical_one_hot,A151,Rent
+categorical__Attribute15_A152,Attribute15,Housing,categorical_one_hot,A152,Own
+categorical__Attribute15_A153,Attribute15,Housing,categorical_one_hot,A153,For free
+categorical__Attribute17_A171,Attribute17,Job,categorical_one_hot,A171,Unemployed or unskilled non-resident
+categorical__Attribute17_A172,Attribute17,Job,categorical_one_hot,A172,Unskilled resident
+categorical__Attribute17_A173,Attribute17,Job,categorical_one_hot,A173,Skilled employee or official
+categorical__Attribute17_A174,Attribute17,Job,categorical_one_hot,A174,"Management, self-employed or highly qualified"
+categorical__Attribute19_A191,Attribute19,Registered telephone,categorical_one_hot,A191,None
+categorical__Attribute19_A192,Attribute19,Registered telephone,categorical_one_hot,A192,"Yes, registered in applicant's name"

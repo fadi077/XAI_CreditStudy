@@ -1,0 +1,91 @@
+{
+  "dataset": "mstz/heloc risk configuration",
+  "raw_snapshot_hash": "786b7e1885cf508ef66a968aae65a72bfde198d06d7666ac582958705b092570",
+  "raw_rows": 10459,
+  "excluded_all_minus9_rows": 588,
+  "excluded_duplicate_rows": 1,
+  "final_modelling_rows": 9870,
+  "selected_features": [
+    "months_since_first_trade",
+    "months_since_last_trade",
+    "average_duration_of_resolution",
+    "number_of_satisfactory_trades",
+    "nr_trades_insolvent_for_over_60_days",
+    "nr_trades_insolvent_for_over_90_days",
+    "percentage_of_legal_trades",
+    "months_since_last_illegal_trade",
+    "maximum_illegal_trades_over_last_year",
+    "maximum_illegal_trades",
+    "nr_total_trades",
+    "nr_trades_initiated_in_last_year",
+    "percentage_of_installment_trades",
+    "months_since_last_inquiry_not_recent",
+    "nr_inquiries_in_last_6_months",
+    "nr_inquiries_in_last_6_months_not_recent",
+    "net_fraction_of_revolving_burden",
+    "net_fraction_of_installment_burden",
+    "nr_revolving_trades_with_balance",
+    "nr_installment_trades_with_balance",
+    "nr_banks_with_high_ratio",
+    "percentage_trades_with_balance"
+  ],
+  "excluded_features": [
+    {
+      "feature": "estimate_of_risk",
+      "reason": "Excluded from the primary model because its construction and decision-time provenance are unresolved, so target/score leakage cannot be ruled out."
+    }
+  ],
+  "target": "is_at_risk",
+  "target_semantics": {
+    "0": "not at risk",
+    "1": "at risk"
+  },
+  "train_rows": 7896,
+  "test_rows": 1974,
+  "train_target_distribution": {
+    "0": {
+      "count": 3788,
+      "percentage": 47.97365754812564
+    },
+    "1": {
+      "count": 4108,
+      "percentage": 52.02634245187436
+    }
+  },
+  "test_target_distribution": {
+    "0": {
+      "count": 947,
+      "percentage": 47.97365754812564
+    },
+    "1": {
+      "count": 1027,
+      "percentage": 52.02634245187436
+    }
+  },
+  "split_strategy": "train_test_split with stratify=is_at_risk; all remaining predictor profiles unique",
+  "test_size": 0.2,
+  "random_state": 42,
+  "special_codes": [
+    -7,
+    -8,
+    -9
+  ],
+  "special_value_strategy": "training-observed separate code indicators; underlying values converted to missing inside preprocessor",
+  "imputation_strategy": "SimpleImputer(strategy=median), fitted on training data only",
+  "special_indicator_count": 11,
+  "transformed_feature_count": 33,
+  "numeric_scaling": false,
+  "preprocessor_fit_scope": "training_only",
+  "test_only_special_feature_code_pairs": [],
+  "validation_design_stage04": {
+    "primary_holdout": 0.2,
+    "model_development": "5-fold stratified CV on training data only",
+    "random_state": 42,
+    "primary_model": "XGBoost binary classifier",
+    "selection": "training-only CV",
+    "final_test": "after model selection"
+  },
+  "predictive_model_trained": false,
+  "cross_validation_executed": false,
+  "xai_executed": false
+}

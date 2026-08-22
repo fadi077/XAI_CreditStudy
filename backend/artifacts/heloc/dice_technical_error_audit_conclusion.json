@@ -1,0 +1,16 @@
+{
+  "affected_cases": [
+    "HELOC_XAI_002",
+    "HELOC_XAI_003",
+    "HELOC_XAI_004",
+    "HELOC_XAI_005"
+  ],
+  "root_cause": "DiCE genetic population can collapse to one unique member; int(len(population)/2) becomes zero and random.randrange(0) raises ValueError.",
+  "origin": "internal DiCE genetic implementation",
+  "wrapper_error": false,
+  "permitted_range_error": false,
+  "empty_scientific_domain": false,
+  "scientific_search_space_changed_by_fix": false,
+  "technical_retry_justified": true,
+  "technical_fix": "When the deduplicated population has one member, use that sole member as both eligible parents; all mutation and domain rules remain unchanged."
+}

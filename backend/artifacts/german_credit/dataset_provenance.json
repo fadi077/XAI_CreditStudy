@@ -1,0 +1,18 @@
+{
+  "dataset_name": "Statlog (German Credit Data)",
+  "uci_dataset_id": 144,
+  "repository_url": "https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data",
+  "data_url": "https://archive.ics.uci.edu/static/public/144/data.csv",
+  "dataset_doi": "10.24432/C5NC77",
+  "retrieval_method": "ucimlrepo.fetch_ucirepo(id=144)",
+  "retrieved_at_utc": "2026-08-21T21:32:23.925205+00:00",
+  "raw_observations": 1000,
+  "raw_predictors": 20,
+  "target_column": "class",
+  "target_encoding": {
+    "1": "Good credit risk",
+    "2": "Bad credit risk / higher-risk class"
+  },
+  "raw_snapshot": "data\\german_credit\\raw\\german_credit_raw.csv",
+  "variables_snapshot": "data\\german_credit\\raw\\german_credit_variables.csv"
+}

@@ -1,0 +1,17 @@
+category,metric,method,value,cases_evaluated,interpretation
+agreement,top_1_agreement_rate,SHAP-LIME,0.2,20,Same highest-ranked original feature
+agreement,mean_top_5_overlap,SHAP-LIME,3.25,20,Shared original features among top five
+agreement,mean_top_5_jaccard,SHAP-LIME,0.4988095238095238,20,Set overlap normalized by union
+direction,overall_direction_agreement,SHAP-LIME,0.9230769230769231,65,Sign consistency for shared top-five features
+sparsity,mean_features_for_50_percent,SHAP,3.05,20,Method-specific compactness; not a universal quality ranking
+sparsity,mean_features_for_80_percent,SHAP,6.7,20,Method-specific compactness; not a universal quality ranking
+sparsity,mean_features_for_50_percent,LIME,1.9,20,Method-specific compactness; not a universal quality ranking
+sparsity,mean_features_for_80_percent,LIME,3.1,20,Method-specific compactness; not a universal quality ranking
+sparsity,mean_number_of_changed_actionable_features,DiCE,1.875,8,Method-specific compactness; not a universal quality ranking
+stability,mean_top_5_overlap,SHAP,,0,unavailable: no persisted SHAP stability artifact
+stability,mean_top_5_overlap,LIME,5.0,5,saved preliminary diagnostic
+faithfulness,mean_absolute_score_change,SHAP,,0,unavailable: no persisted SHAP faithfulness artifact
+faithfulness,mean_absolute_score_change,LIME,0.17650356842602538,5,saved preliminary diagnostic
+local_fidelity,mean_local_fidelity_r2,LIME,0.324155926393048,20,Local surrogate approximation diagnostic
+local_fidelity,mean_absolute_local_prediction_error,LIME,0.13046079703179628,20,Local surrogate approximation diagnostic
+counterfactual,availability_rate,DiCE,0.4,20,Valid returned counterfactuals under configured constraints

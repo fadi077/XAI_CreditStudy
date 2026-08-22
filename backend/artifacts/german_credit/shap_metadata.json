@@ -1,0 +1,21 @@
+{
+  "dataset": "UCI Statlog German Credit Data (ID 144)",
+  "model_file": "artifacts\\german_credit\\xgboost_credit_model.joblib",
+  "preprocessor_file": "artifacts\\german_credit\\preprocessor.joblib",
+  "test_rows": 200,
+  "explained_rows": 200,
+  "transformed_feature_count": 54,
+  "original_selected_feature_count": 17,
+  "fixed_xai_case_count": 20,
+  "shap_implementation": "XGBoost native Booster.predict(pred_contribs=True)",
+  "model_output_space": "raw margin / log-odds",
+  "base_value": 0.034320782870054245,
+  "max_raw_margin_additivity_error": 1.9073486328125e-06,
+  "max_probability_reconstruction_error": 2.384185791015625e-07,
+  "global_top_feature": "Attribute1",
+  "representative_case": "GER_XAI_001",
+  "stability_cases_tested": 5,
+  "faithfulness_cases_tested": 5,
+  "model_retrained": false,
+  "preprocessor_refitted": false
+}

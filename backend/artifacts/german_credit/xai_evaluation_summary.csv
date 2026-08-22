@@ -1,0 +1,18 @@
+category,metric,method,value,cases_evaluated,interpretation
+agreement,top_1_agreement_rate,SHAP–LIME,0.75,20,Same leading original feature
+agreement,mean_top_5_overlap,SHAP–LIME,3.45,20,Mean shared top-five features
+agreement,mean_top_5_jaccard,SHAP–LIME,0.5573412698412699,20,Set agreement at top five
+direction,overall_direction_agreement_rate,SHAP–LIME,0.9855072463768116,20,Sign agreement on shared features
+sparsity,features_for_50_percent,SHAP,3.25,20,Method-specific compactness
+sparsity,features_for_80_percent,SHAP,6.9,20,Method-specific compactness
+sparsity,features_for_50_percent,LIME,2.25,20,Method-specific compactness
+sparsity,features_for_80_percent,LIME,4.0,20,Method-specific compactness
+sparsity,number_of_changed_actionable_features,DiCE,1.9166666666666667,12,Method-specific compactness
+stability,mean_top_5_overlap,SHAP,5.0,5,small deterministic feature-perturbation stability diagnostic
+stability,mean_top_5_overlap,LIME,5.0,5,same-seed reproducibility / preliminary stability diagnostic
+sensitivity,mean_absolute_score_change,SHAP,0.31506388468315116,5,Preliminary intervention-based model sensitivity
+sensitivity,mean_absolute_score_change,LIME,0.31506388468315116,5,Preliminary intervention-based model sensitivity
+local fidelity,local_fidelity_r2,LIME,0.31952470922987886,20,Persisted local surrogate fit
+local fidelity,absolute_local_prediction_error,LIME,0.1448644972445591,20,Persisted local surrogate fit
+counterfactual,availability_rate,DiCE,0.6,20,Valid CF returned under configured constraints
+counterfactual,mean_changed_actionable_features,DiCE,1.9166666666666667,12,Mean changes among valid CFs

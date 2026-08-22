@@ -1,0 +1,101 @@
+case_id,rank,original_feature,display_feature,display_value,shap_value,direction
+XAI_001,1,CREDIT_ANNUITY_RATIO,Credit-to-annuity ratio,20.457252307156537,0.4987246096134186,increases model risk output
+XAI_001,2,EMPLOYMENT_YEARS,Employment duration,1.4647501711156743,0.348210871219635,increases model risk output
+XAI_001,3,CNT_FAM_MEMBERS,Family members,6.0,0.3056110739707947,increases model risk output
+XAI_001,4,AMT_GOODS_PRICE,Goods price,436500.0,0.27369025349617004,increases model risk output
+XAI_001,5,NAME_INCOME_TYPE,Income type: Working,Working,0.11721689999103546,increases model risk output
+XAI_002,1,CREDIT_ANNUITY_RATIO,Credit-to-annuity ratio,20.475025190729813,0.4998742938041687,increases model risk output
+XAI_002,2,AMT_GOODS_PRICE,Goods price,450000.0,0.26571357250213623,increases model risk output
+XAI_002,3,EMPLOYMENT_YEARS,Employment duration,1.5523613963039014,0.2553567886352539,increases model risk output
+XAI_002,4,AMT_ANNUITY,Annuity amount,31261.5,0.13223060965538025,increases model risk output
+XAI_002,5,AMT_REQ_CREDIT_BUREAU_YEAR,Credit enquiries in previous year,8.0,0.12805773317813873,increases model risk output
+XAI_003,1,CREDIT_ANNUITY_RATIO,Credit-to-annuity ratio,20.475025190729813,0.48879504203796387,increases model risk output
+XAI_003,2,EMPLOYMENT_YEARS,Employment duration,0.6379192334017796,0.27344900369644165,increases model risk output
+XAI_003,3,AMT_GOODS_PRICE,Goods price,450000.0,0.2379104495048523,increases model risk output
+XAI_003,4,NAME_HOUSING_TYPE,Housing type: Rented apartment,Rented apartment,0.14497129619121552,increases model risk output
+XAI_003,5,AMT_ANNUITY,Annuity amount,31261.5,0.12236088514328003,increases model risk output
+XAI_004,1,CREDIT_ANNUITY_RATIO,Credit-to-annuity ratio,20.560176540485486,0.5035167336463928,increases model risk output
+XAI_004,2,EMPLOYMENT_YEARS,Employment duration,1.730321697467488,0.2614101767539978,increases model risk output
+XAI_004,3,AMT_GOODS_PRICE,Goods price,450000.0,0.2288665473461151,increases model risk output
+XAI_004,4,NAME_HOUSING_TYPE,Housing type: Rented apartment,Rented apartment,0.15810593962669373,increases model risk output
+XAI_004,5,NAME_INCOME_TYPE,Income type: Working,Working,0.11937274783849716,increases model risk output
+XAI_005,1,CREDIT_ANNUITY_RATIO,Credit-to-annuity ratio,20.45945945945946,0.4956926107406616,increases model risk output
+XAI_005,2,EMPLOYMENT_YEARS,Employment duration,3.2908966461327855,0.28210365772247314,increases model risk output
+XAI_005,3,CNT_FAM_MEMBERS,Family members,6.0,0.24643529951572418,increases model risk output
+XAI_005,4,AMT_GOODS_PRICE,Goods price,450000.0,0.22852174937725067,increases model risk output
+XAI_005,5,NAME_INCOME_TYPE,Income type: Working,Working,0.12062057107686996,increases model risk output
+XAI_006,1,EMPLOYMENT_YEARS,Employment duration,8.24914442162902,-0.15388765931129456,decreases model risk output
+XAI_006,2,AMT_GOODS_PRICE,Goods price,288000.0,0.1436927169561386,increases model risk output
+XAI_006,3,NAME_INCOME_TYPE,Income type: Working,Working,0.12092135101556778,increases model risk output
+XAI_006,4,AMT_CREDIT,Requested credit amount,288000.0,-0.09117034077644348,decreases model risk output
+XAI_006,5,CREDIT_INCOME_RATIO,Credit-to-income ratio,1.0666666666666667,-0.07034190744161606,decreases model risk output
+XAI_007,1,CREDIT_ANNUITY_RATIO,Credit-to-annuity ratio,20.713404097753642,0.1805889755487442,increases model risk output
+XAI_007,2,NAME_INCOME_TYPE,Income type: Working,Pensioner,-0.15714024007320404,decreases model risk output
+XAI_007,3,EMPLOYMENT_YEARS,Employment duration,,-0.14039303362369537,decreases model risk output
+XAI_007,4,AMT_GOODS_PRICE,Goods price,675000.0,-0.10782406479120255,decreases model risk output
+XAI_007,5,AMT_REQ_CREDIT_BUREAU_YEAR,Credit enquiries in previous year,6.0,0.08139786124229431,increases model risk output
+XAI_008,1,NAME_CONTRACT_TYPE,Contract type: Cash loans,Revolving loans,-0.31689468026161194,decreases model risk output
+XAI_008,2,EMPLOYMENT_YEARS,Employment duration,1.864476386036961,0.30252355337142944,increases model risk output
+XAI_008,3,AMT_GOODS_PRICE,Goods price,135000.0,0.24642354249954224,increases model risk output
+XAI_008,4,AMT_CREDIT,Requested credit amount,135000.0,-0.12171080708503723,decreases model risk output
+XAI_008,5,CREDIT_ANNUITY_RATIO,Credit-to-annuity ratio,20.0,0.09004083275794983,increases model risk output
+XAI_009,1,AMT_GOODS_PRICE,Goods price,850500.0,-0.3118651509284973,decreases model risk output
+XAI_009,2,EMPLOYMENT_YEARS,Employment duration,1.541409993155373,0.22281090915203094,increases model risk output
+XAI_009,3,AMT_CREDIT,Requested credit amount,985221.0,0.15331919491291046,increases model risk output
+XAI_009,4,CREDIT_ANNUITY_RATIO,Credit-to-annuity ratio,30.140143171806166,-0.12895473837852478,decreases model risk output
+XAI_009,5,AMT_ANNUITY,Annuity amount,32688.0,0.11330019682645798,increases model risk output
+XAI_010,1,AMT_GOODS_PRICE,Goods price,688500.0,-0.3333863615989685,decreases model risk output
+XAI_010,2,AMT_ANNUITY,Annuity amount,29353.5,0.12248483300209045,increases model risk output
+XAI_010,3,AMT_CREDIT,Requested credit amount,824823.0,0.0990159884095192,increases model risk output
+XAI_010,4,NAME_INCOME_TYPE,Income type: Working,Working,0.09024957567453384,increases model risk output
+XAI_010,5,CREDIT_ANNUITY_RATIO,Credit-to-annuity ratio,28.099647401502377,0.07837996631860733,increases model risk output
+XAI_011,1,EMPLOYMENT_YEARS,Employment duration,36.12594113620808,-1.5729395151138306,decreases model risk output
+XAI_011,2,AMT_GOODS_PRICE,Goods price,2250000.0,-0.9047561883926392,decreases model risk output
+XAI_011,3,NAME_CONTRACT_TYPE,Contract type: Cash loans,Revolving loans,-0.74076247215271,decreases model risk output
+XAI_011,4,AMT_ANNUITY,Annuity amount,112500.0,-0.3247699439525604,decreases model risk output
+XAI_011,5,AMT_CREDIT,Requested credit amount,2250000.0,-0.2614586055278778,decreases model risk output
+XAI_012,1,EMPLOYMENT_YEARS,Employment duration,34.53798767967146,-1.363280177116394,decreases model risk output
+XAI_012,2,CREDIT_ANNUITY_RATIO,Credit-to-annuity ratio,10.0,-0.9254103899002075,decreases model risk output
+XAI_012,3,AMT_GOODS_PRICE,Goods price,2250000.0,-0.7669459581375122,decreases model risk output
+XAI_012,4,NAME_CONTRACT_TYPE,Contract type: Cash loans,Revolving loans,-0.527675449848175,decreases model risk output
+XAI_012,5,AMT_ANNUITY,Annuity amount,225000.0,-0.30133911967277527,decreases model risk output
+XAI_013,1,CREDIT_ANNUITY_RATIO,Credit-to-annuity ratio,10.0,-1.0730336904525757,decreases model risk output
+XAI_013,2,AMT_GOODS_PRICE,Goods price,2250000.0,-0.7870588302612305,decreases model risk output
+XAI_013,3,NAME_CONTRACT_TYPE,Contract type: Cash loans,Revolving loans,-0.6683409810066223,decreases model risk output
+XAI_013,4,NAME_INCOME_TYPE,Income type: State servant,State servant,-0.2678167223930359,decreases model risk output
+XAI_013,5,AMT_CREDIT,Requested credit amount,2250000.0,-0.20986728370189667,decreases model risk output
+XAI_014,1,CREDIT_ANNUITY_RATIO,Credit-to-annuity ratio,10.0,-0.9807789921760559,decreases model risk output
+XAI_014,2,AMT_GOODS_PRICE,Goods price,2250000.0,-0.7364824414253235,decreases model risk output
+XAI_014,3,NAME_CONTRACT_TYPE,Contract type: Cash loans,Revolving loans,-0.6300936341285706,decreases model risk output
+XAI_014,4,EMPLOYMENT_YEARS,Employment duration,17.196440793976727,-0.5155422687530518,decreases model risk output
+XAI_014,5,AMT_CREDIT,Requested credit amount,2250000.0,-0.24264253675937653,decreases model risk output
+XAI_015,1,EMPLOYMENT_YEARS,Employment duration,37.02395619438741,-1.2983218431472778,decreases model risk output
+XAI_015,2,CREDIT_ANNUITY_RATIO,Credit-to-annuity ratio,17.874652179674044,-0.7649360299110413,decreases model risk output
+XAI_015,3,AMT_ANNUITY,Annuity amount,67923.0,-0.6692649722099304,decreases model risk output
+XAI_015,4,AMT_GOODS_PRICE,Goods price,1125000.0,-0.6548660397529602,decreases model risk output
+XAI_015,5,NAME_INCOME_TYPE,Income type: Working,Commercial associate,-0.10741425305604935,decreases model risk output
+XAI_016,1,CREDIT_ANNUITY_RATIO,Credit-to-annuity ratio,23.507494046785265,-0.2851176857948303,decreases model risk output
+XAI_016,2,EMPLOYMENT_YEARS,Employment duration,2.1711156741957565,0.22435985505580902,increases model risk output
+XAI_016,3,AMT_ANNUITY,Annuity amount,32125.5,0.11039482802152634,increases model risk output
+XAI_016,4,NAME_INCOME_TYPE,Income type: Working,Commercial associate,-0.10859304666519165,decreases model risk output
+XAI_016,5,AMT_GOODS_PRICE,Goods price,675000.0,-0.08672144263982773,decreases model risk output
+XAI_017,1,CREDIT_ANNUITY_RATIO,Credit-to-annuity ratio,23.475690607734805,-0.30845898389816284,decreases model risk output
+XAI_017,2,EMPLOYMENT_YEARS,Employment duration,0.3066392881587953,0.20129787921905518,increases model risk output
+XAI_017,3,NAME_INCOME_TYPE,Income type: Working,Working,0.0927514135837555,increases model risk output
+XAI_017,4,AMT_GOODS_PRICE,Goods price,463500.0,-0.09191425144672394,decreases model risk output
+XAI_017,5,ANNUITY_INCOME_RATIO,Annuity-to-income ratio,0.11804347826086957,-0.039127279072999954,decreases model risk output
+XAI_018,1,EMPLOYMENT_YEARS,Employment duration,7.745379876796714,-0.11786459386348724,decreases model risk output
+XAI_018,2,AMT_GOODS_PRICE,Goods price,675000.0,-0.0992596223950386,decreases model risk output
+XAI_018,3,NAME_INCOME_TYPE,Income type: Working,Working,0.09776433557271957,increases model risk output
+XAI_018,4,AMT_ANNUITY,Annuity amount,21775.5,-0.04667661339044571,decreases model risk output
+XAI_018,5,AMT_REQ_CREDIT_BUREAU_YEAR,Credit enquiries in previous year,4.0,0.03704944998025894,increases model risk output
+XAI_019,1,EMPLOYMENT_YEARS,Employment duration,0.2683093771389459,0.17875443398952484,increases model risk output
+XAI_019,2,CREDIT_ANNUITY_RATIO,Credit-to-annuity ratio,25.621511922881787,0.15663698315620422,increases model risk output
+XAI_019,3,AMT_CREDIT,Requested credit amount,454500.0,-0.15489070117473602,decreases model risk output
+XAI_019,4,AMT_GOODS_PRICE,Goods price,454500.0,-0.12942442297935486,decreases model risk output
+XAI_019,5,NAME_INCOME_TYPE,Income type: Working,Working,0.10606512427330017,increases model risk output
+XAI_020,1,NAME_CONTRACT_TYPE,Contract type: Cash loans,Revolving loans,-0.32882022857666016,decreases model risk output
+XAI_020,2,EMPLOYMENT_YEARS,Employment duration,1.2566735112936345,0.3099524974822998,increases model risk output
+XAI_020,3,AMT_GOODS_PRICE,Goods price,247500.0,0.16133876144886017,increases model risk output
+XAI_020,4,AMT_ANNUITY,Annuity amount,12375.0,-0.10479491204023361,decreases model risk output
+XAI_020,5,NAME_INCOME_TYPE,Income type: Working,Working,0.0987631306052208,increases model risk output

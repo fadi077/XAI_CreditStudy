@@ -1,0 +1,12 @@
+feature,special_code,full_modelling_count,training_count,test_count,present_in_training,present_in_test
+months_since_first_trade,-8,239,191,48,True,True
+months_since_last_illegal_trade,-7,4664,3745,919,True,True
+months_since_last_illegal_trade,-8,176,132,44,True,True
+months_since_last_inquiry_not_recent,-7,1855,1497,358,True,True
+months_since_last_inquiry_not_recent,-8,476,377,99,True,True
+net_fraction_of_revolving_burden,-8,186,158,28,True,True
+net_fraction_of_installment_burden,-8,3418,2726,692,True,True
+nr_revolving_trades_with_balance,-8,156,130,26,True,True
+nr_installment_trades_with_balance,-8,861,699,162,True,True
+nr_banks_with_high_ratio,-8,583,467,116,True,True
+percentage_trades_with_balance,-8,18,14,4,True,True

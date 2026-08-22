@@ -1,0 +1,22 @@
+{
+  "Attribute1": "Checking account status",
+  "Attribute2": "Credit duration (months)",
+  "Attribute3": "Credit history",
+  "Attribute4": "Credit purpose",
+  "Attribute5": "Credit amount (DM)",
+  "Attribute6": "Savings account status",
+  "Attribute7": "Employment duration",
+  "Attribute8": "Installment rate (% disposable income)",
+  "Attribute9": "Personal status and sex",
+  "Attribute10": "Other debtors or guarantors",
+  "Attribute11": "Residence duration",
+  "Attribute12": "Property",
+  "Attribute13": "Age (years)",
+  "Attribute14": "Other installment plans",
+  "Attribute15": "Housing",
+  "Attribute16": "Existing credits at bank",
+  "Attribute17": "Job",
+  "Attribute18": "Dependants",
+  "Attribute19": "Registered telephone",
+  "Attribute20": "Foreign worker"
+}

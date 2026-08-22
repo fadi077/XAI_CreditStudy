@@ -1,0 +1,1 @@
+case_id,counterfactual_id,original_probability,counterfactual_probability,original_class,counterfactual_class,desired_class,valid_counterfactual

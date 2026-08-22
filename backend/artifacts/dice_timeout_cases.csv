@@ -1,0 +1,11 @@
+case_id,original_probability,original_class,desired_class,elapsed_seconds,error_message
+XAI_008,0.50002277,1,0,30.161797699984163,counterfactual search exceeded 30 seconds
+XAI_010,0.50004005,1,0,30.099692499963567,counterfactual search exceeded 30 seconds
+XAI_011,0.010518629,0,1,30.108961299993094,counterfactual search exceeded 30 seconds
+XAI_012,0.021245534,0,1,30.118562899995595,counterfactual search exceeded 30 seconds
+XAI_013,0.023586474,0,1,30.13202620006632,counterfactual search exceeded 30 seconds
+XAI_015,0.02833911,0,1,30.125432000029832,counterfactual search exceeded 30 seconds
+XAI_016,0.4999863,0,1,30.126344899996184,counterfactual search exceeded 30 seconds
+XAI_018,0.49997318,0,1,30.091003000037745,counterfactual search exceeded 30 seconds
+XAI_019,0.49996042,0,1,30.08456800004933,counterfactual search exceeded 30 seconds
+XAI_020,0.4999467,0,1,30.09289139998145,counterfactual search exceeded 30 seconds

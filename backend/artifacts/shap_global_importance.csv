@@ -1,0 +1,29 @@
+feature,mean_abs_shap
+Goods price,0.26551315
+Credit-to-annuity ratio,0.256917
+Employment duration,0.22194691
+Income type: Working,0.10367112
+Annuity amount,0.08743849
+Requested credit amount,0.07833835
+Contract type: Cash loans,0.07530338
+Annuity-to-income ratio,0.04047762
+Credit enquiries in previous year,0.035642616
+Credit enquiries in previous quarter,0.03457248
+Credit-to-income ratio,0.027266987
+Family members,0.023609482
+Contract type: Revolving loans,0.021671955
+Housing type: House / apartment,0.017970981
+Annual income,0.017889027
+Credit enquiries in previous month,0.017569738
+Income type: Commercial associate,0.009285327
+Income type: Pensioner,0.009086083
+Income type: State servant,0.008210218
+Housing type: With parents,0.0059775887
+Housing type: Rented apartment,0.0054569836
+Housing type: Office apartment,0.0031529642
+Housing type: Municipal apartment,0.00063116616
+Income type: Unemployed,9.230316e-05
+Housing type: Co-op apartment,3.9552568e-05
+Income type: Student,0.0
+Income type: Businessman,0.0
+Income type: Maternity leave,0.0

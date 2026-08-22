@@ -1,0 +1,18 @@
+feature,display_feature,actionability_candidate,reason
+Attribute1,Checking account status,partially_actionable,Account status may change over time but is not an immediate loan-design variable.
+Attribute2,Credit duration (months),likely_actionable,Requested credit duration can be adjusted in an application scenario.
+Attribute3,Credit history,non_actionable,Historical credit record cannot be changed for the current decision.
+Attribute4,Credit purpose,partially_actionable,Credit purpose is applicant-led but constrained by the real need.
+Attribute5,Credit amount (DM),likely_actionable,Requested credit amount can be adjusted.
+Attribute6,Savings account status,partially_actionable,"Savings position may change over time, not immediately."
+Attribute7,Employment duration,non_actionable,Employment duration is historical.
+Attribute8,Installment rate (% disposable income),likely_actionable,Installment rate is linked to loan design and affordability.
+Attribute10,Other debtors or guarantors,partially_actionable,A guarantor or co-applicant may be possible but depends on another person.
+Attribute11,Residence duration,non_actionable,Residence duration is historical.
+Attribute12,Property,non_actionable,Property status is not realistically mutable for an immediate decision.
+Attribute14,Other installment plans,partially_actionable,Other installment commitments may change over time.
+Attribute15,Housing,non_actionable,Housing tenure is not realistically mutable for an immediate decision.
+Attribute16,Existing credits at bank,partially_actionable,Existing credit commitments may reduce over time.
+Attribute17,Job,non_actionable,Job status is not an appropriate immediate counterfactual lever.
+Attribute18,Dependants,non_actionable,Number of dependants should not be treated as an actionable lever.
+Attribute19,Registered telephone,partially_actionable,Telephone registration can change but has weak substantive actionability.

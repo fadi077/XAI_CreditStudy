@@ -1,0 +1,21 @@
+case_id,original_probability,original_class,desired_class,start_time,elapsed_seconds,counterfactuals_requested,counterfactuals_found,generation_status,exception_class,error_message
+GER_XAI_001,0.9466822,1,0,2026-08-21T22:31:04.119552+00:00,6.972807799931616,1,1,success,,
+GER_XAI_002,0.9256946,1,0,2026-08-21T22:31:11.137641+00:00,26.98977499990724,1,0,no_counterfactual_returned,UserConfigValidationException,No counterfactuals found for any of the query points! Kindly check your configuration.
+GER_XAI_003,0.90678245,1,0,2026-08-21T22:31:38.134373+00:00,5.492414599983022,1,1,success,,
+GER_XAI_004,0.9063597,1,0,2026-08-21T22:31:43.675785+00:00,5.037541700061411,1,1,success,,
+GER_XAI_005,0.9055074,1,0,2026-08-21T22:31:48.756778+00:00,1.446409200085327,1,1,success,,
+GER_XAI_006,0.5018516,1,0,2026-08-21T22:31:50.230548+00:00,0.4869686999591067,1,1,success,,
+GER_XAI_007,0.5034409,1,0,2026-08-21T22:31:50.751491+00:00,0.5803805999457836,1,1,success,,
+GER_XAI_008,0.5135554,1,0,2026-08-21T22:31:51.360516+00:00,0.613623799989,1,1,success,,
+GER_XAI_009,0.51524305,1,0,2026-08-21T22:31:52.013846+00:00,0.585456500062719,1,1,success,,
+GER_XAI_010,0.5176819,1,0,2026-08-21T22:31:52.638651+00:00,0.1315331000369042,1,0,technical_error,ValueError,"('Feature', 'Attribute2', 'has a value outside the dataset.')"
+GER_XAI_011,0.011951139,0,1,2026-08-21T22:31:52.780519+00:00,30.133668900001798,1,0,timeout,ProcessTimeoutError,Counterfactual search exceeded 30 seconds.
+GER_XAI_012,0.012772601,0,1,2026-08-21T22:32:22.928716+00:00,30.126185999950398,1,0,timeout,ProcessTimeoutError,Counterfactual search exceeded 30 seconds.
+GER_XAI_013,0.014923423,0,1,2026-08-21T22:32:53.063226+00:00,28.197319900034927,1,0,no_counterfactual_returned,UserConfigValidationException,No counterfactuals found for any of the query points! Kindly check your configuration.
+GER_XAI_014,0.020744441,0,1,2026-08-21T22:33:21.269643+00:00,27.979695899994116,1,0,no_counterfactual_returned,UserConfigValidationException,No counterfactuals found for any of the query points! Kindly check your configuration.
+GER_XAI_015,0.024179073,0,1,2026-08-21T22:33:49.259247+00:00,26.30309419997502,1,0,no_counterfactual_returned,UserConfigValidationException,No counterfactuals found for any of the query points! Kindly check your configuration.
+GER_XAI_016,0.48432785,0,1,2026-08-21T22:34:15.571465+00:00,5.967707300093025,1,1,success,,
+GER_XAI_017,0.48025113,0,1,2026-08-21T22:34:21.576708+00:00,5.827923399978317,1,1,success,,
+GER_XAI_018,0.47793216,0,1,2026-08-21T22:34:27.439030+00:00,0.6851854999549687,1,1,success,,
+GER_XAI_019,0.4572692,0,1,2026-08-21T22:34:28.161547+00:00,0.7453540000133216,1,1,success,,
+GER_XAI_020,0.45461446,0,1,2026-08-21T22:34:28.945224+00:00,0.5984792999224737,1,1,success,,

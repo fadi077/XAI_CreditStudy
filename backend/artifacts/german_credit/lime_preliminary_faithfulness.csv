@@ -1,0 +1,6 @@
+case_id,top_lime_feature,intervened_feature,original_feature_value,replacement_value,feature_actually_changed,faithfulness_test_status,original_probability,intervened_probability,absolute_score_change
+GER_XAI_001,Attribute1,Attribute1,< 0 DM,No checking account,True,completed,0.9466822,0.812929093837738,0.133753106162262
+GER_XAI_002,Attribute1,Attribute1,< 0 DM,No checking account,True,completed,0.9256946,0.6493131518363953,0.27638144816360477
+GER_XAI_003,Attribute1,Attribute1,< 0 DM,No checking account,True,completed,0.90678245,0.2783921957015991,0.6283902542984009
+GER_XAI_004,Attribute1,Attribute1,< 0 DM,No checking account,True,completed,0.9063597,0.4233603775501251,0.48299932244987487
+GER_XAI_005,Attribute2,Attribute2,36,18,True,completed,0.9055074,0.8517121076583862,0.05379529234161373
