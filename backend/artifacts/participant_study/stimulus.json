@@ -1,0 +1,50 @@
+{
+  "case_id": "SYNTHETIC_ALEX_001",
+  "synthetic": true,
+  "creation_purpose": "Single fictional participant-study stimulus",
+  "participant_scenario": "Financial amounts in this fictional research example are shown in the dataset's recorded units. Alex is a working applicant who rents their home and has been in their current employment for 1.5 years. Alex applied for a cash loan of 600,000 for goods priced at 500,000. Their recorded annual income is 180,000 and the loan annuity amount is 30,000. Alex's household has three family members. Credit-bureau records show no enquiries in the previous month, one in the previous quarter and four in the previous year. The AI system rejected the application.",
+  "base_inputs": {
+    "NAME_CONTRACT_TYPE": "Cash loans",
+    "AMT_INCOME_TOTAL": 180000.0,
+    "AMT_CREDIT": 600000.0,
+    "AMT_ANNUITY": 30000.0,
+    "AMT_GOODS_PRICE": 500000.0,
+    "NAME_INCOME_TYPE": "Working",
+    "NAME_HOUSING_TYPE": "Rented apartment",
+    "CNT_FAM_MEMBERS": 3.0,
+    "AMT_REQ_CREDIT_BUREAU_MON": 0.0,
+    "AMT_REQ_CREDIT_BUREAU_QRT": 1.0,
+    "AMT_REQ_CREDIT_BUREAU_YEAR": 4.0,
+    "EMPLOYMENT_YEARS": 1.5
+  },
+  "derived_ratios": {
+    "CREDIT_INCOME_RATIO": 3.3333333333333335,
+    "ANNUITY_INCOME_RATIO": 0.16666666666666666,
+    "CREDIT_ANNUITY_RATIO": 20.0
+  },
+  "frozen_model_probability": 0.6519815921783447,
+  "frozen_predicted_class": 1,
+  "decision": "rejected / higher model risk",
+  "decision_threshold": 0.5,
+  "frozen_model_sha256": "6b1d82b11e946e13908040d2ade5864221658de5429576b07cfabce15b21a328",
+  "frozen_preprocessor_sha256": "b76044a8a8ef41bab21878bb2c892683f63a137bea8d25186fd85fa8619d4c95",
+  "duplicate_audit": {
+    "exact_raw_base_feature_matches": 0,
+    "exact_xai_evaluation_matches": 0,
+    "copied_from_existing_applicant": false
+  },
+  "domain_validation": {
+    "NAME_CONTRACT_TYPE": true,
+    "AMT_INCOME_TOTAL": true,
+    "AMT_CREDIT": true,
+    "AMT_ANNUITY": true,
+    "AMT_GOODS_PRICE": true,
+    "NAME_INCOME_TYPE": true,
+    "NAME_HOUSING_TYPE": true,
+    "CNT_FAM_MEMBERS": true,
+    "AMT_REQ_CREDIT_BUREAU_MON": true,
+    "AMT_REQ_CREDIT_BUREAU_QRT": true,
+    "AMT_REQ_CREDIT_BUREAU_YEAR": true,
+    "EMPLOYMENT_YEARS": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "case_id": "SYNTHETIC_ALEX_001",
+  "method": "LIME tabular",
+  "random_seed": 42,
+  "num_samples": 5000,
+  "num_features": 5,
+  "frozen_model_probability": 0.6519815921783447,
+  "local_surrogate_prediction": 0.5205292935025068,
+  "local_fidelity_r2": 0.16739826935386526,
+  "absolute_local_prediction_error": 0.13145229867583796,
+  "plain_english": "For this applicant, the local LIME approximation identified: Contract type increased the local higher-risk prediction; Employment duration increased the local higher-risk prediction; Income type increased the local higher-risk prediction; Credit enquiries in previous quarter decreased the local higher-risk prediction; Annuity amount increased the local higher-risk prediction. This is a local model approximation and does not imply causation."
+}

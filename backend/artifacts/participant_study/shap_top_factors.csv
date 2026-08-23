@@ -1,0 +1,6 @@
+case_id,rank,original_feature,display_feature,display_value,shap_value,absolute_shap_value,direction
+SYNTHETIC_ALEX_001,1,EMPLOYMENT_YEARS,Employment duration,1.5,0.2501784563064575,0.2501784563064575,increases model higher-risk output
+SYNTHETIC_ALEX_001,2,NAME_HOUSING_TYPE,Housing type,Rented apartment,0.2133210003376007,0.2133210003376007,increases model higher-risk output
+SYNTHETIC_ALEX_001,3,AMT_REQ_CREDIT_BUREAU_QRT,Credit enquiries in previous quarter,1.0,-0.12781205773353577,0.12781205773353577,decreases model higher-risk output
+SYNTHETIC_ALEX_001,4,NAME_INCOME_TYPE,Income type,Working,0.1088097020983696,0.1088097020983696,increases model higher-risk output
+SYNTHETIC_ALEX_001,5,CREDIT_ANNUITY_RATIO,Credit-to-annuity ratio,20.0,0.10513553023338318,0.10513553023338318,increases model higher-risk output

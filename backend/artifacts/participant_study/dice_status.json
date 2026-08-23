@@ -1,0 +1,11 @@
+{
+  "case_id": "SYNTHETIC_ALEX_001",
+  "method": "genetic",
+  "status": "success",
+  "source": "controlled_technical_retry",
+  "independently_valid": true,
+  "original_probability": 0.6519815921783447,
+  "counterfactual_probability": 0.48508039116859436,
+  "counterfactual_class": 0,
+  "participant_safe_explanation": "Under the model, an alternative combination of the loan-related values changes the prediction from higher risk to lower risk. This is a model explanation, not financial advice."
+}

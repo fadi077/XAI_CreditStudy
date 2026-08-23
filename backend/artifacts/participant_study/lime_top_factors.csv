@@ -1,0 +1,6 @@
+case_id,rank,original_feature,display_feature,display_rule,display_value,lime_weight,direction
+SYNTHETIC_ALEX_001,1,NAME_CONTRACT_TYPE,Contract type,Contract type: Cash loans,Cash loans,0.1608305884527257,increases local higher-risk prediction
+SYNTHETIC_ALEX_001,2,EMPLOYMENT_YEARS,Employment duration,Employment duration <= 2.55 years,1.5,0.06760367077165716,increases local higher-risk prediction
+SYNTHETIC_ALEX_001,3,NAME_INCOME_TYPE,Income type,Income type: Working,Working,0.044978348788375,increases local higher-risk prediction
+SYNTHETIC_ALEX_001,4,AMT_REQ_CREDIT_BUREAU_QRT,Credit enquiries in previous quarter,Credit enquiries in previous quarter > 0.00,1.0,-0.028758789873373377,decreases local higher-risk prediction
+SYNTHETIC_ALEX_001,5,AMT_ANNUITY,Annuity amount,24903.00 < Annuity amount <= 34596.00,30000.0,0.02483252900992554,increases local higher-risk prediction

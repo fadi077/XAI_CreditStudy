@@ -1,0 +1,83 @@
+{
+  "case_id": "SYNTHETIC_ALEX_001",
+  "root_cause": "DiCE genetic population deduplicated to one member; top_half became zero and the library called random.randrange(0).",
+  "same_as_heloc_genetic_bug": true,
+  "traceback_location": "dice_ml/explainer_interfaces/dice_genetic.py: random.randrange(top_half)",
+  "technical_guard_used": "sole-parent safe randrange guard previously validated in HELOC Stage 07",
+  "scientific_search_space_changed": false,
+  "model_changed": false,
+  "preprocessor_changed": false,
+  "query_changed": false,
+  "threshold_changed": false,
+  "method": "genetic",
+  "random_seed": 42,
+  "features_to_vary": [
+    "AMT_CREDIT",
+    "AMT_ANNUITY",
+    "AMT_GOODS_PRICE"
+  ],
+  "permitted_ranges": {
+    "AMT_CREDIT": [
+      76410.0,
+      1862802.0
+    ],
+    "AMT_ANNUITY": [
+      6187.5,
+      70033.5
+    ],
+    "AMT_GOODS_PRICE": [
+      67500.0,
+      1800000.0
+    ]
+  },
+  "start_time": "2026-08-23T13:01:59.550312+00:00",
+  "elapsed_seconds": 11.08261559996754,
+  "desired_class": 0,
+  "counterfactuals_requested": 1,
+  "counterfactuals_returned": 1,
+  "status": "success",
+  "exception_class": "",
+  "error_message": "",
+  "traceback": "",
+  "original_probability": 0.6519815921783447,
+  "validation": {
+    "independently_valid": true,
+    "original_class": 1,
+    "desired_class": 0,
+    "counterfactual_probability": 0.48508039116859436,
+    "counterfactual_class": 0,
+    "only_permitted_direct_features_changed": true,
+    "changed_permitted_features": [
+      "AMT_CREDIT",
+      "AMT_ANNUITY",
+      "AMT_GOODS_PRICE"
+    ],
+    "changed_feature_count": 3,
+    "derived_ratios_consistent": true,
+    "permitted_ranges_respected": true,
+    "proximity": 3.2694293574273443
+  },
+  "participant_safe_explanation": "Under the model, an alternative combination of the loan-related values changes the prediction from higher risk to lower risk. This is a model explanation, not financial advice.",
+  "shap_regenerated": false,
+  "lime_regenerated": false,
+  "lime_local_fidelity_r2": 0.16739826935386526,
+  "lime_absolute_local_prediction_error": 0.13145229867583796,
+  "shap_artifact_hashes_before": {
+    "shap_all_factors.csv": "85e3de744b158e9bf4386feba6fc660946edb826c4d88a0572561a58e48afb96",
+    "shap_explanation.json": "f7dec2a05d3814856150bb5d0f365054af1a392897d77463a30899496906c64b",
+    "shap_top_factors.csv": "573f5c682e9b8a500d1ba33b0e4cec33ae181bc579ba86e8d2e3a819b5158773"
+  },
+  "shap_artifact_hashes_after": {
+    "shap_all_factors.csv": "85e3de744b158e9bf4386feba6fc660946edb826c4d88a0572561a58e48afb96",
+    "shap_explanation.json": "f7dec2a05d3814856150bb5d0f365054af1a392897d77463a30899496906c64b",
+    "shap_top_factors.csv": "573f5c682e9b8a500d1ba33b0e4cec33ae181bc579ba86e8d2e3a819b5158773"
+  },
+  "lime_artifact_hashes_before": {
+    "lime_explanation.json": "a4b9e2f13ee4bf5ac67e4127826f59a51b118ec3edc2505d71f5506faf43f291",
+    "lime_top_factors.csv": "49865ed579806543ffd2ac24ea9f326aece379ffd4218b6bf78bdfcbd64f912b"
+  },
+  "lime_artifact_hashes_after": {
+    "lime_explanation.json": "a4b9e2f13ee4bf5ac67e4127826f59a51b118ec3edc2505d71f5506faf43f291",
+    "lime_top_factors.csv": "49865ed579806543ffd2ac24ea9f326aece379ffd4218b6bf78bdfcbd64f912b"
+  }
+}

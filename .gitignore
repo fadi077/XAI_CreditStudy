@@ -8,6 +8,7 @@ __pycache__/
 # Environment and secret files
 .env
 .env.*
+!.env.example
 
 # Frontend dependencies and generated output
 node_modules/
@@ -15,6 +16,7 @@ node_modules/
 coverage/
 dist/
 build/
+*.tsbuildinfo
 
 # Editor and operating-system files
 .vscode/
@@ -25,4 +27,3 @@ Thumbs.db
 # Raw dataset snapshots are retained locally but not redistributed.
 # Reproduction sources and hashes are recorded under backend/artifacts/.
 backend/data/**/*.csv
-

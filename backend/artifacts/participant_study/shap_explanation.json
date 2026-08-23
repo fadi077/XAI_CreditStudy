@@ -1,0 +1,12 @@
+{
+  "case_id": "SYNTHETIC_ALEX_001",
+  "method": "XGBoost native pred_contribs",
+  "output_space": "raw margin / log-odds",
+  "base_value": 0.008677801117300987,
+  "raw_margin": 0.6277608275413513,
+  "reconstructed_margin": 0.6277604103088379,
+  "reconstructed_probability": 0.6519814687553946,
+  "maximum_additivity_difference": 4.172325134277344e-07,
+  "probability_reconstruction_difference": 1.234229500823858e-07,
+  "plain_english": "These factors contributed most to the model's higher-risk prediction: Employment duration increased the model risk output; Housing type increased the model risk output; Credit enquiries in previous quarter decreased the model risk output; Income type increased the model risk output; Credit-to-annuity ratio increased the model risk output. These are model associations, not causes or guarantees."
+}

@@ -1,0 +1,16 @@
+case_id,original_feature,display_feature,display_value,shap_value,absolute_shap_value,direction
+SYNTHETIC_ALEX_001,EMPLOYMENT_YEARS,Employment duration,1.5,0.2501784563064575,0.2501784563064575,increases model higher-risk output
+SYNTHETIC_ALEX_001,NAME_HOUSING_TYPE,Housing type,Rented apartment,0.2133210003376007,0.2133210003376007,increases model higher-risk output
+SYNTHETIC_ALEX_001,AMT_REQ_CREDIT_BUREAU_QRT,Credit enquiries in previous quarter,1.0,-0.12781205773353577,0.12781205773353577,decreases model higher-risk output
+SYNTHETIC_ALEX_001,NAME_INCOME_TYPE,Income type,Working,0.1088097020983696,0.1088097020983696,increases model higher-risk output
+SYNTHETIC_ALEX_001,CREDIT_ANNUITY_RATIO,Credit-to-annuity ratio,20.0,0.10513553023338318,0.10513553023338318,increases model higher-risk output
+SYNTHETIC_ALEX_001,AMT_GOODS_PRICE,Goods price,500000.0,-0.10113123804330826,0.10113123804330826,decreases model higher-risk output
+SYNTHETIC_ALEX_001,AMT_ANNUITY,Annuity amount,30000.0,0.0893588736653328,0.0893588736653328,increases model higher-risk output
+SYNTHETIC_ALEX_001,NAME_CONTRACT_TYPE,Contract type,Cash loans,0.05920504033565521,0.05920504033565521,increases model higher-risk output
+SYNTHETIC_ALEX_001,ANNUITY_INCOME_RATIO,Annuity-to-income ratio,0.16666666666666666,-0.03197788819670677,0.03197788819670677,decreases model higher-risk output
+SYNTHETIC_ALEX_001,AMT_REQ_CREDIT_BUREAU_YEAR,Credit enquiries in previous year,4.0,0.015917960554361343,0.015917960554361343,increases model higher-risk output
+SYNTHETIC_ALEX_001,AMT_INCOME_TOTAL,Annual income,180000.0,0.015032408758997917,0.015032408758997917,increases model higher-risk output
+SYNTHETIC_ALEX_001,AMT_CREDIT,Requested credit amount,600000.0,0.013788136653602123,0.013788136653602123,increases model higher-risk output
+SYNTHETIC_ALEX_001,CREDIT_INCOME_RATIO,Credit-to-income ratio,3.3333333333333335,0.008921182714402676,0.008921182714402676,increases model higher-risk output
+SYNTHETIC_ALEX_001,AMT_REQ_CREDIT_BUREAU_MON,Credit enquiries in previous month,0.0,0.003945327829569578,0.003945327829569578,increases model higher-risk output
+SYNTHETIC_ALEX_001,CNT_FAM_MEMBERS,Family members,3.0,-0.003609759733080864,0.003609759733080864,decreases model higher-risk output

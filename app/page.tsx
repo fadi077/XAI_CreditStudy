@@ -20,11 +20,8 @@ import {
   Check,
   ChevronRight,
 } from "lucide-react";
-
-const VALID_CODES = Array.from(
-  { length: 10 },
-  (_, i) => `P${String(i + 1).padStart(2, "0")}`
-);
+import { ApiError, getParticipantAssignment } from "@/lib/api";
+import { saveStudySession } from "@/lib/study-session";
 
 const howItWorks = [
   {
@@ -32,7 +29,7 @@ const howItWorks = [
     icon: BookOpen,
     title: "Read Scenario",
     description:
-      "Review a realistic loan application and the AI system's decision",
+      "Review one fictional loan application and the AI system's decision",
     accent: "#4F8EF7",
     accentSoft: "rgba(79, 142, 247, 0.12)",
   },
@@ -72,19 +69,14 @@ const keyFacts = [
   },
   {
     icon: GraduationCap,
-    title: "Ethics Approved",
-    description:
-      "Approved by Sheffield Hallam University Research Ethics Committee",
+    title: "Ethics Review",
+    description: "University ethics approval obtained",
     accent: "#4F8EF7",
     hoverAccent: "#6BA3F9",
   },
 ];
 
-const trustBadges = [
-  "UREC 2 Approved",
-  "GDPR Compliant",
-  "Anonymous",
-];
+const trustBadges = ["Participant code only", "No personal details", "Anonymous"];
 
 function FadeIn({
   children,
@@ -129,6 +121,7 @@ function FadeIn({
 export default function Home() {
   const [code, setCode] = useState("");
   const [error, setError] = useState("");
+  const [submitting, setSubmitting] = useState(false);
   const router = useRouter();
 
   function handleCodeChange(value: string) {
@@ -137,17 +130,27 @@ export default function Home() {
     if (error) setError("");
   }
 
-  function handleSubmit(e: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const trimmed = code.trim().toUpperCase();
 
-    if (!VALID_CODES.includes(trimmed)) {
+    if (!/^P(?:0[1-9]|10)$/.test(trimmed)) {
       setError("Please enter a valid participant code (P01–P10).");
       return;
     }
-
-    localStorage.setItem("participantCode", trimmed);
-    router.push("/scenario");
+    setSubmitting(true);
+    setError("");
+    try {
+      const assignment = await getParticipantAssignment(trimmed);
+      saveStudySession(assignment.participant_code, assignment.assigned_method);
+      router.push("/scenario");
+    } catch (requestError) {
+      setError(requestError instanceof ApiError && requestError.status === 404
+        ? "That participant code was not recognised. Please check the code and try again."
+        : "The study is temporarily unavailable. Please try again shortly.");
+    } finally {
+      setSubmitting(false);
+    }
   }
 
   return (
@@ -212,7 +215,7 @@ export default function Home() {
             {/* Floating stat badges */}
             <div className="pointer-events-none absolute bottom-6 left-4 hidden sm:block lg:left-8">
               <div className="rounded-full bg-white px-4 py-2 text-xs font-semibold text-navy shadow-[0_4px_20px_rgba(0,0,0,0.18)] sm:text-sm">
-                307,511 loan applications analysed
+                One fictional research scenario
               </div>
             </div>
             <div className="pointer-events-none absolute bottom-6 right-4 hidden sm:block lg:right-8">
@@ -388,6 +391,7 @@ export default function Home() {
                           spellCheck={false}
                           aria-invalid={Boolean(error)}
                           aria-describedby={error ? "code-error" : undefined}
+                          disabled={submitting}
                           className={`w-full rounded-xl border bg-surface py-3.5 pl-11 pr-4 text-center text-lg font-semibold tracking-[0.2em] text-ink placeholder:tracking-normal placeholder:text-slate-400 transition-all duration-300 ease-out focus:outline-none focus:ring-2 focus:ring-offset-1 ${
                             error
                               ? "border-red-400 focus:border-red-400 focus:ring-red-200"
@@ -408,9 +412,10 @@ export default function Home() {
 
                     <button
                       type="submit"
+                      disabled={submitting}
                       className="btn-shine group flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-navy to-accent px-6 py-3.5 text-base font-semibold text-white shadow-sm transition-all duration-300 ease-out hover:bg-gradient-to-l hover:shadow-md focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 active:scale-[0.98]"
                     >
-                      Begin Study
+                      {submitting ? "Checking code…" : "Begin Study"}
                       <ArrowRight className="h-4 w-4 transition-transform duration-300 ease-out group-hover:translate-x-1.5" />
                     </button>
 

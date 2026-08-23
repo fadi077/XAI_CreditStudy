@@ -1,0 +1,4 @@
+case_id,feature,display_feature,original_value,counterfactual_value,absolute_change
+SYNTHETIC_ALEX_001,AMT_CREDIT,Requested credit amount,600000.0,76410.0,-523590.0
+SYNTHETIC_ALEX_001,AMT_ANNUITY,Annuity amount,30000.0,6187.5,-23812.5
+SYNTHETIC_ALEX_001,AMT_GOODS_PRICE,Goods price,500000.0,67500.0,-432500.0

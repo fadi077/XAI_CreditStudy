@@ -1,0 +1,17 @@
+{
+  "NAME_CONTRACT_TYPE": "Contract type",
+  "AMT_INCOME_TOTAL": "Annual income",
+  "AMT_CREDIT": "Requested credit amount",
+  "AMT_ANNUITY": "Annuity amount",
+  "AMT_GOODS_PRICE": "Goods price",
+  "CNT_FAM_MEMBERS": "Family members",
+  "EMPLOYMENT_YEARS": "Employment duration",
+  "NAME_INCOME_TYPE": "Income type",
+  "NAME_HOUSING_TYPE": "Housing type",
+  "CREDIT_INCOME_RATIO": "Credit-to-income ratio",
+  "ANNUITY_INCOME_RATIO": "Annuity-to-income ratio",
+  "CREDIT_ANNUITY_RATIO": "Credit-to-annuity ratio",
+  "AMT_REQ_CREDIT_BUREAU_MON": "Credit enquiries in previous month",
+  "AMT_REQ_CREDIT_BUREAU_QRT": "Credit enquiries in previous quarter",
+  "AMT_REQ_CREDIT_BUREAU_YEAR": "Credit enquiries in previous year"
+}

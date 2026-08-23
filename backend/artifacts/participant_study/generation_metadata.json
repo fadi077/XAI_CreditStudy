@@ -1,0 +1,13 @@
+{
+  "case_id": "SYNTHETIC_ALEX_001",
+  "random_seed": 42,
+  "model_retrained": false,
+  "preprocessor_refitted": false,
+  "threshold_changed": false,
+  "existing_xai_artifacts_overwritten": false,
+  "frontend_modified": false,
+  "shap_backend": "XGBoost native pred_contribs",
+  "lime_version": "0.2.0.1",
+  "dice_version": "0.12",
+  "xgboost_version": "3.2.0"
+}
