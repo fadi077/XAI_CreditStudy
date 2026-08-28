@@ -32,4 +32,3 @@ def case_explanations(dataset_id: str, case_id: str) -> CaseExplanation:
         raise HTTPException(status_code=404, detail="Unknown dataset identifier.") from exc
     except LookupError as exc:
         raise HTTPException(status_code=404, detail="Unknown study case identifier.") from exc
-

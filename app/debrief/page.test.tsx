@@ -1,11 +1,16 @@
 import { render, screen } from "@testing-library/react";
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 import Debrief from "@/app/debrief/page";
 
-describe("Debrief", () => {
-  it("explains completion and does not expose a broken questionnaire link", () => {
+vi.mock("next/navigation", () => ({ useRouter: () => ({ replace: vi.fn() }) }));
+vi.mock("@/lib/study-session", () => ({ readStudySession: () => ({ code: "P01", method: "SHAP" }), hasViewedQuestionnaireTransition: () => true }));
+
+describe("debrief", () => {
+  it("explains the comparison, fictional scenario, anonymity and aggregate reporting", () => {
     render(<Debrief />);
-    expect(screen.getByRole("heading", { name: "Explanation viewing complete" })).toBeInTheDocument();
-    expect(screen.getByRole("button", { name: /Questionnaire not yet available/ })).toBeDisabled();
+    expect(screen.getByRole("heading", { name: /Thank you/ })).toBeInTheDocument();
+    expect(screen.getByText(/compares SHAP, LIME and DiCE/)).toBeInTheDocument();
+    expect(screen.getByText(/entirely fictional/)).toBeInTheDocument();
+    expect(screen.getByText(/reported in aggregate/)).toBeInTheDocument();
   });
 });

@@ -20,6 +20,21 @@ export interface ParticipantAssignment {
   assigned_method: ExplanationMethod;
 }
 
+export interface ParticipantStimulus {
+  participant_code: string;
+  case_id: "SYNTHETIC_ALEX_001";
+  assigned_method: ExplanationMethod;
+  scenario: { title: string; paragraphs: string[]; notice: string };
+  prediction: { decision: "Application rejected" };
+  explanation: {
+    method: ExplanationMethod;
+    introduction: string;
+    factors: Array<{ rank: number; label: string; value: string | number | null; direction: string }>;
+    changes: Array<{ label: string; original_value: string | number | null; alternative_value: string | number | null }>;
+    notice: string;
+  };
+}
+
 export interface StudyCase {
   case_id: string;
   predicted_class: number;
@@ -92,5 +107,6 @@ async function request<T>(path: string): Promise<T> {
 export const getDatasets = () => request<DatasetSummary[]>("/api/datasets");
 export const getDataset = (datasetId: string) => request<DatasetDetail>(`/api/datasets/${encodeURIComponent(datasetId)}`);
 export const getParticipantAssignment = (code: string) => request<ParticipantAssignment>(`/api/study/participants/${encodeURIComponent(code)}`);
+export const getParticipantStimulus = (code: string) => request<ParticipantStimulus>(`/api/participant-study/stimulus/${encodeURIComponent(code)}`);
 export const getStudyCases = (datasetId: string) => request<StudyCase[]>(`/api/study/${encodeURIComponent(datasetId)}/cases`);
 export const getCaseExplanations = (datasetId: string, caseId: string) => request<CaseExplanation>(`/api/study/${encodeURIComponent(datasetId)}/cases/${encodeURIComponent(caseId)}/explanations`);

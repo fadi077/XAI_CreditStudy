@@ -63,6 +63,43 @@ def test_invalid_participant_code() -> None:
     assert response.json()["detail"] == "Invalid participant code."
 
 
+def test_participant_study_endpoint_returns_one_assigned_method() -> None:
+    expected = {"P01": "SHAP", "P05": "LIME", "P08": "DiCE"}
+    responses = {}
+    for code, method in expected.items():
+        response = client.get(f"/api/participant-study/stimulus/{code}")
+        assert response.status_code == 200
+        body = response.json()
+        responses[code] = body
+        assert body["participant_code"] == code
+        assert body["case_id"] == "SYNTHETIC_ALEX_001"
+        assert body["assigned_method"] == method
+        assert body["explanation"]["method"] == method
+        assert set(body["explanation"]) == {"method", "introduction", "factors", "changes", "notice"}
+        serialized = response.text
+        assert "0.651981" not in serialized
+        assert "local_fidelity" not in serialized
+        assert "traceback" not in serialized
+        assert "AMT_" not in serialized
+
+    assert responses["P01"]["scenario"] == responses["P05"]["scenario"] == responses["P08"]["scenario"]
+    assert responses["P01"]["prediction"] == responses["P05"]["prediction"] == responses["P08"]["prediction"]
+    assert responses["P01"]["prediction"] == {"decision": "Application rejected"}
+    assert len(responses["P01"]["explanation"]["factors"]) == 5
+    assert responses["P01"]["explanation"]["changes"] == []
+    assert len(responses["P05"]["explanation"]["factors"]) == 5
+    assert responses["P05"]["explanation"]["changes"] == []
+    assert responses["P08"]["explanation"]["factors"] == []
+    assert len(responses["P08"]["explanation"]["changes"]) == 3
+
+
+def test_participant_study_rejects_invalid_code_and_exposes_only_one_case() -> None:
+    assert client.get("/api/participant-study/stimulus/P99").status_code == 404
+    for number in range(1, 11):
+        body = client.get(f"/api/participant-study/stimulus/P{number:02d}").json()
+        assert body["case_id"] == "SYNTHETIC_ALEX_001"
+
+
 def test_study_case_list_is_participant_safe() -> None:
     response = client.get("/api/study/german_credit/cases")
     assert response.status_code == 200

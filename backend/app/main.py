@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
 from app.config import FRONTEND_ORIGIN
-from app.routes import datasets_router, health_router, study_router
+from app.routes import datasets_router, health_router, participant_study_router, study_router
 from app.services import ArtifactError
 
 app = FastAPI(
@@ -35,3 +35,4 @@ async def malformed_artifact_handler(_: Request, __: ValueError) -> JSONResponse
 app.include_router(health_router)
 app.include_router(datasets_router)
 app.include_router(study_router)
+app.include_router(participant_study_router)

@@ -5,6 +5,12 @@ from .study import (
     DiceExplanation,
     LimeExplanation,
     ParticipantAssignment,
+    ParticipantChange,
+    ParticipantExplanation,
+    ParticipantFactor,
+    ParticipantPrediction,
+    ParticipantScenario,
+    ParticipantStimulus,
     PredictionSummary,
     ShapExplanation,
     StudyCase,
@@ -14,6 +20,7 @@ from .study import (
 __all__ = [
     "CaseExplanation", "CounterfactualChange", "DatasetDetail", "DatasetMetrics",
     "DatasetSummary", "DiceExplanation", "LimeExplanation", "ParticipantAssignment",
+    "ParticipantChange", "ParticipantExplanation", "ParticipantFactor",
+    "ParticipantPrediction", "ParticipantScenario", "ParticipantStimulus",
     "PredictionSummary", "ShapExplanation", "StudyCase", "TopFactor",
 ]
-

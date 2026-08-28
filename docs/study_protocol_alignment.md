@@ -6,6 +6,12 @@ Participant codes retain the approved allocation: P01–P04 SHAP, P05–P07 LIME
 
 The future route order reserves `/information` and `/consent` before `/scenario`. Consent evidence and questionnaire responses are not collected by the current application.
 
+## Phase 3 participant flow
+
+The approved `SYNTHETIC_ALEX_001` stimulus is now the only participant case. The implemented route order is landing, information, consent acknowledgement, participant code, fictional scenario, assigned explanation, questionnaire transition and debrief. The dedicated participant endpoint returns the same scenario and rejected decision for every valid code, with only the allocated explanation method included.
+
+The consent acknowledgement stored in `sessionStorage` is a navigation flag only and is not formal consent evidence. Before pilot use, the project lead must confirm whether the approved Microsoft Forms questionnaire records formal consent and verify the participant-facing summary against the full approved UREC documents.
+
 ## Scenario/model compatibility
 
 | Scenario field | Scenario value | Matching model feature | Match quality | Notes |

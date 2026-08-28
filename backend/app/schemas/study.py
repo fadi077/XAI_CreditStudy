@@ -16,6 +16,46 @@ class ParticipantAssignment(BaseModel):
     assigned_method: str
 
 
+class ParticipantFactor(BaseModel):
+    rank: int
+    label: str
+    value: DisplayValue = None
+    direction: str
+
+
+class ParticipantChange(BaseModel):
+    label: str
+    original_value: DisplayValue
+    alternative_value: DisplayValue
+
+
+class ParticipantExplanation(BaseModel):
+    method: str
+    introduction: str
+    factors: list[ParticipantFactor] = []
+    changes: list[ParticipantChange] = []
+    notice: str
+
+
+class ParticipantScenario(BaseModel):
+    title: str
+    paragraphs: list[str]
+    notice: str
+
+
+class ParticipantPrediction(BaseModel):
+    decision: str
+
+
+class ParticipantStimulus(BaseModel):
+    participant_code: str
+    case_id: str
+    assigned_method: str
+    scenario: ParticipantScenario
+    prediction: ParticipantPrediction
+    explanation: ParticipantExplanation
+
+
 class PredictionSummary(BaseModel):
     predicted_class: int
     predicted_probability: float
@@ -65,4 +105,3 @@ class CaseExplanation(BaseModel):
     shap: ShapExplanation
     lime: LimeExplanation
     dice: DiceExplanation
-

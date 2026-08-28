@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { ApiError, getParticipantAssignment } from "@/lib/api";
+import { ApiError, getParticipantAssignment, getParticipantStimulus } from "@/lib/api";
 
 afterEach(() => vi.unstubAllGlobals());
 
@@ -13,6 +13,12 @@ describe("API client", () => {
   it("distinguishes an invalid participant code", async () => {
     vi.stubGlobal("fetch", vi.fn().mockResolvedValue({ ok: false, status: 404 }));
     await expect(getParticipantAssignment("P99")).rejects.toMatchObject({ status: 404 });
+  });
+
+  it("uses the dedicated participant-study endpoint", async () => {
+    vi.stubGlobal("fetch", vi.fn().mockResolvedValue({ ok: true, status: 200, json: async () => ({ case_id: "SYNTHETIC_ALEX_001" }) }));
+    await getParticipantStimulus("P 01");
+    expect(fetch).toHaveBeenCalledWith(expect.stringContaining("/api/participant-study/stimulus/P%2001"), expect.anything());
   });
 
   it("reports network failure without exposing technical details", async () => {

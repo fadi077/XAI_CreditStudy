@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Shield } from "lucide-react";
 import type { ReactNode } from "react";
+import { PILOT_MODE } from "@/lib/study-config";
 
 export function StudyFrame({ children, step }: { children: ReactNode; step: string }) {
   return (
@@ -15,6 +16,7 @@ export function StudyFrame({ children, step }: { children: ReactNode; step: stri
           <span className="text-sm font-medium text-slate-500">{step}</span>
         </div>
       </header>
+      {PILOT_MODE && <div role="status" className="border-b border-amber-300 bg-amber-100 px-4 py-3 text-center text-sm font-semibold text-amber-950">Non-participant pilot mode — no research data will be collected or submitted.</div>}
       <main className="mx-auto max-w-4xl px-4 py-10 sm:px-6 sm:py-14">{children}</main>
     </div>
   );
