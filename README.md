@@ -6,7 +6,6 @@ This repository contains my MSc Data Science and Artificial Intelligence project
 
 The results, tests and deployed participant study reported in the dissertation are associated with commit `77cd963b8330d38bc6f102b88bb7eb4d0dec5069` (`Integrate participant study flow and questionnaire handoff`, 28 August 2026).
 
-- Frozen commit: https://github.com/fadi077/XAI_CreditStudy/tree/77cd963b8330d38bc6f102b88bb7eb4d0dec5069
 - Deployed frontend: https://xai-credit-study.vercel.app/
 - Deployed backend: https://xai-creditstudy.onrender.com/
 
@@ -132,5 +131,3 @@ The original acquisition date and an official release identifier were not preser
 - Retrieved: 22 August 2026
 - SHA-256: `786b7e1885cf508ef66a968aae65a72bfde198d06d7666ac582958705b092570`
 - Evidence: `backend/artifacts/heloc/dataset_provenance.json`
-
-The saved Hugging Face metadata did not expose a licence, citation or original homepage. The applicable reuse terms could therefore not be verified from the frozen metadata, and this is disclosed as a provenance limitation rather than assuming a licence.
