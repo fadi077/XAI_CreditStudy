@@ -1,7 +1,6 @@
 # XAI CreditStudy
 
-This repository contains my MSc Data Science and Artificial Intelligence project comparing SHAP, LIME and DiCE explanations for automated credit-risk decisions. The technical comparison uses Home Credit, German Credit and HELOC. The participant study uses one separate fictional case that is compatible with the frozen Home Credit model.
-
+This repository contains my MSc Data Science and Artificial Intelligence project comparing SHAP, LIME and DiCE explanations for automated credit-risk decisions. The technical comparison uses Home Credit, German Credit and HELOC.
 ## Reported implementation version
 
 - Deployed frontend: https://xai-credit-study.vercel.app/
