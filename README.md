@@ -4,12 +4,8 @@ This repository contains my MSc Data Science and Artificial Intelligence project
 
 ## Reported implementation version
 
-The results, tests and deployed participant study reported in the dissertation are associated with commit `77cd963b8330d38bc6f102b88bb7eb4d0dec5069` (`Integrate participant study flow and questionnaire handoff`, 28 August 2026).
-
 - Deployed frontend: https://xai-credit-study.vercel.app/
 - Deployed backend: https://xai-creditstudy.onrender.com/
-
-Repository access must be granted to the project marker if the repository is private. Raw datasets are not included in Git.
 
 ## Repository structure
 
